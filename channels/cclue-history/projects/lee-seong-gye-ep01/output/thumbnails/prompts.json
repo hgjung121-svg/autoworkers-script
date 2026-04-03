@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "lee-seong-gye-ep01",
+    "titles": [
+      "\"여보, 가지 마세요\" 왜구에 42년간 짓밟힌 고려 백성에게 나타난 장수",
+      "고려 백성은 왜 이성계에게 꽃을 던지며 울었는가",
+      "연평균 27번 쳐들어온 왜구, 고려 백성이 버틸 수 있었던 이유"
+    ],
+    "thumbnail_texts": [
+      "고려 백성 + 42년의 지옥",
+      "506번의 침략 + 한 장수의 등장",
+      "이성계 + 백성의 눈물"
+    ],
+    "image_concepts": {
+      "A": "피난 백성과 불타는 마을 — 왜구 습격으로 불타는 해안 마을과 피난 가족 실루엣",
+      "B": "언덕 위의 장수 — 폐허 마을을 내려다보는 갑옷 입은 장수의 뒷모습 실루엣"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 1. 왜구 습격으로 불타는 고려 해안 마을, 피난하는 사람들의 실루엣이 상단에 배치된 시네마틱 장면.",
+      "prompt_en": "Photorealistic cinematic scene of a burning medieval Korean coastal village at night. In the upper half, villagers flee as dark silhouettes against massive orange-red flames engulfing thatched-roof houses. Desaturated monochrome palette with dramatic red fire (#CC0000) as the only accent color. Ominous atmosphere with billowing smoke and scattered embers, backlit figures creating mysterious dark silhouettes against the inferno."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사 2. 불타는 마을을 등지고 걸어가는 피난민 가족의 뒷모습, 더 넓은 앵글로 피해 규모를 강조.",
+      "prompt_en": "Photorealistic wide cinematic shot of a Goryeo Dynasty family fleeing as dark silhouettes in the upper portion of the frame. Behind them, an entire coastal village burns with towering red flames (#CC0000) against a desaturated grayscale sky. High contrast monochrome with the fire as the sole vivid color. Partially revealed scene — the family's faces hidden, showing only their desperate backlit silhouettes trudging through ash and debris. Ominous dark shadows and tension-filled atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 1. 언덕 위에 선 갑옷 입은 장수(이성계)의 뒷모습 실루엣, 아래로 폐허가 된 마을이 보이는 비장한 장면.",
+      "prompt_en": "Photorealistic cinematic image of a lone Goryeo Dynasty armored general (Lee Seong-gye, Taejo of Joseon) standing on a hilltop as a dramatic dark silhouette in the upper half. He gazes down at a devastated village below, his armor bearing a single red accent (#CC0000) on the shoulder guard. Desaturated monochrome sepia tones with high contrast grayscale. Mysterious back view with backlit figure against an overcast sky, creating a solemn atmosphere of resolve and determination."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사 2. 더 가까운 앵글로 장수의 어깨 너머로 멀리 왜구 선단이 보이는 긴장감 있는 구도.",
+      "prompt_en": "Photorealistic over-the-shoulder cinematic shot of an armored Goryeo general (Lee Seong-gye) as a dark silhouette in the upper frame, looking out over a grey sea where distant pirate warships approach the coast. Desaturated monochrome palette with a single blood-red accent (#CC0000) glowing on his bow grip. Ominous dark clouds and tension-filled atmosphere, mysterious partially revealed composition showing only the general's armored back and shoulder against the threatening horizon."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 달밤에 말 위에서 활을 당기는 이성계의 극적인 실루엣, 화살 궤적이 붉은 빛으로 빛나는 장면.",
+      "prompt_en": "Photorealistic dramatic night scene of a mounted Goryeo archer (Lee Seong-gye) on horseback, captured as a powerful dark silhouette against a moonlit monochrome sky. The archer draws a massive bow in the upper half of the frame, with a single glowing red arrow trail (#CC0000) cutting through the darkness. High contrast desaturated grayscale with the red arrow as the only vivid color. Backlit figure with mysterious atmosphere, the horse frozen mid-gallop creating an iconic heroic composition."
+    }
+  ]
+}

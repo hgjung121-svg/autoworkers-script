@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "news-daily-0402",
+    "titles": [
+      "\"기름값이 미쳤다\" 유가 62% 폭등, 4월 6일 이후 내 지갑에 벌어질 일",
+      "\"기름값이 미쳤다\" 유가 62% 폭등에 관세까지, 금리를 올려도 내려도 답이 없는 4월",
+      "유가 62% 폭등, 환율 1,500원, 관세 25%... 4월이 진짜 무섭다"
+    ],
+    "thumbnail_texts": [
+      "유가 62% 폭등 / 전쟁이 내 월급을 먹고 있다 / 도미노 시작.",
+      "기름값 미쳤다 / 장바구니부터 월급까지 / 4월 6일.",
+      "유가·환율·관세 동시 폭발 / 내 지갑이 녹는다 / 답이 없다."
+    ],
+    "image_concepts": {
+      "A": "주유소/마트 도미노 붕괴 — 가격판 빨갛게 치솟고 뒤로 장바구니·원화 동전 도미노 쓰러짐",
+      "B": "양쪽 절벽 딜레마 — 좌 금리인하(환율↑) 우 금리인상(경기↓) 가운데 원화 동전"
+    },
+    "character_poses": {
+      "A": "공포패닉",
+      "B": "걱정불안"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 주유소 가격판이 빨갛게 치솟고, 뒤로 마트 선반·장바구니·원화 동전이 도미노처럼 쓰러지는 시네마틱 장면.",
+      "prompt_en": "Cinematic dramatic photograph of a gas station price display glowing bright red with rising numbers, behind it a domino chain of everyday objects collapsing: grocery store shelves, a shopping cart tipping over, Korean Won coins falling like dominoes. Dark navy-black background with dramatic red and orange lighting from the price display. Gold rim highlights on the falling objects. Intense atmosphere of cascading economic crisis hitting everyday life.",
+      "character_pose": "공포패닉"
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A 애니메. 같은 주유소/마트 도미노 붕괴를 스타일라이즈드 애니메 일러스트로 표현.",
+      "prompt_en": "Vibrant anime-style illustration of a dramatic domino chain reaction starting from a gas station pump with glowing red price numbers. Behind it, grocery items, shopping carts, and Korean Won coins topple in sequence like dominoes. Bold cel-shaded lighting with thick outlines, dark navy background, fiery orange-red impact sparks at each collision point. Exaggerated perspective showing the chain reaction from foreground to background. Gold accent highlights.",
+      "character_pose": "공포패닉"
+    },
+    {
+      "id": 3,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 좌측 빨간 절벽(금리 인하→환율 폭등), 우측 파란 절벽(금리 인상→경기침체), 가운데 좁은 다리 위에 빛나는 한국 원화 동전.",
+      "prompt_en": "Cinematic dramatic photograph of a narrow crumbling stone bridge suspended between two cliff faces. The left cliff glows ominous red with upward arrows symbolizing currency collapse, the right cliff is cold blue with downward arrows symbolizing recession. In the center of the bridge, a single glowing golden Korean Won coin balances precariously. Dark stormy sky background with dramatic contrast lighting. The bridge has visible cracks spreading from both sides.",
+      "character_pose": "걱정불안"
+    }
+  ]
+}

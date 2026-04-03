@@ -1,0 +1,21 @@
+{
+  "count": 5,
+  "art_styles": ["photorealistic"],
+  "color_palette": "monotone",
+  "emotions": ["curiosity", "tension"],
+  "text_space": "bottom-half",
+  "face_style": "silhouette",
+  "brand": {
+    "colors": [],
+    "mascot": false,
+    "fixed_layout": null
+  },
+  "benchmark_analysis": {
+    "text_layout": "2-line structure: small subtitle top + large keyword bottom, always in lower half",
+    "color_tone": "dark background, strong contrast, red/yellow accent colors",
+    "art_style": "photorealistic AI or illustrated — mix acceptable, photorealistic preferred",
+    "face_style": "natural expression or no face (landscape/object focus)",
+    "emotions": ["tension", "curiosity"],
+    "notes": "Thumbnails reference 3 Korean history channels. All use bottom-half text. Dark moody tones dominate. Avoid exaggerated expressions."
+  }
+}

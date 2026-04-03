@@ -1,0 +1,21 @@
+{
+  "count": 5,
+  "art_styles": ["photorealistic", "anime"],
+  "color_palette": "pastel",
+  "emotions": ["curiosity", "warmth"],
+  "text_space": "bottom-half",
+  "face_style": "auto",
+  "brand": {
+    "colors": [],
+    "mascot": false,
+    "fixed_layout": null
+  },
+  "benchmark_analysis": {
+    "text_layout": "2-line structure: large bold keyword dominant, bottom-half text placement",
+    "color_tone": "pastel/soft or simple monochrome — avoid dark dramatic tones",
+    "art_style": "illustration/anime strongly preferred over photorealistic — faceless or simplified characters common",
+    "face_style": "simplified characters (no faces or stick figures), avoid exaggerated expressions",
+    "emotions": ["curiosity", "warmth"],
+    "notes": "Psychology channel thumbnails in Korea heavily favor illustration style. Simple character designs (blue blob, stick figures) over realistic faces. Soft warm tones dominate."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "market-crash-survival",
+    "titles": [
+      "\"546조원을 현금으로 묻었다\" 버핏이 경고하는 역사상 가장 위험한 신호",
+      "\"12분기 연속 주식을 팔았다\" 버핏이 알고 있는 것",
+      "버핏 지수 230%, 닷컴버블도 대공황도 이 숫자는 없었다"
+    ],
+    "thumbnail_texts": [
+      "\"546조 현금 비축\" + 역사상 가장 위험한 신호 + 버핏 지수 230%",
+      "\"버핏도 전부 팔았다\" + 당신은 준비됐나? + 현금 546조",
+      "\"지금 주식 팔아야 할까?\" + 버핏의 대답 + 12분기 연속 매도"
+    ],
+    "image_concepts": {
+      "A": "주식 차트에 균열이 퍼지며 붕괴하는 장면. 꼭대기에 230% 경고등.",
+      "B": "버핏 실루엣이 현금 더미 위에 서서 불타는 시장을 내려다보는 장면."
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 거대한 주식 차트가 꼭대기에서 균열이 퍼지며 무너지는 시네마틱 장면. 균열 사이로 붉은 빛이 새어나오고 상단에 '230%' 경고등.",
+      "prompt_en": "Cinematic photorealistic image of a massive stock market chart towering in a dark space, with deep cracks spreading from the peak downward, glowing red light seeping through the fractures. An ominous yellow warning light labeled '230%' pulses at the top. Deep navy blue background with dramatic contrast, red crack lines spreading across the chart surface, conveying imminent collapse and financial crisis."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A 애니메. 같은 차트 붕괴 장면을 애니메 스타일로. 균열에서 불꽃이 솟구치는 역동적인 표현.",
+      "prompt_en": "Vibrant anime-style illustration of a colossal stock market chart crumbling apart, with dramatic cracks glowing red and orange flames erupting from the fractures. Bold cel-shaded lines emphasize the collapse, a flashing yellow warning light '230%' blazes at the top. Dark moody background with intense red and orange color accents, stylized digital illustration with strong ominous atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. Warren Buffett 실루엣이 거대한 달러 현금 더미 위에 서서 아래의 불타는 주식 시장을 내려다보는 장면.",
+      "prompt_en": "Cinematic photorealistic dark silhouette of Warren Buffett (renowned investor) standing atop a towering pile of US dollar cash bundles, looking down at a burning, crashing stock market below. The contrast between the glowing green cash pile and the fiery red market collapse below creates dramatic tension. Deep crimson and dark background tones, backlit silhouette with green dollar highlights, conveying power and foresight amidst financial chaos."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B 애니메. 같은 버핏 실루엣+현금 더미+불타는 시장을 애니메 스타일로. 스케일 대비를 과장.",
+      "prompt_en": "Stylized anime-style illustration of a dark silhouette figure representing Warren Buffett standing on an enormously oversized stack of green dollar bills, gazing down at a dramatically burning and collapsing stock market far below. Exaggerated scale contrast between the towering cash pile and the fiery market crash. Bold outlines, vivid green cash glow against deep red fire and dark dramatic sky, powerful and mysterious atmosphere."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 버핏 지수 230%를 역사적 버블(닷컴 150%, 대공황 130%)과 비교하는 그래프 이미지. 현재 수치가 모든 이전 버블을 압도하며 치솟는 장면.",
+      "prompt_en": "Dramatic photorealistic visualization of a financial risk gauge or thermometer showing '230%' bursting through the top, vastly surpassing previous markers labeled 'Dot-com bubble 150%' and 'Great Depression 130%'. The gauge is cracking and overheating with red-hot glow at the peak. Dark ominous background with deep blue and red warning colors, conveying unprecedented danger and historical alarm."
+    }
+  ]
+}

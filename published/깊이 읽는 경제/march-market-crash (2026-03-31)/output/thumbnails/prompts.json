@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "project": "march-market-crash",
+    "titles": [
+      "\"840조가 증발했다\" 3월 한국 증시를 무너뜨린 진짜 범인",
+      "환율 1,500원 돌파, 코스피 폭락 — 3월 대폭락의 도미노가 시작됐다",
+      "중동전쟁이 당신의 통장을 털고 있다 — 3월 증시 폭락의 모든 것"
+    ],
+    "format": "character_pose + background + text_overlay 합성 방식",
+    "character_dir": "C:/Users/hgjun/Downloads/경제/리액션 캐릭터"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "title_ref": "\"840조가 증발했다\" 3월 한국 증시를 무너뜨린 진짜 범인",
+      "character_file": "4 깜짝 놀람.png",
+      "character_note": "양손 볼 잡고 공포 표정 — 840조 증발의 충격",
+      "text_overlay": {
+        "main": "840조 증발",
+        "sub": "3월, 한국이 무너졌다",
+        "position": "좌측 상단 메인 + 좌측 하단 서브"
+      },
+      "background_prompt": "Dark cinematic stock market scene with a massive red downward arrow piercing through a shattering KOSPI chart. Glass-like fragments flying outward. Deep navy background with red and orange fire glow from war silhouettes in the far background. Right side empty for character placement. No text, no people, no characters."
+    },
+    {
+      "id": 2,
+      "title_ref": "\"840조가 증발했다\" 3월 한국 증시를 무너뜨린 진짜 범인",
+      "character_file": "3 돋보기로 분석.jpg",
+      "character_note": "탐정 코트+돋보기 — '진짜 범인'을 추적하는 느낌",
+      "text_overlay": {
+        "main": "누가 이짓을 했나",
+        "sub": "코스피 대폭락의 범인",
+        "position": "좌측 상단 메인 + 좌측 하단 서브"
+      },
+      "background_prompt": "Dark moody crime-scene style background with a crumbling stock market chart pinned to a wall like evidence. Red string connecting clues — oil barrel, currency symbol, war icon. Dim spotlight effect, deep navy and dark red tones. Right side empty for character placement. No text, no people, no characters."
+    },
+    {
+      "id": 3,
+      "title_ref": "중동전쟁이 당신의 통장을 털고 있다 — 3월 증시 폭락의 모든 것",
+      "character_file": "2 걱정 경고.png",
+      "character_note": "손 모으고 땀 흘리며 걱정 — 통장 털리는 불안감",
+      "text_overlay": {
+        "main": "전쟁이 내 돈을 삼켰다",
+        "sub": "3월 증시 붕괴 전말",
+        "position": "좌측 상단 메인 + 좌측 하단 서브"
+      },
+      "background_prompt": "Cinematic dark background showing the Strait of Hormuz and Red Sea map area with massive iron chains extending outward, glowing red-hot. Money bills and coins swirling into a dark vortex. Deep navy background with intense red and orange glow. Right side empty for character placement. No text, no people, no characters."
+    },
+    {
+      "id": 4,
+      "title_ref": "환율 1,500원 돌파, 코스피 폭락 — 3월 대폭락의 도미노가 시작됐다",
+      "character_file": "2 놀란 표정.jpg",
+      "character_note": "느낌표 이펙트 놀람 — 도미노 시작의 긴박감",
+      "text_overlay": {
+        "main": "도미노가 시작됐다",
+        "sub": "환율 1,500원 돌파",
+        "position": "좌측 상단 메인 + 좌측 하단 서브"
+      },
+      "background_prompt": "Cinematic scene of five giant golden domino pieces falling in sequence from left to right. First domino shows war fire, second oil barrel, third currency exchange arrows, fourth crashing stock chart, fifth crumbling building about to fall. Dark navy background with dramatic red and orange glow from fallen dominoes. Right side empty for character placement. No text, no people, no characters."
+    },
+    {
+      "id": 5,
+      "title_ref": "\"840조가 증발했다\" 3월 한국 증시를 무너뜨린 진짜 범인",
+      "character_file": "4 차트 가르키며 설명.jpg",
+      "character_note": "차트 가리키며 설명 — 전문가 분석 톤",
+      "text_overlay": {
+        "main": "가장 위험한 신호",
+        "sub": "840조가 증발했다",
+        "position": "좌측 상단 메인 + 좌측 하단 서브"
+      },
+      "background_prompt": "Dark dramatic background with a giant red stock market crash chart showing steep decline. Korean Won currency symbols crumbling and dissolving into red particles. Ominous storm clouds gathering above. Deep navy and dark red color scheme. Right side empty for character placement. No text, no people, no characters."
+    }
+  ]
+}

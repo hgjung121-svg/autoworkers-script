@@ -1,0 +1,21 @@
+{
+  "count": 5,
+  "art_styles": ["photorealistic", "anime"],
+  "color_palette": "neon",
+  "emotions": ["shock", "curiosity"],
+  "text_space": "bottom-half",
+  "face_style": "minimize",
+  "brand": {
+    "colors": [],
+    "mascot": false,
+    "fixed_layout": null
+  },
+  "benchmark_analysis": {
+    "text_layout": "large bold text center or bottom — 1~2 lines, high contrast (white/yellow on dark)",
+    "color_tone": "dark background with neon/glowing objects (science visuals) or dramatic illustrated scenes",
+    "art_style": "photorealistic 3D render (science objects) OR anime illustration — both work well",
+    "face_style": "minimize faces — focus on objects, phenomena, space, explosions, scientific visuals",
+    "emotions": ["shock", "curiosity"],
+    "notes": "Science thumbnails should emphasize the phenomenon/object, not people. Dark cinematic or neon glow style. Bold high-contrast text. Jisik-style anime also very effective."
+  }
+}

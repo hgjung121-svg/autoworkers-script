@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "korea-economy-truth",
+    "titles": [
+      "\"경제가 좋아진다고요?\" 정부가 절대 보여주지 않는 한국 경제의 민낯",
+      "\"당신 통장이 위험합니다\" 한국 경제 시한폭탄과 지금 당장 해야 할 것",
+      "수출 역대 최대인데 왜 내 통장은 안 느는가 — 숫자 뒤에 숨은 진실"
+    ],
+    "thumbnail_texts": [
+      "\"숫자의 함정\" + 정부가 감추는 경제 시한폭탄 + 당신 통장이 위험하다",
+      "\"수출 역대 최대\" + 그런데 왜? + 숨겨진 절반의 진실",
+      "\"1%의 거짓말\" + 모르면 당한다 + 경제 위기 생존법"
+    ],
+    "image_concepts": {
+      "A": "한국은행 건물 실루엣에 깊은 균열이 퍼지고, 균열 사이로 붉은 빛이 새어나옴",
+      "B": "거대한 빨간색 디지털 시한폭탄 위에 작은 한국 도시 풍경이 올라가 있음"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 한국은행 건물 실루엣에 깊은 균열이 퍼지며 붕괴 직전인 시네마틱 장면. 균열 사이로 붉은 빛이 새어나오고 상단에 경제 지표 숫자들이 흐릿하게 떠 있다.",
+      "prompt_en": "Cinematic photorealistic image of the Bank of Korea building silhouette with deep cracks spreading across its facade, glowing red light seeping through the fractures. Faint economic indicator numbers floating above in a hazy overlay. Deep navy blue background with dramatic contrast, red crack lines spreading across the building surface, golden accent highlights on the cracks. Bottom half left empty for text overlay. Conveying imminent economic collapse and hidden danger."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A 애니메. 균열 가는 경제 지표 차트를 애니메 스타일로. 차트 위에 '좋아지고 있다'는 문구가 깨지면서 떨어지는 장면.",
+      "prompt_en": "Vibrant anime-style illustration of a large economic chart cracking apart, with the Korean text fragments falling from the top. Bold cel-shaded lines emphasize the collapse, red and orange glow from the cracks. Dark moody navy background with intense red accents. Bottom half clean for text overlay. Stylized digital illustration with strong ominous atmosphere conveying economic deception."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 빨간색 디지털 시한폭탄(카운트다운 표시) 위에 작은 한국 도시 풍경(아파트, 직장인, 마트)이 올라가 있는 시네마틱 장면.",
+      "prompt_en": "Cinematic photorealistic image of a massive red digital time bomb with countdown numbers glowing, sitting beneath a miniature Korean cityscape with apartment buildings, office workers, and a convenience store on top. Extreme scale contrast between the enormous bomb and tiny city. Deep navy dark background, red glowing timer, golden countdown numbers. Bottom half left empty for text overlay. Conveying tension and hidden danger beneath everyday life."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B 애니메. 시한폭탄 위의 일상을 애니메 스타일로. 폭탄 카운트다운이 빨갛게 깜빡이고 위에서 사람들이 일상을 보내는 대비.",
+      "prompt_en": "Stylized anime illustration of a giant red time bomb with blinking countdown timer, with tiny cheerful cartoon people living their daily lives on top of it, completely unaware. Apartment buildings, a worker with briefcase, shopping bags. Strong contrast between the dangerous red bomb below and peaceful daily life above. Dark background, red and golden accents. Bottom half clean for text overlay. Conveying ironic disconnect between perceived safety and hidden danger."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 예쁜 성적표 vs 불편한 현실 대비. 좌측에 밝고 깨끗한 경제 성적표(수출 역대 최대, 상승 그래프), 우측에 어둡고 균열 가는 현실(빈 지갑, 하락 화살표).",
+      "prompt_en": "Cinematic split-screen image. Left side bright and clean: a beautiful economic report card showing upward graphs, green arrows, text suggesting prosperity. Right side dark and cracked: an empty wallet, red downward arrows, crumbling concrete. Sharp diagonal divide between the two halves. Left side warm bright tones, right side dark navy with red warning colors. Bottom half left empty for text overlay. Conveying the gap between official economic numbers and personal financial reality."
+    }
+  ]
+}
