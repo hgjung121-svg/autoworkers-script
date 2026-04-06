@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "concept": "주유소 쇼크 — 유가 2,000원 코앞",
+    "image_prompt": "A photorealistic close-up of a Korean gas station price sign showing 1,990 won per liter for regular gasoline, late night or early morning atmosphere with dramatic red and orange lighting, a blurred car in the background, moody cinematic tone, high contrast, shot with a 35mm lens. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "₩1,990",
+      "line2": "기름값 2,000원 코앞"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#FF3B30",
+      "accent2": "#FF9500",
+      "accent3": "#FFFFFF"
+    }
+  },
+  {
+    "id": 2,
+    "concept": "WTI vs 브렌트 가격 역전 — 4년 만에 처음",
+    "image_prompt": "A photorealistic dramatic aerial view of the Strait of Hormuz at night, oil tankers crossing the narrow waterway, glowing lights reflecting on dark water, tension in the atmosphere, satellite-view perspective with cinematic depth, dark and moody color grading. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "WTI $111 > 브렌트 $109",
+      "line2": "4년 만에 가격 역전"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#FFD60A",
+      "accent2": "#FF6B00",
+      "accent3": "#FFFFFF"
+    }
+  },
+  {
+    "id": 3,
+    "concept": "삼성전자 DDR5 630% 폭등 — 분기 최대 실적",
+    "image_prompt": "A photorealistic macro shot of a modern DRAM memory chip with glowing circuit lines in blue and cyan, dark background, dramatic lighting highlighting the intricate silicon architecture, futuristic and high-tech feel, sharp focus with bokeh effect. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "DDR5 +630%",
+      "line2": "삼성전자 분기 최대 실적 전망"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#00D4FF",
+      "accent2": "#0066FF",
+      "accent3": "#FFFFFF"
+    }
+  }
+]
