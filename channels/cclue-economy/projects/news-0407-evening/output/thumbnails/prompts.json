@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "concept": "협상 붕괴 충격 — 이란 거부 순간",
+    "image_prompt": "A dramatic aerial view of the Strait of Hormuz at dusk, with dark storm clouds gathering over the narrow waterway. An Iranian military vessel in the foreground with a red warning light. The water reflects an ominous orange-red glow from the setting sun, symbolizing geopolitical tension. The scene conveys the sense of a critical crossroads in global energy security. Photorealistic, cinematic lighting, high detail. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "협상이 무너졌다",
+      "line2": "이란 거부 후 유가·환율 어디로"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#000000", "#C0392B", "#E67E22", "#FFFFFF"]
+  },
+  {
+    "id": 2,
+    "concept": "두 시나리오 — 유가 분기점",
+    "image_prompt": "A split composition showing two contrasting futures: on the left, a gas station price board showing a high fuel price above 2,500 KRW per liter under a stormy dark sky with red-tinted clouds; on the right, the same gas station with a lower price around 1,700 KRW per liter under a clearer sky with hints of blue. The dividing line runs sharply down the center. Photorealistic, dramatic contrast lighting. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "유가 85달러 vs 150달러",
+      "line2": "협상 타결이냐 확전이냐, 2~3주가 결정한다"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#000000", "#27AE60", "#C0392B", "#F1C40F"]
+  },
+  {
+    "id": 3,
+    "concept": "반도체 역설 — 전쟁 속 SK하이닉스 급등",
+    "image_prompt": "A close-up photorealistic image of a gleaming HBM (High Bandwidth Memory) chip on a dark reflective surface, with a subtle upward green arrow overlaid digitally. In the blurred background, a news ticker showing war headlines contrasts with the chip's pristine silver-gold sheen. Studio lighting with a strong upward beam highlighting the chip, symbolizing growth against a turbulent backdrop. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "SK하이닉스 +4.5%",
+      "line2": "전쟁 속에서도 반도체는 올랐다"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#000000", "#2ECC71", "#3498DB", "#FFFFFF"]
+  }
+]
