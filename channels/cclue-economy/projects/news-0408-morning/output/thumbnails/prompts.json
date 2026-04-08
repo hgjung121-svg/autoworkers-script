@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "concept": "주유소 충격 — 기름값 폭등",
+    "image_prompt": "A Korean gas station at early dawn, dimly lit with orange-tinted lights. A large digital price board prominently displays '휘발유 1,923원' in red LED numbers. A worried middle-aged Korean man in work clothes stands beside his car holding a credit card, staring at the price board in disbelief. The station is otherwise empty and quiet. Photorealistic, cinematic lighting, slight fog in the background. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "기름값 1,923원",
+      "line2": "호르무즈가 막히면 다음은?"
+    },
+    "person_suggestion": "중년 남성 직장인, 주유 중 가격판 보며 놀란 표정",
+    "color_palette": ["#000000", "#FF3B30", "#FF9500", "#FFFFFF"]
+  },
+  {
+    "id": 2,
+    "concept": "호르무즈 해협 — 한국의 급소",
+    "image_prompt": "A dramatic aerial satellite-style view of the Strait of Hormuz at night, showing tanker ships lined up in the narrow waterway between Iran and Oman. The sea glows with reflected fire from distant oil facilities. A translucent red danger zone overlay marks the strait. In the upper left, a small Korean flag icon with a red X. The scene conveys geopolitical tension and energy crisis. Photorealistic, high detail, dark and tense atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "이 해협 하나가",
+      "line2": "내 월급을 흔든다"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#000000", "#FF3B30", "#FF6B00", "#1C3A5E"]
+  },
+  {
+    "id": 3,
+    "concept": "스태그플레이션 공포 — 물가+성장률 이중 충격",
+    "image_prompt": "A split-screen photorealistic scene: on the left, a Korean supermarket aisle where price tags are visibly high, a woman holding a receipt with a shocked expression; on the right, a dark financial trading screen showing red declining charts for GDP growth. Both scenes are bathed in harsh fluorescent or red warning light. The composition conveys dual economic pressure — rising prices and falling growth. Photorealistic, documentary style. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "물가 오르고 경제 쪼그라든다",
+      "line2": "스태그플레이션, 1970년대 이후 처음"
+    },
+    "person_suggestion": "30대 한국 여성, 마트 영수증 보며 표정 굳음",
+    "color_palette": ["#000000", "#FF3B30", "#FFD60A", "#FFFFFF"]
+  }
+]
