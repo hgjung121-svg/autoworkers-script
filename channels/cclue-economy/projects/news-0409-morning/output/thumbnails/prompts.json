@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "concept": "유가 폭락 — 주유소 가격표",
+    "image_prompt": "A close-up photorealistic shot of a South Korean gas station price board at dawn, showing two price displays side by side — the left board showing '2,450원/L' in red digital numbers with a downward arrow, the right board showing '2,100원/L' in bright green digital numbers. The gas station canopy glows with fluorescent light against a dark pre-dawn sky. A single Korean car waits at a pump. Cinematic depth of field, moody and tense atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "기름값 -14%",
+      "line2": "내 주유비 언제 내려가나"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#FF3333",
+      "accent2": "#00FF88",
+      "accent3": "#FFFFFF"
+    }
+  },
+  {
+    "id": 2,
+    "concept": "미-이란 휴전 — 글로벌 긴장 완화",
+    "image_prompt": "A dramatic photorealistic aerial view of the Strait of Hormuz at golden hour, oil tankers visible in the narrow waterway between rocky desert coastlines. The sea is calm and reflective. A large semi-transparent clock hourglass overlays the scene with '2주' written inside in bold white Korean text, representing the ticking countdown of the ceasefire. The sky transitions from deep orange to dark blue. Cinematic and high-tension atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "미-이란 2주 휴전",
+      "line2": "이게 2주짜리라는 게 문제야"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#FF8C00",
+      "accent2": "#FFD700",
+      "accent3": "#FFFFFF"
+    }
+  },
+  {
+    "id": 3,
+    "concept": "삼성전자 역대 실적 + 증시 랠리",
+    "image_prompt": "A photorealistic image of a sleek dark trading room at night, large curved monitors displaying South Korean and US stock market charts shooting upward with green candles. In the foreground, a translucent holographic display shows '영업익 57조' in massive bold Korean text glowing in bright green. The room has a high-tech atmosphere with reflective black floors. A single suited professional stands in silhouette facing the screens. Ultra-wide cinematic composition, dramatic lighting. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "text_suggestion": {
+      "line1": "삼성 57조 + 나스닥 +3.5%",
+      "line2": "밤사이 뒤집힌 시장 총정리"
+    },
+    "person_suggestion": "Back-lit silhouette of a Korean professional in a dark suit, facing massive trading screens, no face visible",
+    "color_palette": {
+      "base": "#000000",
+      "accent1": "#00FF88",
+      "accent2": "#00BFFF",
+      "accent3": "#FFFFFF"
+    }
+  }
+]
