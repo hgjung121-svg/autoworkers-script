@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image_prompt": "A dramatic photorealistic aerial view of the Strait of Hormuz at dusk with massive oil tankers lined up waiting to pass through the narrow waterway. Dark storm clouds gather overhead with golden light breaking through, casting dramatic shadows on the dark blue sea. Oil platforms visible in the distance with flames burning. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "코스피 6.87%",
+      "line2": "호르무즈 휴전의 함정"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "primary": "#FFFFFF",
+      "accent1": "#FF4444",
+      "accent2": "#FFD700",
+      "background": "#0A1628"
+    }
+  },
+  {
+    "id": 2,
+    "image_prompt": "A photorealistic close-up of a gas station price display board showing dramatically high fuel prices, with a Korean city street blurred in the background at night. Neon lights reflect off wet pavement. Red upward arrows digitally overlaid showing price increases. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "유가 $96",
+      "line2": "내 장바구니가 위험하다"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "primary": "#FFFFFF",
+      "accent1": "#FF2D2D",
+      "accent2": "#00FF88",
+      "background": "#1A0A2E"
+    }
+  },
+  {
+    "id": 3,
+    "image_prompt": "A photorealistic image of a large digital stock market display screen showing bright green numbers and upward trending charts, with the Korean stock exchange trading floor in the background. Traders visible in silhouette. Multiple screens showing graphs with sharp upward spikes. Green and gold light illuminating the scene. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "하루 만에 +6.87%",
+      "line2": "밤사이 벌어진 일"
+    },
+    "person_suggestion": null,
+    "color_palette": {
+      "primary": "#FFFFFF",
+      "accent1": "#00FF66",
+      "accent2": "#FFD700",
+      "background": "#0D1117"
+    }
+  }
+]
