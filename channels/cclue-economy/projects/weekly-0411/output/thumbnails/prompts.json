@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "concept": "유가 폭락 + 코스피 폭등 대비",
+    "prompt": "A dramatic split-screen financial infographic. Left side: a large red downward arrow with '-15%' and an oil barrel icon on a dark red background. Right side: a large green upward arrow with '+8%' and a stock chart icon on a dark green background. Center dividing line is bright white. Bold Korean text overlay '유가 vs 증시' at the top. Clean, modern design with high contrast colors. Bright and vivid color palette, 16:9 aspect ratio.",
+    "text_overlay": "유가 -15% 코스피 +8%\n이번 주 무슨 일이?"
+  },
+  {
+    "id": 2,
+    "concept": "삼성전자 역대 최대 실적 강조",
+    "prompt": "A vibrant financial celebration concept. A glowing golden number '57조' (57 trillion) dominates the center of the image against a deep navy blue background. Samsung Electronics semiconductor chips and circuit board patterns surround the number with blue LED light trails. Upward trending stock chart lines in bright green flow behind. Bright, vivid, premium feel with strong contrast. 16:9 aspect ratio.",
+    "text_overlay": "삼성전자 영업이익\n57조 역대 최대"
+  },
+  {
+    "id": 3,
+    "concept": "호르무즈 해협 휴전의 불안정성",
+    "prompt": "An aerial view of a narrow ocean strait (Strait of Hormuz) with cargo ships lined up waiting to pass through. The sky is split dramatically - one half bright blue with sunshine, the other half dark stormy clouds with lightning. A large clock showing '2 weeks' floats in the sky. Bright, cinematic, high-saturation colors with dramatic lighting contrast. 16:9 aspect ratio.",
+    "text_overlay": "2주 휴전, 진짜 끝날까?\n호르무즈의 운명"
+  }
+]
