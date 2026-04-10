@@ -1,29 +1,29 @@
 [
   {
-    "image_prompt": "Photorealistic aerial view of the Strait of Hormuz at sunset, massive oil tankers lined up in a narrow waterway between rugged Iranian coastline and Arabian Peninsula, dramatic orange and red sky reflecting off dark ocean waters, military vessels patrolling nearby, tension and scale visible in the scene. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A dramatic photorealistic aerial view of the Strait of Hormuz at sunset, showing a massive oil tanker passing through narrow turquoise waters between rocky desert coastlines of Iran and Oman, with military patrol vessels visible in the distance, warm golden and deep orange lighting casting dramatic shadows across the water surface, cinematic composition with tension and scale. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "환율 37원 급등",
-      "line2": "73년 전 쿠데타가 만든 도미노"
+      "line1": "통행료 30억",
+      "line2": "휴전해도 안 떨어지는 기름값"
     },
-    "person_suggestion": null,
-    "color_palette": ["#FF4500", "#FFD700", "#1A1A2E", "#FFFFFF"]
+    "person_suggestion": "",
+    "color_palette": ["#FF6B35", "#FFC107", "#FFFFFF", "#1A1A2E"]
   },
   {
-    "image_prompt": "Photorealistic close-up of a Korean gas station price display showing numbers near 2000 won per liter, blurred car refueling in background, neon lights reflecting on wet asphalt at night, cinematic urban atmosphere with warm and cool lighting contrast. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A photorealistic close-up of a gas station fuel pump display showing extremely high fuel prices in Korean won, with a blurred modern Seoul cityscape of skyscrapers and busy streets in the background, neon signs reflecting off the metallic pump surface, tense dramatic lighting with deep red and amber tones suggesting urgency and economic pressure. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "휘발유 2,000원",
-      "line2": "호르무즈 해협이 잠그면 벌어지는 일"
+      "line1": "유가 94달러",
+      "line2": "네 장바구니까지 오는 도미노"
     },
-    "person_suggestion": null,
-    "color_palette": ["#FF3131", "#00D4FF", "#FFFFFF", "#FFE600"]
+    "person_suggestion": "",
+    "color_palette": ["#E63946", "#FFD166", "#FFFFFF", "#2B2D42"]
   },
   {
-    "image_prompt": "Photorealistic split image showing dominoes falling in sequence, first domino labeled with a vintage 1950s Tehran street scene transitioning into modern oil refinery and stock market screens with red numbers, dramatic lighting with deep shadows and bright highlights, conceptual visualization of cause and effect across decades. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A photorealistic split-screen composition showing a diplomatic handshake with flags of USA and Iran on the left side bathed in cool blue hopeful lighting, contrasted with a tense naval blockade scene with warships and oil tankers at the Strait of Hormuz on the right side bathed in fiery orange and red warning lighting, dramatic cinematic contrast between peace and conflict. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "1953 → 2026",
-      "line2": "CIA 쿠데타에서 네 기름값까지"
+      "line1": "휴전 vs 확전",
+      "line2": "두 시나리오, 당신의 지갑은?"
     },
-    "person_suggestion": null,
-    "color_palette": ["#FF6B35", "#004E89", "#FFFFFF", "#F7C948"]
+    "person_suggestion": "",
+    "color_palette": ["#4361EE", "#F72585", "#FFFFFF", "#0D1B2A"]
   }
 ]
