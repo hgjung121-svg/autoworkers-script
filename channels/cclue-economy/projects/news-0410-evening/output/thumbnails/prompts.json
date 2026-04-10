@@ -1,0 +1,29 @@
+[
+  {
+    "image_prompt": "Photorealistic aerial view of the Strait of Hormuz at sunset, massive oil tankers lined up in a narrow waterway between rugged Iranian coastline and Arabian Peninsula, dramatic orange and red sky reflecting off dark ocean waters, military vessels patrolling nearby, tension and scale visible in the scene. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "환율 37원 급등",
+      "line2": "73년 전 쿠데타가 만든 도미노"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#FF4500", "#FFD700", "#1A1A2E", "#FFFFFF"]
+  },
+  {
+    "image_prompt": "Photorealistic close-up of a Korean gas station price display showing numbers near 2000 won per liter, blurred car refueling in background, neon lights reflecting on wet asphalt at night, cinematic urban atmosphere with warm and cool lighting contrast. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "휘발유 2,000원",
+      "line2": "호르무즈 해협이 잠그면 벌어지는 일"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#FF3131", "#00D4FF", "#FFFFFF", "#FFE600"]
+  },
+  {
+    "image_prompt": "Photorealistic split image showing dominoes falling in sequence, first domino labeled with a vintage 1950s Tehran street scene transitioning into modern oil refinery and stock market screens with red numbers, dramatic lighting with deep shadows and bright highlights, conceptual visualization of cause and effect across decades. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "text_suggestion": {
+      "line1": "1953 → 2026",
+      "line2": "CIA 쿠데타에서 네 기름값까지"
+    },
+    "person_suggestion": null,
+    "color_palette": ["#FF6B35", "#004E89", "#FFFFFF", "#F7C948"]
+  }
+]
