@@ -1,29 +1,47 @@
 [
   {
-    "image_prompt": "A dramatic photorealistic image of a gas station price display showing '2,000' in bright red LED digits against a dark night sky. In the background, a silhouette of oil tankers on the ocean with a fiery orange and red sunset reflecting on the water. The atmosphere is tense and cinematic, with warm orange tones contrasting dark shadows. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "id": 1,
+    "image_prompt": "A dramatic photorealistic image of the Strait of Hormuz at dusk with massive oil tankers lined up unable to pass through, dark storm clouds gathering overhead, red warning lights reflecting on the water surface, tension and urgency in the atmosphere, cinematic lighting with deep orange and crimson tones. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "경유 2,000원",
-      "line2": "기름값 3,000원 시대 오나"
+      "line1": "협상 결렬",
+      "line2": "유가 120달러 간다"
     },
     "person_suggestion": null,
-    "color_palette": ["#FF3B30", "#FF9500", "#1C1C1E", "#FFFFFF"]
+    "color_palette": {
+      "primary": "#FF4444",
+      "accent1": "#FF8800",
+      "accent2": "#FFFFFF",
+      "background_text_area": "#000000"
+    }
   },
   {
-    "image_prompt": "A photorealistic aerial view of the Strait of Hormuz with a single oil tanker passing through the narrow waterway between Iran and Oman. The water is deep blue, the land is arid and sandy. Military ships are visible in the distance creating a tense blockade atmosphere. Dramatic clouds and golden light create a cinematic mood. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "id": 2,
+    "image_prompt": "A photorealistic image of a Korean gas station price display board showing diesel price crossing 2000 won per liter, with a blurred city street in the background, dramatic lighting emphasizing the glowing red numbers, urban Seoul atmosphere with apartment buildings visible. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "135척 → 4척",
-      "line2": "호르무즈 봉쇄, 당신 지갑이 위험하다"
+      "line1": "경유 2,000원 돌파",
+      "line2": "내 지갑에 벌어진 일"
     },
     "person_suggestion": null,
-    "color_palette": ["#007AFF", "#FF9500", "#34C759", "#FFFFFF"]
+    "color_palette": {
+      "primary": "#FF3333",
+      "accent1": "#FFD700",
+      "accent2": "#FFFFFF",
+      "background_text_area": "#000000"
+    }
   },
   {
-    "image_prompt": "A photorealistic image of a split screen concept: on the left side, a Korean gas station with cars lined up showing expensive fuel prices, illuminated at night with neon lights. On the right side, a dramatic view of oil pipelines and refineries with flames and smoke against a dark sky. The mood is urgent and impactful with high contrast lighting. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "id": 3,
+    "image_prompt": "A photorealistic split-screen composition showing gold bars stacked high gleaming under warm light on the left side, and crude oil barrels with price tags showing upward arrows on the right side, dramatic contrast between golden warmth and dark industrial tones, financial crisis atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "유가 95달러",
-      "line2": "미-이란 협상이 바꿀 당신의 기름값"
+      "line1": "금 4,760달러",
+      "line2": "돈은 어디로 도망가나"
     },
     "person_suggestion": null,
-    "color_palette": ["#FF3B30", "#FFD60A", "#1C1C1E", "#FFFFFF"]
+    "color_palette": {
+      "primary": "#FFD700",
+      "accent1": "#FF5555",
+      "accent2": "#FFFFFF",
+      "background_text_area": "#000000"
+    }
   }
 ]
