@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "image_prompt": "A dramatic photorealistic image of the Strait of Hormuz at dusk with massive oil tankers lined up unable to pass through, dark storm clouds gathering overhead, red warning lights reflecting on the water surface, tension and urgency in the atmosphere, cinematic lighting with deep orange and crimson tones. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A dramatic photorealistic image of US Navy warships forming a blockade line across the Strait of Hormuz at sunset, with oil tankers stopped in the background unable to pass, military helicopters hovering overhead, tense atmosphere with deep orange sky and dark ocean waters, cinematic lighting. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "협상 결렬",
-      "line2": "유가 120달러 간다"
+      "line1": "즉각 봉쇄",
+      "line2": "트럼프, 호르무즈 잠갔다"
     },
     "person_suggestion": null,
     "color_palette": {
-      "primary": "#FF4444",
+      "primary": "#FF2222",
       "accent1": "#FF8800",
       "accent2": "#FFFFFF",
       "background_text_area": "#000000"
@@ -16,10 +16,10 @@
   },
   {
     "id": 2,
-    "image_prompt": "A photorealistic image of a Korean gas station price display board showing diesel price crossing 2000 won per liter, with a blurred city street in the background, dramatic lighting emphasizing the glowing red numbers, urban Seoul atmosphere with apartment buildings visible. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A photorealistic image of a Korean gas station price display board showing diesel price numbers climbing past 2000 won with dramatic red LED digits, a long line of cars waiting to fuel up in the background, urban Seoul night scene with neon lights and apartment buildings, tension and urgency in the atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "경유 2,000원 돌파",
-      "line2": "내 지갑에 벌어진 일"
+      "line1": "경유 3,000원 시대?",
+      "line2": "한국 선박 26척 고립"
     },
     "person_suggestion": null,
     "color_palette": {
@@ -31,15 +31,15 @@
   },
   {
     "id": 3,
-    "image_prompt": "A photorealistic split-screen composition showing gold bars stacked high gleaming under warm light on the left side, and crude oil barrels with price tags showing upward arrows on the right side, dramatic contrast between golden warmth and dark industrial tones, financial crisis atmosphere. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
+    "image_prompt": "A photorealistic split-screen composition showing gleaming gold bars stacked high under warm golden light on the left side contrasted with dark crude oil barrels with red upward arrows on the right side, dramatic financial crisis atmosphere with stock market charts in the background showing volatility. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements",
     "text_suggestion": {
-      "line1": "금 4,760달러",
+      "line1": "금 4,787달러",
       "line2": "돈은 어디로 도망가나"
     },
     "person_suggestion": null,
     "color_palette": {
       "primary": "#FFD700",
-      "accent1": "#FF5555",
+      "accent1": "#FF4444",
       "accent2": "#FFFFFF",
       "background_text_area": "#000000"
     }
