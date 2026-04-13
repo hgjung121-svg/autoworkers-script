@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "project": "etf-ep01",
+    "titles": [
+      "\"월 50만 원씩 30년, 1.3억이 사라졌다\" 당신의 펀드가 돈을 잃은 진짜 이유",
+      "같은 돈을 넣었는데 1.3억이 증발합니다 — 펀드 수수료의 충격적인 진실",
+      "펀드 vs ETF, 30년 후 1.3억 차이 나는 이유 — 수수료가 만든 잔인한 복리"
+    ],
+    "thumbnail_texts": [
+      "1.3억 증발 + 수수료의 배신",
+      "당신의 펀드가 + 돈을 갉아먹고 있다",
+      "30년의 거짓말 + 펀드의 진짜 비용"
+    ],
+    "image_concepts": {
+      "A": "수수료에 갉아먹히는 돈 — 황금빛 코인/지폐가 부서지며 가루로 변하는 Before→After 이미지",
+      "B": "고급 레스토랑 vs 밀키트 — 화려한 파인다이닝 접시와 심플한 밀키트 패키지의 좌우 대비"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 황금빛 코인과 지폐 더미가 우측으로 갈수록 부서지고 가루로 변해가는 드라마틱한 장면. 밝고 선명한 골드 톤과 붉은 균열이 대비를 이룬다.",
+      "prompt_en": "Photorealistic dramatic photograph of a pile of gleaming golden coins and crisp banknotes on the left side, gradually cracking, crumbling and disintegrating into fine golden dust toward the right side. Bright vivid colors with high-key lighting illuminating the golden treasures. Deep crimson cracks and fractures spread across the coins like veins, with particles floating in the air catching the light. The background features a clean navy-blue gradient with subtle golden bokeh. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements Ominous atmosphere of wealth silently eroding, dramatic contrast between intact gold and disintegrating dust."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 좌측에 화려한 파인다이닝 소고기 요리가 금빛 접시 위에 놓여 있고, 우측에 심플한 밀키트 패키지가 놓여 있다. 밝고 선명한 색감으로 비용 대비 가치의 역설을 시각화.",
+      "prompt_en": "Photorealistic split-composition photograph with bright vivid lighting. On the left, an extravagant fine-dining beef steak on an ornate gold-rimmed plate under warm amber spotlight, garnished elaborately with edible gold leaf, placed on a luxurious dark navy tablecloth. On the right, a simple clean meal-kit package with fresh ingredients visible through transparent packaging, placed on a bright white surface under clean white light. A subtle golden 'VS' divider between the two sides. The left side radiates expensive warmth while the right side radiates practical simplicity. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements High saturation, vivid saturated tones, shocking contrast between luxury and practicality."
+    },
+    {
+      "id": 3,
+      ."
+    }
+  ]
+}

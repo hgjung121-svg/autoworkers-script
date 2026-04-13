@@ -4,7 +4,7 @@
     "concept": "호르무즈 공포 — 유가 폭등",
     "image_area": "상단 60%",
     "text_area": "하단 40% (검정 배경)",
-    "image_prompt": "Dramatic aerial view of the Strait of Hormuz at dusk, massive oil tankers creating a traffic jam in the narrow strait, dark storm clouds gathering above, orange and red light reflecting on the water, photorealistic, cinematic tension, no text",
+    "image_prompt": "Dramatic aerial view of the Strait of Hormuz at dusk, massive oil tankers creating a traffic jam in the narrow strait, dark storm clouds gathering above, orange and red light reflecting on the water, photorealistic, cinematic tension, no text. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "배럴당 111달러",
       "line2": "이 바닷길 하나가 내 지갑을 흔든다",
@@ -19,7 +19,7 @@
     "concept": "환율·물가 도미노 충격",
     "image_area": "상단 60%",
     "text_area": "하단 40% (검정 배경)",
-    "image_prompt": "Close-up of a Korean gas station price sign showing 2,000 won per liter, blurred background of Seoul city traffic at night, neon reflections on wet asphalt, high contrast photography, tense atmosphere, no text",
+    "image_prompt": "Close-up of a Korean gas station price sign showing 2,000 won per liter, blurred background of Seoul city traffic at night, neon reflections on wet asphalt, high contrast photography, tense atmosphere, no text. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "환율 1,505원 · 휘발유 2,000원",
       "line2": "이 도미노 어디서 시작됐을까",
@@ -36,7 +36,7 @@
     "concept": "반도체 반전 — 공포 속 기회",
     "image_area": "상단 60%",
     "text_area": "하단 40% (검정 배경)",
-    "image_prompt": "Macro shot of a glowing HBM memory chip on a dark background, blue and gold light emanating from circuit patterns, other economic turmoil indicators (red arrows, charts) visible but out of focus in background, cinematic depth of field, no text",
+    "image_prompt": "Macro shot of a glowing HBM memory chip on a dark background, blue and gold light emanating from circuit patterns, other economic turmoil indicators (red arrows, charts) visible but out of focus in background, cinematic depth of field, no text. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "삼성+하이닉스 영업이익 370조",
       "line2": "혼란 속 유일한 방어막",

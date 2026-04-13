@@ -60,7 +60,7 @@ creative-strategy.md Phase 5에서 참조하는 **프롬프트 작성 규칙**.
 
 | 값 | 프롬프트 키워드 | 기본값 |
 |----|---------------|--------|
-| `bright` | `"bright vibrant colors"`, `"clean white or light background"`, `"high-key lighting"`, `"vivid saturated tones"` | **기본값** |
+| `bright` | `"bright vibrant colors"`, `"high-key lighting"`, `"vivid saturated tones"`. **배경색은 주제 분위기에 맞게 선택** — 금융/투자 주제는 딥블루·틸·네이비 그라데이션, 위기/붕괴 주제는 진한 레드·오렌지, 기술/혁신 주제는 일렉트릭 블루·퍼플 등. **무조건 흰색 배경 금지** — 주제와 어울리는 색감 있는 배경 위에 밝고 선명한 피사체를 배치한다. | **기본값** |
 | `dark` | `"dark cinematic atmosphere"`, `"deep shadows"`, `"dramatic contrast"`, `"moody lighting"` | |
 | `pastel` | `"soft pastel colors"`, `"gentle warm tones"`, `"light airy atmosphere"`, `"muted saturation"` | |
 | `neon` | `"neon glow"`, `"cyberpunk color palette"`, `"fluorescent accents"`, `"dark background with vivid neon highlights"` | |
@@ -87,14 +87,16 @@ creative-strategy.md Phase 5에서 참조하는 **프롬프트 작성 규칙**.
 
 | 값 | 구도 규칙 |
 |----|----------|
+| `bottom-2/5-black` | **이미지를 프레임 전체에 밝고 풍성하게 채운다.** `"top 60% of image only"` 같은 이미지 제한 문구 사용 금지. **하단 2/5(40%)는 이미지에서 검정으로 자연스럽게 그라데이션 페이드** — 60% 지점에서 그라데이션 시작, 75% 지점에서 완전한 검정(#000000). 나머지 하단 25%는 순수 검정. 사용자가 미리캔버스에서 텍스트를 배치하는 영역. |
 | `bottom-half` | **상단 1/2에 핵심 피사체를 좌우 꽉 차게** 배치. **하단 1/2는 단순 배경만** — 인물 얼굴, 로고, 핵심 오브젝트 등 중요한 요소가 하단에 오면 안 됨. **(기본값)** |
 | `full` | 전체 프레임을 이미지로 채움. 텍스트 공간 확보 불필요. 피사체를 프레임 전체에 배치. |
 | `left-right` | 핵심 피사체를 한쪽(좌 또는 우)에 배치. 반대쪽은 단순 배경으로 텍스트 공간 확보. |
 
 > **boilerplate 불포함**: 아래는 `generate_thumbnails.py`가 `text_space` 설정에 따라 자동 추가하므로 prompt_en에 포함하지 않는다:
 > 1. 16:9 비율 (`wide 16:9 aspect ratio, YouTube thumbnail composition`)
-> 2. 구도 규칙 (`text_space`에 해당하는 composition 지시문)
-> 3. 텍스트 금지 (`no text, no letters, no words, no numbers, no watermark`)
+> 2. 텍스트 금지 (`no text, no letters, no words, no numbers, no watermark`)
+>
+> **예외 — `bottom-2/5-black`**: 이 설정은 prompt_en에 **직접 포함**해야 한다. 프롬프트 끝부분에 `"The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"` 반드시 명시. **주의: `"top 60% of image only"` 같은 이미지 제한 문구는 절대 사용 금지** — 이미지를 프레임 전체에 밝고 풍성하게 채우되, 하단만 자연스럽게 검정으로 페이드시킨다. generate_thumbnails.py도 보조로 추가하지만, 프롬프트 자체에 있어야 이미지 생성 모델이 확실히 반영한다.
 
 ### 인물 표현 (`face_style`)
 

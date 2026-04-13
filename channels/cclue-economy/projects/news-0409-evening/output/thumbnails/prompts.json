@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0409-evening",
+    "titles": [
+      "\"잠시 멈춘 것뿐\" 휴전 첫날 최대 폭격, 호르무즈 재봉쇄에 기름값 2천원 돌파",
+      "휴전 합의 하루 만에 최대 폭격, 호르무즈 재봉쇄...기름값 어디까지 오르나",
+      "이스라엘 휴전 첫날 레바논 융단폭격, 이란 호르무즈 다시 봉쇄...한국 기름값 직격탄"
+    ],
+    "thumbnail_texts": [
+      "휴전 첫날 + 최대 폭격",
+      "호르무즈 재봉쇄 + 기름값 직격탄",
+      "합의 무시 + 기름값 2천원"
+    ],
+    "image_concepts": {
+      "A": "레바논 도심 폭격 화염 — 건물 사이로 솟아오르는 거대한 화염과 검은 연기, 전쟁의 규모를 시각적으로 전달",
+      "B": "호르무즈 해협 봉쇄 — 좁은 해협에서 이란 해군에 의해 차단당하는 유조선, 에너지 공급 위기 시각화"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 레바논 베이루트 도심 건물 밀집 지역에 거대한 폭발 화염이 솟아오르는 시네마틱 장면. 어두운 밤하늘에 오렌지빛 화염이 강렬한 대비를 만들며, 전쟁의 압도적 규모를 한눈에 전달한다.",
+      "prompt_en": "Photorealistic cinematic wide shot of a massive explosion engulfing buildings in a dense Middle Eastern urban district during golden hour. Enormous orange-red fireballs and thick smoke columns rise from between concrete apartment buildings against a vivid amber-orange sky. Bright intense firelight illuminates the entire scene with warm dramatic glow. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements High contrast cinematic atmosphere, vibrant saturated fire colors against a bright hazy sky, intense and urgent mood."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 호르무즈 해협의 좁은 수로에서 거대한 유조선이 이란 해군 고속정들에 의해 차단당하는 항공 촬영 구도. 석양빛 바다와 어두운 선박의 대비가 에너지 공급 위기의 긴장감을 전달한다.",
+      "prompt_en": "Photorealistic aerial photograph of the narrow Strait of Hormuz under a bright vivid sunset sky, a massive oil tanker blocked by several Iranian Revolutionary Guard Navy fast-attack boats forming a barricade across the bright turquoise-blue strait. The enormous scale contrast between the giant tanker and small military vessels emphasizes the chokepoint crisis. Brilliant golden-orange sunlight floods the scene, reflecting brightly off the water surface. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements High contrast cinematic atmosphere with vibrant warm sunset colors, bright saturated tones, tense and dramatic mood."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. Benjamin Netanyahu의 냉담한 표정 클로즈업과 배경에 동시에 보이는 레바논 폭격 화염 + 호르무즈 해협 지도 이중 노출. '전쟁을 멈출 생각이 없는 한 사람'이라는 메시지를 인물 중심으로 전달.",
+      "prompt_en": "Photorealistic dramatic portrait of Benjamin Netanyahu (Israeli Prime Minister) in extreme close-up from a low angle, his face fully lit by bright warm orange firelight, well-illuminated with clear facial details. His expression is cold, calculating, and unyielding. Behind him, a double-exposure effect blends massive bright explosion fireballs over a Middle Eastern cityscape with a map outline of the Strait of Hormuz. Vivid orange-gold fire glow fills the background. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements High contrast cinematic atmosphere with bright vibrant fire colors, well-lit subject against a warm glowing background, tension and shock."
+    }
+  ]
+}

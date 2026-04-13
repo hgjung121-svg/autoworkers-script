@@ -2,7 +2,7 @@
   {
     "index": 1,
     "concept": "70년 갈등 — 역사적 대결 구도",
-    "image_prompt": "A dramatic split-screen image: on the left, a sepia-toned archival-style photograph of Tehran in 1953 with a military coup atmosphere, dark smoke rising over classical Persian architecture; on the right, a modern 2026 aerial view of warships and fire in the Strait of Hormuz at night, orange flames reflecting on dark water. A bold crack splits the two eras down the center like a timeline fracture. Photorealistic, cinematic lighting, high contrast. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "image_prompt": "A dramatic split-screen image: on the left, a sepia-toned archival-style photograph of Tehran in 1953 with a military coup atmosphere, dark smoke rising over classical Persian architecture; on the right, a modern 2026 aerial view of warships and fire in the Strait of Hormuz at night, orange flames reflecting on dark water. A bold crack splits the two eras down the center like a timeline fracture. Photorealistic, cinematic lighting, high contrast. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "70년의 원한",
       "line2": "오늘 밤 결판난다"
@@ -18,7 +18,7 @@
   {
     "index": 2,
     "concept": "최후통첩 시한 — 카운트다운 긴장감",
-    "image_prompt": "A photorealistic close-up of a large analog clock face showing 8:00, its hands casting sharp shadows. The clock is mounted on a cracked concrete wall covered in oil-stained textures and faded maps of the Middle East. Behind the clock, through a fractured window, the Strait of Hormuz glows orange from distant fires, with silhouettes of massive oil tankers frozen in the water. Dramatic chiaroscuro lighting, cinematic tension. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "image_prompt": "A photorealistic close-up of a large analog clock face showing 8:00, its hands casting sharp shadows. The clock is mounted on a cracked concrete wall covered in oil-stained textures and faded maps of the Middle East. Behind the clock, through a fractured window, the Strait of Hormuz glows orange from distant fires, with silhouettes of massive oil tankers frozen in the water. Dramatic chiaroscuro lighting, cinematic tension. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "오늘 밤 8시",
       "line2": "트럼프 최후통첩 D-Day"
@@ -34,7 +34,7 @@
   {
     "index": 3,
     "concept": "두 갈래 시나리오 — 유가 분기점",
-    "image_prompt": "A photorealistic image of a massive oil barrel splitting into two diverging paths on a dark dramatic landscape. On the left path, the scene transitions into a calm blue-tinted dawn skyline with oil prices falling, currency bills drifting softly down (representing lower costs). On the right path, an inferno of burning oil refineries lights the sky crimson, with a giant price indicator showing $150. The fork in the road is physically cracked asphalt with glowing embers. Ultra-cinematic, high-detail, dystopian realism. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements.",
+    "image_prompt": "A photorealistic image of a massive oil barrel splitting into two diverging paths on a dark dramatic landscape. On the left path, the scene transitions into a calm blue-tinted dawn skyline with oil prices falling, currency bills drifting softly down (representing lower costs). On the right path, an inferno of burning oil refineries lights the sky crimson, with a giant price indicator showing $150. The fork in the road is physically cracked asphalt with glowing embers. Ultra-cinematic, high-detail, dystopian realism. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
     "text_suggestion": {
       "line1": "$90 vs $150",
       "line2": "내 지갑, 어느 길로 가나"

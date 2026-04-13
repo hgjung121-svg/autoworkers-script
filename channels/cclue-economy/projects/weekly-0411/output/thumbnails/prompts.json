@@ -1,20 +1,38 @@
-[
-  {
-    "id": 1,
-    "concept": "유가 폭락 + 코스피 폭등 대비",
-    "prompt": "A dramatic split-screen financial infographic. Left side: a large red downward arrow with '-15%' and an oil barrel icon on a dark red background. Right side: a large green upward arrow with '+8%' and a stock chart icon on a dark green background. Center dividing line is bright white. Bold Korean text overlay '유가 vs 증시' at the top. Clean, modern design with high contrast colors. Bright and vivid color palette, 16:9 aspect ratio.",
-    "text_overlay": "유가 -15% 코스피 +8%\n이번 주 무슨 일이?"
+{
+  "meta": {
+    "project": "weekly-0411",
+    "titles": [
+      "유가 -15%, 코스피 +8%, 삼성 57조… 이번 주 도대체 무슨 일이? [주간총정리]"
+    ],
+    "thumbnail_texts": [
+      "유가 -15% 코스피 +8% / 이번 주 무슨 일이?",
+      "삼성전자 영업이익 / 57조 역대 최대",
+      "2주 휴전, 진짜 끝날까? / 호르무즈의 운명"
+    ],
+    "image_concepts": {
+      "A": "유가 폭락 + 코스피 폭등 대비 — 빨간 하락 화살표와 초록 상승 화살표의 드라마틱 분할",
+      "B": "삼성전자 역대 최대 실적 — 황금빛 57조 숫자와 반도체 칩",
+      "C": "호르무즈 해협 휴전의 불안정성 — 맑은 하늘과 폭풍 구름의 대비"
+    }
   },
-  {
-    "id": 2,
-    "concept": "삼성전자 역대 최대 실적 강조",
-    "prompt": "A vibrant financial celebration concept. A glowing golden number '57조' (57 trillion) dominates the center of the image against a deep navy blue background. Samsung Electronics semiconductor chips and circuit board patterns surround the number with blue LED light trails. Upward trending stock chart lines in bright green flow behind. Bright, vivid, premium feel with strong contrast. 16:9 aspect ratio.",
-    "text_overlay": "삼성전자 영업이익\n57조 역대 최대"
-  },
-  {
-    "id": 3,
-    "concept": "호르무즈 해협 휴전의 불안정성",
-    "prompt": "An aerial view of a narrow ocean strait (Strait of Hormuz) with cargo ships lined up waiting to pass through. The sky is split dramatically - one half bright blue with sunshine, the other half dark stormy clouds with lightning. A large clock showing '2 weeks' floats in the sky. Bright, cinematic, high-saturation colors with dramatic lighting contrast. 16:9 aspect ratio.",
-    "text_overlay": "2주 휴전, 진짜 끝날까?\n호르무즈의 운명"
-  }
-]
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "유가 폭락과 코스피 폭등을 좌우 분할로 대비. 좌측 빨간 하락 화살표와 석유 배럴, 우측 초록 상승 화살표와 주가 차트.",
+      "prompt_en": "Photorealistic dramatic split-screen financial infographic, Left side shows a large red downward arrow with a glossy oil barrel icon on a dark crimson background with subtle smoke effects. Right side shows a large green upward arrow with a glowing stock chart icon on a deep emerald background with subtle light rays. A bright white vertical dividing line separates the two halves. Clean modern design with extremely high contrast vivid colors, bright and saturated. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "삼성전자 역대 최대 실적 강조. 황금빛으로 빛나는 57조 숫자와 반도체 칩, 상승 차트.",
+      "prompt_en": "Photorealistic vibrant financial celebration concept, A massive glowing golden number '57' dominates the center against a deep navy blue background. Surrounding the number are Samsung Electronics semiconductor chips and intricate circuit board patterns illuminated with bright blue LED light trails. Upward trending stock chart lines in vivid green flow dynamically behind. Premium feel with extremely strong contrast, bright vivid saturated colors. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "concept-c-photorealistic",
+      "concept_ko": "호르무즈 해협 휴전의 불안정성. 좁은 해협에 화물선이 줄지어 있고, 하늘이 맑은 쪽과 폭풍 쪽으로 극적으로 나뉜다.",
+      "prompt_en": "Photorealistic aerial view of a narrow ocean strait resembling the Strait of Hormuz with large cargo ships lined up waiting to pass through, The sky is split dramatically in half — one side bright blue with golden sunshine and calm waters, the other side dark stormy clouds with dramatic lightning bolts and turbulent waves. A large translucent clock face floats ethereally in the sky. Bright cinematic high-saturation colors with dramatic lighting contrast between peace and chaos. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

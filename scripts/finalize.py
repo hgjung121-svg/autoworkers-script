@@ -26,7 +26,8 @@ def convert(draft_path: Path) -> str:
     # HTML 주석 제거
     raw = _HTML_COMMENT_RE.sub("", raw)
 
-    body_lines: list[str] = []
+    paragraphs: list[str] = []
+    current_para: list[str] = []
 
     for line in raw.splitlines():
         # 구분선 제거
@@ -40,12 +41,20 @@ def convert(draft_path: Path) -> str:
         if _ANY_HEADER_RE.match(line.strip()):
             continue
 
-        # 빈 줄이 아닌 본문만 수집
         stripped = line.strip()
         if stripped:
-            body_lines.append(stripped)
+            current_para.append(stripped)
+        else:
+            # 빈 줄 = 문단 구분
+            if current_para:
+                paragraphs.append(" ".join(current_para))
+                current_para = []
 
-    script_text = " ".join(body_lines)
+    # 마지막 문단 처리
+    if current_para:
+        paragraphs.append(" ".join(current_para))
+
+    script_text = "\n\n".join(paragraphs)
 
     return script_text
 

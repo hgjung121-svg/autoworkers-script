@@ -1,21 +1,32 @@
 {
   "count": 5,
   "art_styles": ["photorealistic"],
-  "color_palette": "monotone",
+  "color_palette": "bright",
   "emotions": ["curiosity", "tension"],
-  "text_space": "bottom-half",
-  "face_style": "silhouette",
+  "text_space": "bottom-2/5-black",
+  "face_style": "exaggerated",
   "brand": {
     "colors": [],
     "mascot": false,
-    "fixed_layout": null
+    "fixed_layout": "상단 3/5 이미지 + 하단 2/5 검정 텍스트 영역"
+  },
+  "layout": {
+    "top": "3/5 — AI 생성 이미지 (인물+배경). 애니메 일러스트 스타일.",
+    "bottom": "2/5 — 순수 검정(#000000). 사용자가 미리캔버스에서 텍스트 배치.",
+    "prompt_rule": "프롬프트에 'The bottom 40% of the image is pure solid black (#000000), completely empty with no elements' 반드시 포함"
+  },
+  "art_style_guide": {
+    "style": "Korean historical anime illustration with bold black ink outlines, detailed cel-shaded coloring, dramatic action poses",
+    "references": "진한 윤곽선 + 감정 과장된 표정 + 드라마틱 장면 구성 + 밝고 선명한 색감",
+    "prompt_prefix": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, Korean historical setting,",
+    "avoid": "photorealistic, 3D render, soft edges, blurry, watercolor"
   },
   "benchmark_analysis": {
     "text_layout": "2-line structure: small subtitle top + large keyword bottom, always in lower half",
-    "color_tone": "dark background, strong contrast, red/yellow accent colors",
-    "art_style": "photorealistic AI or illustrated — mix acceptable, photorealistic preferred",
-    "face_style": "natural expression or no face (landscape/object focus)",
+    "color_tone": "vivid saturated colors, bright fire/action scenes, strong contrast with bold outlines",
+    "art_style": "anime illustration with bold ink outlines, cel-shaded, dramatic composition",
+    "face_style": "expressive exaggerated emotions (fear, anger, determination), large detailed eyes",
     "emotions": ["tension", "curiosity"],
-    "notes": "Thumbnails reference 3 Korean history channels. All use bottom-half text. Dark moody tones dominate. Avoid exaggerated expressions."
+    "notes": "Korean historical anime style. Bold black outlines, dramatic action scenes with many characters, vivid fire/smoke effects. Crowd scenes with diverse emotional reactions. NOT photorealistic."
   }
 }

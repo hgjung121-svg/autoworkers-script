@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "project": "weekly-0404",
+    "titles": [
+      "\"전쟁이 내 장바구니까지\" 이번 주 경제, 도미노가 무너지는 중입니다",
+      "코스피 8% 폭등 다음날 4.5% 폭락, 이번 주 대체 무슨 일이 있었나",
+      "\"쓰레기봉투가 없어진다고?\" 전쟁에서 시작된 이번 주 경제 도미노"
+    ],
+    "thumbnail_texts": [
+      "도미노 붕괴 + 3/31~4/4 주간총정리",
+      "장바구니까지 도달 + 경제 도미노",
+      "전쟁발 물가폭탄 + 한 주 총정리"
+    ],
+    "image_concepts": {
+      "A": "전쟁에서 장바구니까지 이어지는 도미노 블록 — 전투기/미사일 실루엣에서 석유 드럼, 공장, 장바구니로 연쇄 붕괴",
+      "B": "코스피 롤러코스터 차트 — 극단적으로 요동치는 주가 차트 위에 균열이 번지는 이미지"
+    },
+    "person_suggestion": "실존 인물 불필요. 도미노 블록, 차트, 오브젝트 중심 구성. 필요 시 일반적 호감형 인물(뉴스 앵커 느낌)을 배치하되 스컹크 캐릭터(똑똑이)는 사용자가 미리캔버스에서 직접 합성.",
+    "text_suggestion": "사용자가 미리캔버스에서 하단 검정 영역에 직접 텍스트 배치. 추천 텍스트: 1번 \"도미노 붕괴 / 3.31~4.4 주간총정리\" 2번 \"장바구니까지 도달 / 경제 도미노\" 3번 \"전쟁발 물가폭탄 / 한 주 총정리\". 네이비+골드 컬러 조합 권장."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 어두운 배경 속에서 거대한 도미노 블록이 연쇄적으로 쓰러지는 시네마틱 장면. 첫 번째 도미노에는 전투기/미사일 실루엣, 중간에 석유 드럼과 공장 굴뚝, 마지막에 장바구니가 배치되어 전쟁에서 일상까지 이어지는 인과 사슬을 시각화.",
+      "prompt_en": "Photorealistic cinematic photograph of giant domino blocks falling in a chain reaction against a dark navy background. The first domino features a military fighter jet silhouette and missile, the middle dominoes show oil barrels and industrial factory smokestacks, and the final domino about to fall is a grocery shopping cart. Dramatic orange and red fire glow illuminates the falling dominoes from behind, with gold rim lighting on each block edge. Dark cinematic atmosphere, deep shadows, dramatic contrast, moody lighting. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 극단적으로 요동치는 주가 차트가 화면 중앙을 가로지르며, 차트 위로 거대한 균열이 번지는 시네마틱 장면. 녹색 급등선과 빨간 급락선이 롤러코스터처럼 교차하며, 차트 아래에서 금색 균열이 퍼져나가는 구도.",
+      "prompt_en": "Photorealistic cinematic image of a massive stock market chart displayed on a dark screen, showing extreme volatility with dramatic green spikes upward (+8%) and red crashes downward (-4.5%) in a roller-coaster pattern. Golden cracks and fractures spread across the chart surface like shattering glass. Dark background with deep shadows, neon green and red chart lines glowing intensely. Ominous atmosphere with dramatic contrast and moody lighting. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 호르무즈 해협을 상징하는 좁은 바닷길이 거대한 쇠사슬로 봉쇄된 모습. 사슬 뒤로 석유 탱커선이 멈춰 서 있고, 하늘에는 불길한 붉은 노을. 세계 경제의 목줄이 잠긴 긴장감을 시각화.",
+      "prompt_en": "Photorealistic cinematic aerial view of a narrow ocean strait (Strait of Hormuz) blocked by massive iron chains stretching across the water. Several large oil tanker ships are stopped behind the chains, unable to pass through. The sky above shows an ominous deep red and orange sunset with dark storm clouds gathering. Dark cinematic atmosphere with tension and crisis mood, deep shadows, dramatic contrast. The water reflects the fiery sky creating an intense atmosphere of global energy crisis. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

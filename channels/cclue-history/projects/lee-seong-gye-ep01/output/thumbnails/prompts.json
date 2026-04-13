@@ -7,45 +7,45 @@
       "연평균 27번 쳐들어온 왜구, 고려 백성이 버틸 수 있었던 이유"
     ],
     "thumbnail_texts": [
-      "고려 백성 + 42년의 지옥",
-      "506번의 침략 + 한 장수의 등장",
-      "이성계 + 백성의 눈물"
+      "42년의 지옥",
+      "506번의 침략",
+      "백성의 눈물"
     ],
     "image_concepts": {
-      "A": "피난 백성과 불타는 마을 — 왜구 습격으로 불타는 해안 마을과 피난 가족 실루엣",
-      "B": "언덕 위의 장수 — 폐허 마을을 내려다보는 갑옷 입은 장수의 뒷모습 실루엣"
+      "A": "왜구 침략으로 불타는 마을 앞 고려 백성",
+      "B": "황산대첩 직후 말 위의 이성계"
     }
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 1. 왜구 습격으로 불타는 고려 해안 마을, 피난하는 사람들의 실루엣이 상단에 배치된 시네마틱 장면.",
-      "prompt_en": "Photorealistic cinematic scene of a burning medieval Korean coastal village at night. In the upper half, villagers flee as dark silhouettes against massive orange-red flames engulfing thatched-roof houses. Desaturated monochrome palette with dramatic red fire (#CC0000) as the only accent color. Ominous atmosphere with billowing smoke and scattered embers, backlit figures creating mysterious dark silhouettes against the inferno."
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A. 불타는 고려 마을 앞에서 아이를 안고 도망치는 어머니. 뒤로 왜구의 칼과 횃불 빛이 보인다.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a young Korean mother in worn Goryeo dynasty commoner clothing, clutching a small child to her chest, running desperately toward the viewer. Behind her, a traditional Korean thatched-roof village burns with intense orange flames against a dark smoky sky. Silhouettes of Japanese pirate raiders with raised swords visible in the firelight. The mother's face shows pure terror, tears streaming down her cheeks. Dramatic backlit composition with the fire illuminating her from behind. She occupies the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 2,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사 2. 불타는 마을을 등지고 걸어가는 피난민 가족의 뒷모습, 더 넓은 앵글로 피해 규모를 강조.",
-      "prompt_en": "Photorealistic wide cinematic shot of a Goryeo Dynasty family fleeing as dark silhouettes in the upper portion of the frame. Behind them, an entire coastal village burns with towering red flames (#CC0000) against a desaturated grayscale sky. High contrast monochrome with the fire as the sole vivid color. Partially revealed scene — the family's faces hidden, showing only their desperate backlit silhouettes trudging through ash and debris. Ominous dark shadows and tension-filled atmosphere."
+      "type": "concept-a-anime-2",
+      "concept_ko": "컨셉 A 변형. 해안 마을에서 남편을 전쟁터로 보내며 소매를 붙잡는 아내.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a Korean woman in Goryeo dynasty commoner clothing, grabbing her husband's sleeve as he turns to leave. The husband wears rough militia armor and carries a spear, looking back at her with conflicted eyes. Behind them, a coastal Korean village with dark Japanese pirate ships approaching on the horizon. Overcast grey sky, muted vivid saturated tones. Both figures positioned in the upper 60% of the frame, emotional close-up showing the wife's desperate grip and the husband's torn expression. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 3,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 1. 언덕 위에 선 갑옷 입은 장수(이성계)의 뒷모습 실루엣, 아래로 폐허가 된 마을이 보이는 비장한 장면.",
-      "prompt_en": "Photorealistic cinematic image of a lone Goryeo Dynasty armored general (Lee Seong-gye, Taejo of Joseon) standing on a hilltop as a dramatic dark silhouette in the upper half. He gazes down at a devastated village below, his armor bearing a single red accent (#CC0000) on the shoulder guard. Desaturated monochrome sepia tones with high contrast grayscale. Mysterious back view with backlit figure against an overcast sky, creating a solemn atmosphere of resolve and determination."
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B. 황산대첩 직후, 갑옷을 입은 이성계가 말 위에서 정면을 응시한다. 결의에 찬 표정.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a powerful Korean general in his late 30s wearing ornate Goryeo dynasty iron lamellar armor, sitting atop a warhorse on a hilltop. He has a strong jawline, sharp determined eyes, and a short trimmed beard. He gazes directly at the camera with an intense commanding expression. Behind him, the aftermath of a great battle with scattered enemy flags and faint smoke rising from the Hwangsan battlefield below. Warm golden sunset light creates dramatic rim lighting on his armor. He occupies the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 4,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사 2. 더 가까운 앵글로 장수의 어깨 너머로 멀리 왜구 선단이 보이는 긴장감 있는 구도.",
-      "prompt_en": "Photorealistic over-the-shoulder cinematic shot of an armored Goryeo general (Lee Seong-gye) as a dark silhouette in the upper frame, looking out over a grey sea where distant pirate warships approach the coast. Desaturated monochrome palette with a single blood-red accent (#CC0000) glowing on his bow grip. Ominous dark clouds and tension-filled atmosphere, mysterious partially revealed composition showing only the general's armored back and shoulder against the threatening horizon."
+      "type": "concept-b-anime-2",
+      "concept_ko": "컨셉 B 변형. 이성계가 활을 들고 정면을 응시하는 클로즈업.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime-style close-up with bold ink outlines portrait of a Korean general in his late 30s, holding a large traditional Korean composite bow across his chest. He wears battle-worn Goryeo dynasty armor with visible scratches and dust. His face shows fierce determination with sharp intense eyes staring directly at the viewer, strong jawline, short trimmed beard, sweat on his brow. Background is a hazy battlefield with dust and distant smoke, heavily blurred. Dramatic side lighting creates bright highlights on one side of his face. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 5,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 달밤에 말 위에서 활을 당기는 이성계의 극적인 실루엣, 화살 궤적이 붉은 빛으로 빛나는 장면.",
-      "prompt_en": "Photorealistic dramatic night scene of a mounted Goryeo archer (Lee Seong-gye) on horseback, captured as a powerful dark silhouette against a moonlit monochrome sky. The archer draws a massive bow in the upper half of the frame, with a single glowing red arrow trail (#CC0000) cutting through the darkness. High contrast desaturated grayscale with the red arrow as the only vivid color. Backlit figure with mysterious atmosphere, the horse frozen mid-gallop creating an iconic heroic composition."
+      "concept_ko": "와일드카드. 고려 백성들이 승전한 이성계를 환영하며 꽃을 던지는 감동 장면.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a triumphant scene: Korean Goryeo dynasty villagers lining a dirt road, throwing wildflowers and cheering with tearful joy. In the center, a Korean general on horseback rides through the crowd, his armor gleaming in warm golden light. An old grandmother kneels by the road weeping with relief, hands clasped together. Children being lifted up by their parents to see the general. Warm golden hour lighting bathes the scene in hope. The scene fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     }
   ]
 }

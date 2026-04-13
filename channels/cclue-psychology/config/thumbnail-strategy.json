@@ -1,14 +1,19 @@
 {
   "count": 5,
   "art_styles": ["photorealistic", "anime"],
-  "color_palette": "pastel",
+  "color_palette": "bright",
   "emotions": ["curiosity", "warmth"],
-  "text_space": "bottom-half",
+  "text_space": "bottom-2/5-black",
   "face_style": "auto",
   "brand": {
     "colors": [],
     "mascot": false,
-    "fixed_layout": null
+    "fixed_layout": "상단 3/5 이미지 + 하단 2/5 검정 텍스트 영역"
+  },
+  "layout": {
+    "top": "3/5 — AI 생성 이미지 (인물+배경). 실존 인물은 사용자가 미리캔버스에서 합성.",
+    "bottom": "2/5 — 순수 검정(#000000). 사용자가 미리캔버스에서 텍스트 배치.",
+    "prompt_rule": "프롬프트에 'The bottom 40% of the image is pure solid black (#000000), completely empty with no elements' 반드시 포함"
   },
   "benchmark_analysis": {
     "text_layout": "2-line structure: large bold keyword dominant, bottom-half text placement",

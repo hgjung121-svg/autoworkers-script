@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "project": "news-0406-morning",
+    "layout": "상단 3/5 이미지 + 하단 2/5 검정(텍스트 영역)",
+    "titles": [
+      "\"오늘 밤 시한 만료된다\" 이란 D-day, 유가 110달러·환율 1,512원·관세까지 터진 4월 6일",
+      "\"48시간 뒤 지옥\" 트럼프가 이란에 찍은 데드라인, 오늘 밤 만료됩니다",
+      "이란 시한 D-day, 유가 110달러, 환율 1,512원 — 오늘 밤 이후 벌어질 일"
+    ],
+    "thumbnail_texts": [
+      [
+        "이란 시한 오늘 만료",
+        "유가 110달러 돌파"
+      ],
+      [
+        "48시간 뒤 지옥",
+        "트럼프의 데드라인"
+      ],
+      [
+        "전쟁·유가·환율·관세",
+        "4중 리스크 동시 폭발"
+      ]
+    ],
+    "text_style": "하단 2/5 검정 배경 위 2줄, 노란색+흰색 굵은 텍스트 (잘난체 추천)",
+    "person_images": {
+      "A": "트럼프 (화난 표정 또는 경고하는 제스처)",
+      "B": "이란 군함/미사일 관련 보도 사진"
+    },
+    "image_concepts": {
+      "A": "호르무즈 해협 봉쇄 + 불타는 유전 — 전쟁 긴장감",
+      "B": "빨간 유가 차트 폭등 + 원화 동전 추락 — 경제 충격"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a",
+      "concept_ko": "호르무즈 해협 상공에서 본 봉쇄 장면. 좁은 해협에 군함과 유조선이 대치, 뒤로 석유시설에서 화염. 상단 60%, 하단 40% 순수 검정.",
+      "prompt_en": "Cinematic photorealistic aerial view of the Strait of Hormuz at sunset. Military warships and oil tankers face off in the narrow waterway. In the background, oil facilities burn with massive orange-red flames against a dark stormy sky. Dramatic side lighting with navy-blue water and fiery orange contrast. Ominous dark clouds overhead creating intense atmosphere of impending conflict. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black (#000000), completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "트럼프 (화난 표정, 손가락 가리키는 자세) — 좌측 또는 우측에 합성",
+      "text_suggestion": [
+        "이란 시한 오늘 만료",
+        "유가 110달러 돌파"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "concept-b",
+      "concept_ko": "빨간 유가 차트가 급등하면서 원화 동전이 추락하는 이중 충격 비주얼. 상단 60%, 하단 40% 순수 검정.",
+      "prompt_en": "Cinematic photorealistic composition of a massive glowing red oil price chart surging upward on the left side, with digital numbers showing 112 USD. On the right side, Korean Won coins tumble downward in slow motion with a blue-white trail. Dark navy background with dramatic contrast between the rising red chart and falling coins. Gold accent highlights on price numbers. Fiery orange sparks where the chart peaks. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black (#000000), completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "트럼프 (경고하는 표정) 또는 호르무즈 해협 위성사진 합성",
+      "text_suggestion": [
+        "48시간 뒤 지옥",
+        "트럼프의 데드라인"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "4개의 위기 아이콘(전쟁·유가·환율·관세)이 도미노처럼 쓰러지는 장면. 상단 60%, 하단 40% 순수 검정.",
+      "prompt_en": "Cinematic photorealistic composition of four large domino blocks falling in sequence from left to right against a dark navy background. Each domino is shaped differently: first is a military missile silhouette, second is an oil barrel, third is a Korean Won coin, fourth has TARIFF text. Fiery orange-red impact effects at each collision point. Gold rim lighting on domino edges. Dramatic atmosphere of cascading crisis. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black (#000000), completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "트럼프 (좌측) + 이란 깃발 또는 군사 이미지 (우측) 대치 구도",
+      "text_suggestion": [
+        "전쟁·유가·환율·관세",
+        "4중 리스크 동시 폭발"
+      ]
+    }
+  ]
+}

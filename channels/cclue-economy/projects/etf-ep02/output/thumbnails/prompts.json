@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep02",
+    "titles": [
+      "\"2만 원이 사라지는 경로\" ETF 한 주 사면 내 돈이 실제로 어디로 가는지 밀키트처럼 뜯어봤다",
+      "ETF 한 주 사면 내 2만 원은 어디로 가는 걸까? 아무도 안 알려준 ETF의 내부 구조",
+      "\"내 돈이 진짜 여기로 간다고?\" ETF 작동 원리를 밀키트 뜯어보듯 완전 해부"
+    ],
+    "thumbnail_texts": [
+      "에라이~ / ETF 안에 뭐가 들었는지 / 봤어?",
+      "ETF 한 주 / 2만 원의 여행 / 끝까지 따라가봤다",
+      "너 지금 / 뭔지도 모르고 / 사고 있는 거야"
+    ],
+    "image_concepts": {
+      "A": "딥블루 배경 위에서 밀키트 박스가 뜯겨 금색 내부가 화려하게 드러나는 장면",
+      "B": "틸-네이비 그라데이션 배경 위에서 2만원 지폐가 폭발하며 분해되는 역동적 장면"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "진한 로열블루에서 틸 그라데이션 배경. 중앙에 프리미엄 밀키트 박스가 극적으로 뜯겨 있고, 박스 안에서 금색 기어, 빛나는 동전, 미니어처 빌딩이 화려하게 쏟아져 나온다. 금색 광채가 어두운 배경과 강렬하게 대비.",
+      "prompt_en": "Photorealistic cinematic photograph of a premium white meal-kit box labeled 'ETF' in bold letters, dramatically torn open in the center of the frame. Golden mechanical gears, gleaming coins, miniature glass skyscrapers, and colorful stock chart ribbons burst out abundantly from inside. The background is a rich deep royal blue to teal gradient, giving a premium financial atmosphere. Warm golden light radiates from inside the box, creating striking contrast against the cool blue background. The golden contents are oversized and filling the frame generously. Dramatic studio lighting with strong rim lights on the box edges. Extremely vivid saturated colors, high contrast, eye-catching and premium feel. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "틸에서 네이비로 이어지는 그라데이션 배경. 대형 금색 2만원 지폐가 공중에서 수십 조각으로 폭발하며 금색 화살표, 동전, 차트 조각으로 변해 사방으로 흩어지는 역동적 장면.",
+      "prompt_en": "Photorealistic dramatic slow-motion photograph of a large golden 20000 Korean won banknote exploding apart in mid-air into dozens of brilliant fragments. The pieces transform into golden arrows, shimmering coins, miniature stock chart strips, and glowing particles scattering dynamically in all directions. Background is a vivid teal-to-deep-navy gradient creating a rich premium financial atmosphere. The banknote fragments are intensely golden with strong metallic reflections catching dramatic studio light. Dynamic composition with motion blur on outer fragments and sharp focus on the center explosion. High energy, extremely vivid saturated colors, cinematic lighting with volumetric light rays. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "깊은 네이비에서 일렉트릭 블루 그라데이션 배경. 거대한 투명 밀키트 패키지 안에 미니어처 금융 도시가 보석처럼 빛나며 들어있는 장면.",
+      "prompt_en": "Photorealistic cinematic photograph of an oversized transparent premium package standing upright, labeled 'ETF' in large bold white letters. Inside the package, a spectacular miniature golden city glows brilliantly with tiny gleaming skyscrapers, flowing rivers of golden coins, and interconnected luminous circuit pathways. Tiny miniature people walk between the buildings. Background is a deep navy-to-electric-blue gradient with subtle aurora-like light effects, creating a magical premium atmosphere. Bright warm spotlight from above makes the package interior glow like a precious jewel display. The miniature world inside is incredibly detailed and luminous, radiating golden warmth against the cool blue backdrop. Vivid saturated colors, high contrast, curious and fascinating composition. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep03",
+    "titles": [
+      "\"그 계좌로 사면 끝장이야\" ETF 사는 법, 절세 계좌, 포트폴리오까지 이 영상 하나로 끝",
+      "처음 ETF 사는 사람이 꼭 봐야 할 실전 가이드 — 계좌 개설부터 포트폴리오까지 완벽 정리",
+      "\"2만 원이면 시작할 수 있어\" 내 첫 ETF 고르고, 사고, 포트폴리오 세팅하는 법"
+    ],
+    "thumbnail_texts": [
+      "그 계좌로 사면 + 세금 폭탄 + ETF 실전편",
+      "ETF 처음 산다고? + 이것부터 해 + 실전 가이드",
+      "계좌 잘못 골랐다고? + 77만 원 증발 + ETF 실전"
+    ],
+    "image_concepts": {
+      "A": "증권사 앱 매수 버튼 직전의 긴장감 — 스마트폰 화면 클로즈업과 손가락",
+      "B": "ISA 계좌 vs 일반 계좌의 극적 대비 — 황금 금고 vs 구멍 뚫린 지갑"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 딥 네이비 배경 위에 스마트폰 화면이 크게 보이고, ETF 매수 버튼 위에 손가락이 올려진 순간. 화면에서 골드빛과 초록 주가 차트가 빛나며, 첫 매수 직전의 긴장감과 기대감을 전달.",
+      "prompt_en": "Photorealistic dramatic close-up of a smartphone screen showing an ETF trading app with a glowing green 'Buy' button, a finger hovering just above the button about to tap. The phone screen displays S&P 500 ETF price charts with bright green candlesticks and gold accent highlights. Deep navy blue background with cinematic volumetric lighting casting warm golden rim light on the phone edges and the finger, creating an atmosphere of anticipation and tension. Bright vibrant colors with high saturation, the phone screen glowing intensely against the dark background. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 화면 좌측에 황금빛으로 빛나는 ISA 금고에서 금화가 쌓여가고, 우측에 구멍 뚫린 빨간 지갑에서 지폐가 흩날리며 빠져나가는 극적 대비. 딥 네이비 배경 위 좌우 분할 구도로 계좌 선택의 결과 차이를 시각화.",
+      "prompt_en": "Photorealistic dramatic split composition on a deep navy background. Left side features a gleaming golden safe vault labeled 'ISA' with stacks of gold coins and bills accumulating inside, bathed in warm golden light with bright vibrant glow. Right side shows a worn red leather wallet with visible holes, paper bills and coins dramatically flying out and scattering away, illuminated by harsh cold red-tinted light. A sharp dividing line of light splits the frame vertically. High contrast cinematic lighting with saturated rich colors — warm gold tones versus alarming crimson red. The overall mood conveys the stark consequences of choosing the wrong account. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 거대한 금색 체크리스트 보드가 화면 중앙에 떠 있고, 체크리스트 항목들이 하나씩 초록 체크 표시로 완료되어 가는 장면. 주변에 ETF 로고, 증권사 앱 아이콘, ISA 뱃지가 떠다니며 실전 단계를 시각화. 딥 네이비 배경에 골드+초록 포인트.",
+      "prompt_en": "Photorealistic cinematic scene of a large floating golden checklist board in the center of the frame, with several checklist items being ticked off with bright glowing green checkmarks. Around the checklist, floating holographic elements include a smartphone showing a stock trading app, a golden 'ISA' badge, an S&P 500 ETF logo, and small portfolio pie charts — all orbiting the central checklist with subtle motion blur. Deep navy blue background with dramatic volumetric lighting, bright vibrant colors with gold and emerald green accent highlights creating a sense of achievement and progress. High saturation cinematic atmosphere conveying mastery and confidence. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

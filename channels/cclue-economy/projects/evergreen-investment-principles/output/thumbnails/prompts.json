@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "project": "evergreen-investment-principles",
+    "layout": "상단 3/5 이미지 + 하단 2/5 검정(텍스트 영역)",
+    "titles": [
+      "\"왜 항상 나만 잃을까\" 개인투자자가 반드시 알아야 할 투자 원칙의 모든 것",
+      "\"월 30만 원의 기적\" 개미투자자 90%가 모르는 부의 공식 5가지",
+      "투자 고수들이 절대 말해주지 않는 5가지 돈의 원칙"
+    ],
+    "thumbnail_texts": [
+      [
+        "왜 항상 나만 잃을까",
+        "90%가 모르는 투자 원칙"
+      ],
+      [
+        "개미의 실수",
+        "부의 공식 5가지"
+      ],
+      [
+        "돈의 원리를 알면",
+        "미친듯이 불어나요"
+      ]
+    ],
+    "text_style": "하단 2/5 검정 배경 위 2~3줄, 노란색+흰색 굵은 텍스트",
+    "person_images": {
+      "A": "워렌 버핏 (놀란 표정 또는 진지한 표정)",
+      "B": "차트를 가리키는 투자 전문가 / 스마트폰 든 개인투자자"
+    },
+    "image_concepts": {
+      "A": "빨간 하락 차트 + 인물 — 투자 실패의 긴장감",
+      "B": "동전→금화 타워 성장 — 복리의 마법"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a",
+      "concept_ko": "상단 3/5: 어두운 배경에 빨간 하락 차트가 대각선으로 급락. 사용자가 미리캔버스에서 버핏/인물 사진 합성. 하단 2/5: 순수 검정.",
+      "prompt_en": "Cinematic photorealistic scene of a dramatic red stock market crash chart plunging diagonally across a dark navy blue background. Multiple red downward arrows and financial data overlays. Dramatic side lighting with intense red glow from the crashing chart against deep navy shadows. Gold accent highlights on data points. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black, completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "워렌 버핏 (진지한 표정) 또는 한국 개인투자자 실루엣",
+      "text_suggestion": [
+        "왜 항상 나만 잃을까",
+        "90%가 모르는 투자 원칙"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "concept-b",
+      "concept_ko": "상단 3/5: 왼쪽에 작은 동전 몇 개, 오른쪽에 천장까지 쌓인 금화 타워. 복리 성장 비주얼. 하단 2/5: 순수 검정.",
+      "prompt_en": "Cinematic photorealistic before-and-after composition on a dark background. Left side shows a few small scattered copper coins in dim lighting. Right side reveals a towering stack of gleaming gold coins radiating warm golden light and lens flares. Dramatic contrast between humble left and magnificent right. A bright green upward arrow connects the two sides showing growth trajectory. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black, completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "버핏 인터뷰 사진 또는 돈 세는 손 클로즈업",
+      "text_suggestion": [
+        "돈의 원리를 알면",
+        "미친듯이 불어나요"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "concept-c-wildcard",
+      "concept_ko": "상단 3/5: 한쪽은 빨간 마이너스(-19%), 다른 쪽은 초록 플러스(+3,534%). 개미 vs 버핏 대비 구도. 하단 2/5: 순수 검정.",
+      "prompt_en": "Cinematic split-screen composition on a dark background. Left half shows a crumbling red stock chart with large red percentage numbers falling downward, dark and ominous atmosphere. Right half shows a soaring green stock chart with golden light rays and upward momentum, prosperous and bright. A sharp dividing line splits the two halves. Dramatic contrast between failure and success. The entire image content is concentrated in the top 60 percent of the frame. The bottom 40 percent of the image is pure solid black, completely empty with no elements, no gradients, just flat black.",
+      "person_suggestion": "좌: 머리 감싸쥔 개인투자자 / 우: 웃는 버핏",
+      "text_suggestion": [
+        "개미 -19%  vs  버핏 +3,534%",
+        "차이는 딱 5가지"
+      ]
+    }
+  ]
+}

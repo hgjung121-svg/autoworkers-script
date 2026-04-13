@@ -1,14 +1,19 @@
 {
   "count": 3,
-  "art_styles": ["photorealistic", "anime"],
-  "color_palette": "dark",
+  "art_styles": ["photorealistic"],
+  "color_palette": "bright",
   "emotions": ["tension", "shock"],
-  "text_space": "bottom-half",
-  "face_style": "exaggerated",
+  "text_space": "bottom-2/5-black",
+  "face_style": "auto",
   "brand": {
     "colors": ["네이비", "골드"],
     "mascot": false,
-    "fixed_layout": null
+    "fixed_layout": "상단 3/5 이미지 + 하단 2/5 검정 텍스트 영역"
+  },
+  "layout": {
+    "top": "이미지를 프레임 전체에 밝고 풍성하게 채운다. 'top 60% only' 같은 제한 금지.",
+    "bottom": "2/5 — 하단은 이미지에서 검정으로 자연스럽게 그라데이션 전환. 사용자가 미리캔버스에서 텍스트 배치.",
+    "prompt_rule": "프롬프트 끝에 'The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements' 반드시 포함. 단, 'top 60% of image only' 같은 이미지 제한 문구는 사용 금지 — 이미지를 프레임 전체에 채우되 하단만 자연스럽게 페이드."
   },
   "benchmark_analysis": null
 }

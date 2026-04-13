@@ -43,7 +43,14 @@ def get_prompt_suffixes(strategy: dict | None) -> list[str]:
     # Text space / composition rule
     text_space = (strategy or {}).get("text_space", "bottom-half")
 
-    if text_space == "bottom-half":
+    if text_space == "bottom-2/5-black":
+        suffixes.append(
+            "The bottom 40% of the image transitions from the scene into pure "
+            "solid black (#000000) through a smooth gradient fade. The gradient "
+            "starts at the 60% line and becomes fully black by the 75% line. "
+            "The remaining bottom 25% is completely solid black with no elements"
+        )
+    elif text_space == "bottom-half":
         suffixes.append(
             "all key visual elements and the main subject fill the upper half "
             "of the frame edge to edge, the bottom half of the frame is reserved "
@@ -198,7 +205,17 @@ async def generate_thumbnails(
     with open(prompts_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    thumbnails = data.get("thumbnails", [])
+    # 두 형식 모두 지원: list [...] 또는 dict {"thumbnails": [...]}
+    if isinstance(data, list):
+        thumbnails = data
+    else:
+        thumbnails = data.get("thumbnails", [])
+
+    # prompt_en 또는 image_prompt 키 모두 지원
+    for t in thumbnails:
+        if "prompt_en" not in t and "image_prompt" in t:
+            t["prompt_en"] = t.pop("image_prompt")
+
     if not thumbnails:
         print("ERROR: No thumbnails found in prompts.json")
         sys.exit(1)
