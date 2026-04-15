@@ -1,0 +1,20 @@
+{
+  "channel": "cclue-economy",
+  "mode": "auto",
+  "schedule": {
+    "publish_day": "saturday",
+    "publish_time": "21:00"
+  },
+  "project_naming": "weekly-{MMDD}",
+  "output": {
+    "script": "_script/script.txt",
+    "youtube_meta": "output/youtube.md",
+    "thumbnail_prompts": "output/thumbnails/prompts.json"
+  },
+  "script": {
+    "min_chars": 6000,
+    "max_chars": 8000,
+    "target_duration_min": 15,
+    "target_duration_max": 20
+  }
+}
