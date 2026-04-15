@@ -1,0 +1,25 @@
+{
+  "thumbnails": [
+    {
+      "id": 1,
+      "concept": "호르무즈 해협 전함 봉쇄 vs 코스피 차트 충돌",
+      "text_top": "코스피 +7%",
+      "text_bottom": "내일 협상 실패하면\n전부 사라진다",
+      "prompt": "Photorealistic aerial view of the Strait of Hormuz with US naval warships blockading the narrow strait at golden hour. Dark oil-stained waters, dramatic tension. On the left side, a glowing green upward stock chart (+7%) floats in the air, contrasting with the military scene. The scene is vivid and full-frame with high tension and cinematic lighting. Colors: deep navy blue ocean, gold sunlight, red warning tones on ships. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "concept": "유가 $70 → $104 Before/After 충격 이미지",
+      "text_top": "유가 $70 → $104",
+      "text_bottom": "6주 만에 50% 상승\n당신 지갑은 알고 있다",
+      "prompt": "Photorealistic split composition: left half shows a peaceful gas station with $70 price sign and calm sunny day; right half shows the same gas station with $104 price sign under a dark stormy sky with ominous red-orange lighting and smoke in the distance. A torn dividing line between the two halves suggests a dramatic before-and-after shift. Hyperrealistic detail, cinematic composition, emotional contrast between peace and crisis. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "concept": "협상 테이블 D-6 카운트다운 긴장감",
+      "text_top": "휴전 만료 D-6",
+      "text_bottom": "내일 협상 결과가\n전부 결정한다",
+      "prompt": "Photorealistic image of a high-stakes diplomatic negotiation table seen from above, with two sides: one with the American flag and military insignia, the other with Iranian flag and symbols. A large red digital countdown clock showing '6 DAYS' dominates the center of the table. Intense dramatic lighting, shadows, and tension. The atmosphere is tense and cinematic, like a war room. Rich navy and gold tones with red warning accents. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
