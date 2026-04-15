@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "channel": "cclue-economy",
+  "project": "news-0415-evening",
+  "topic": "호르무즈 역봉쇄 — 유가 105달러 돌파, 4월 21일 분기점",
+  "strategy_note": "썸네일=수치 충격(시각), 제목=손실 경고(텍스트). 같은 정보 반복 금지. Before→After 수치 대비 + 경고형 문구 2줄(7~12자). 상단 이미지 풍성하게, 하단 2/5 블랙 그라데이션.",
+  "thumbnails": [
+    {
+      "id": 1,
+      "concept": "호르무즈 해협 — 봉쇄된 수로",
+      "text_lines": ["$71 → $105", "해협이 막혔다"],
+      "visual_description": "A dramatic aerial cinematic shot of the Strait of Hormuz at dusk, with massive oil tanker ships anchored and motionless in dark calm waters under a blood-red sky. Multiple tankers are visible in the distance, creating a sense of gridlock. The sea surface reflects the fiery orange sunset. The atmosphere is tense and ominous, photorealistic, ultra-detailed, high contrast. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements.",
+      "color_palette": "deep red, orange, dark navy, black",
+      "emotion": "tension, urgency"
+    },
+    {
+      "id": 2,
+      "concept": "주유소 충격 — Before After 가격 대비",
+      "text_lines": ["리터 1,600 → 2,100원", "6일 뒤가 문제다"],
+      "visual_description": "A photorealistic Korean gas station price board at night, brightly illuminated, showing an alarming high fuel price display. The background shows a dark urban city at night with blurred traffic lights. The price numbers on the board glow in vivid red and yellow, creating shock and urgency. Close-up perspective looking slightly upward at the price display. Sharp focus on the numbers, bokeh background. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements.",
+      "color_palette": "bright red, yellow, dark night background",
+      "emotion": "shock, alarm"
+    },
+    {
+      "id": 3,
+      "concept": "미 군함 역봉쇄 — 전쟁의 경제학",
+      "text_lines": ["95% 차단", "한국 에너지 비상"],
+      "visual_description": "A photorealistic dramatic wide-angle shot of a large US Navy warship sailing through narrow strait waters at dusk, with the ship's massive silhouette dominating the frame. The sky is dramatic with dark storm clouds and golden-orange light on the horizon. The water is choppy and dark, reflecting the warship's lights. Behind the warship in the distance, oil tankers are visible, waiting motionless. The atmosphere is confrontational and tense. Cinematic lighting, ultra-detailed, high contrast. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements.",
+      "color_palette": "dark navy, stormy grey, orange horizon, black",
+      "emotion": "tension, military power, fear"
+    }
+  ]
+}
