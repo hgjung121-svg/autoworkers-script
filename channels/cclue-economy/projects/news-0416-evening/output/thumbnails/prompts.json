@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0416-evening",
+    "titles": [
+      "코스피 6000 돌파했는데, 이 숫자 모르면 전부 잃을 수 있어 — 유가 170달러 시나리오",
+      "전쟁 중인데 증시 역대급? 코스피 6000 뒤에 숨은 시한폭탄",
+      "유가 170달러 vs 코스피 7500 — 지금 안 보면 후회할 두 갈래 길"
+    ],
+    "thumbnail_texts": [
+      "코스피 6000↑\n유가 170달러?",
+      "반도체만 98%\n나머지는 0",
+      "6000 축제?\n경고등이다"
+    ],
+    "image_concepts": {
+      "A": "호르무즈 해협의 불타는 유조선과 치솟는 주가 그래프가 교차하는 긴장감 넘치는 장면",
+      "B": "거대한 반도체 칩 위에 올라선 위태로운 코스피 지수판 — 외줄타기 느낌의 불안정한 균형"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 호르무즈 해협에서 검은 연기를 뿜는 유조선과, 그 위로 급상승하는 녹색 주가 차트가 겹쳐진 시네마틱 장면. 불과 연기의 오렌지빛과 차트의 녹색이 극적 대비.",
+      "prompt_en": "Photorealistic cinematic wide shot of the Strait of Hormuz at dusk, a massive oil tanker emitting thick black smoke against a fiery orange sky. In the foreground, a translucent glowing green stock chart line surges sharply upward, creating a dramatic contrast between destruction and financial euphoria. Deep navy blue ocean with golden light reflections, ominous atmosphere with tension and shock. Bright vivid colors with high contrast between the warm fire tones and cool navy waters. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 반도체 HBM 칩 위에 위태롭게 세워진 코스피 전광판(6091 표시). 칩의 금색 회로 패턴과 네이비 배경. 아슬아슬한 균형감, 한쪽이 기울어지기 직전의 긴장감.",
+      "prompt_en": "Photorealistic dramatic close-up of an enormous Samsung HBM memory chip with intricate golden circuit patterns, towering in the center of the frame. On top of the chip, a glowing digital stock index display showing '6091' is balanced precariously, tilting slightly as if about to fall. Deep navy blue background with golden accent lighting highlighting the chip's metallic surface. Cracks visible on the edges of the chip suggesting fragility beneath the surface. Bright vivid tones with tension and shock atmosphere. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 갈라진 도로 위에 두 개의 이정표 — 왼쪽은 '7500' 녹색 화살표(밝은 하늘), 오른쪽은 '$170' 빨간 화살표(폭풍 구름). 운전자 시점의 선택의 기로.",
+      "prompt_en": "Photorealistic cinematic driver's point-of-view shot of a highway that splits dramatically into two diverging roads. The left road leads toward bright golden sunlight with a green highway sign reading '7500' and an upward arrow, surrounded by clear blue sky. The right road descends into dark storm clouds with a red warning sign showing '$170' and a downward spiral arrow, lightning visible in the distance. The road surface has deep cracks at the fork point. Navy and gold color accents on road markings, bright vivid high-contrast lighting emphasizing the dramatic choice. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
