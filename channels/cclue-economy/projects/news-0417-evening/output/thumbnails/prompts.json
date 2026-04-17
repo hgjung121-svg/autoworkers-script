@@ -2,38 +2,38 @@
   "meta": {
     "project": "news-0417-evening",
     "titles": [
-      "금값 17% 폭락, 전쟁인데 왜 떨어졌나…아무도 안 알려주는 진짜 이유",
-      "\"안전자산이 위험하다\" 금값 5,420→4,500달러 폭락의 숨겨진 구조",
-      "전쟁 끝나도 물가는 안 내려간다…금·유가·환율 3가지 시나리오"
+      "전고점 81포인트 남았는데 외국인 6,200억 매도…4일 뒤 결판난다",
+      "코스피 6,307 직전 외국인이 돌아선 진짜 이유 | 휴전 만료 4일 전",
+      "코스피 전고점 vs 전쟁 재개, 이번 주말이 갈린다 | 2,000만원의 차이"
     ],
     "thumbnail_texts": [
-      "금값 17% 폭락\n전쟁인데 왜?",
-      "$5,420→$4,500\n안전자산의 배신",
-      "종전해도\n물가 안 내려간다"
+      "전고점 81p 남았는데\n외국인 6200억 투매",
+      "6307 vs 5000\n4일 뒤 결판",
+      "휴전 만료 D-4\n2000만원 갈린다"
     ],
     "image_concepts": {
-      "A": "금괴가 갈라지며 붕괴하는 클로즈업 — 안전자산의 균열을 시각화",
-      "B": "호르무즈 해협 위 불타는 유조선과 금빛 파도 — 전쟁과 금의 충돌"
+      "A": "거대한 금색 코스피 숫자판이 균열과 함께 갈라지는 긴장감 있는 장면",
+      "B": "어두운 회의장의 빈 의자 두 개가 마주보고 있는 협상 결렬 장면"
     }
   },
   "thumbnails": [
     {
       "id": 1,
       "type": "concept-a-realistic",
-      "concept_ko": "컨셉 A 실사. 거대한 금괴 클로즈업에 깊은 균열이 퍼져나가고, 균열 사이로 붉은 빛이 새어 나오는 긴장감 있는 장면.",
-      "prompt_en": "Photorealistic cinematic extreme close-up of a massive gold bullion bar with deep dramatic cracks spreading across its surface, glowing ominous red-orange light seeping through the fractures. The gold surface reflects navy blue and deep gold ambient lighting, creating a tension-filled atmosphere of crisis and collapse. Dark moody background with dramatic side lighting casting sharp shadows across the fractured gold surface. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "concept_ko": "컨셉 A 실사. 거대한 금색 전광판에 6307이라는 숫자가 표시되어 있고, 그 숫자판 중앙에서 균열이 퍼지며 갈라지는 순간. 네이비 배경에 골드 빛의 숫자가 긴장감을 자아내는 시네마틱 장면.",
+      "prompt_en": "Photorealistic cinematic photograph of a massive golden digital stock market display board showing the number 6307 in bold illuminated digits. Deep cracks and fractures are spreading dramatically from the center of the board, with golden sparks and fragments flying outward. The scene is lit with intense dramatic side lighting against a deep navy blue background, creating an ominous atmosphere of tension and crisis. The golden numbers contrast sharply with the dark navy environment, with subtle gold particle effects floating in the air. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
     },
     {
       "id": 2,
       "type": "concept-b-realistic",
-      "concept_ko": "컨셉 B 실사. 어두운 바다 위 불타는 유조선 실루엣, 바다가 녹은 금빛으로 물들어 있고 하늘은 검붉은 연기로 뒤덮인 시네마틱 장면.",
-      "prompt_en": "Photorealistic cinematic wide shot of a burning oil tanker silhouetted against a dark crimson sky filled with thick black smoke. The ocean surface reflects molten gold color, creating a surreal contrast between destruction and wealth. Navy blue deep water in the foreground transitions to fiery gold and red reflections near the tanker. Dramatic ominous atmosphere with volumetric smoke clouds and distant flames illuminating the scene. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "concept_ko": "컨셉 B 실사. 어두운 격식 있는 외교 회의장에서 빈 의자 두 개가 긴 테이블 양쪽에 마주보고 있는 장면. 테이블 위에 미국 국기와 이란 국기 소형 깃발이 놓여 있고, 배경의 창문으로 어두운 하늘이 보이는 긴장감 있는 구도.",
+      "prompt_en": "Photorealistic cinematic photograph of a dark formal diplomatic negotiation room with two empty leather chairs facing each other across a long polished mahogany table. Small table flags of the United States and Iran are placed on the table between the chairs. The room is dimly lit with dramatic overhead spotlighting creating deep shadows and an ominous atmosphere of failed negotiations. A large window in the background shows a stormy dark sky with navy blue tones. Gold-framed paintings line the walls, reflecting the tension and shock of diplomatic breakdown. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
     },
     {
       "id": 3,
       "type": "wildcard",
-      "concept_ko": "와일드카드. 거대한 금색 저울이 기울어져 있고, 한쪽에는 금괴, 다른 쪽에는 미사일이 올려져 있는 상징적 장면. 배경은 주가 차트가 폭락하는 모습.",
-      "prompt_en": "Photorealistic cinematic composition of an oversized ornate golden scale dramatically tilted to one side. On the lower side sits a cluster of gold bullion bars glowing warmly, on the higher side a dark military missile pointing upward. Behind the scale, a massive stock market chart with a sharp red downward crash line fills the background. Deep navy blue and gold color palette dominates with dramatic red accents on the falling chart. Bright vivid lighting with high contrast shadows creating a tense shocking atmosphere. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "concept_ko": "와일드카드. 거대한 체스판 위에 금색 불(bull) 조각상과 검은색 곰(bear) 조각상이 대치하고 있는 장면. 체스판 중앙에 균열이 있고, 한쪽은 밝은 골드빛, 반대쪽은 어두운 네이비 빛으로 나뉘어 두 시나리오를 상징.",
+      "prompt_en": "Photorealistic cinematic photograph of a giant chess board with a magnificent golden bull statue on one side facing a menacing dark bear statue on the opposite side. The chess board is cracking down the middle with a dramatic fissure, one half bathed in warm golden light symbolizing market triumph and the other half shrouded in deep navy blue shadows symbolizing crisis. Bright vibrant colors with high-key dramatic lighting create an atmosphere of extreme tension and shock. Golden sparks fly upward from the bull side while dark smoke rises from the bear side. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
     }
   ]
 }
