@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0417-evening",
+    "titles": [
+      "금값 17% 폭락, 전쟁인데 왜 떨어졌나…아무도 안 알려주는 진짜 이유",
+      "\"안전자산이 위험하다\" 금값 5,420→4,500달러 폭락의 숨겨진 구조",
+      "전쟁 끝나도 물가는 안 내려간다…금·유가·환율 3가지 시나리오"
+    ],
+    "thumbnail_texts": [
+      "금값 17% 폭락\n전쟁인데 왜?",
+      "$5,420→$4,500\n안전자산의 배신",
+      "종전해도\n물가 안 내려간다"
+    ],
+    "image_concepts": {
+      "A": "금괴가 갈라지며 붕괴하는 클로즈업 — 안전자산의 균열을 시각화",
+      "B": "호르무즈 해협 위 불타는 유조선과 금빛 파도 — 전쟁과 금의 충돌"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 거대한 금괴 클로즈업에 깊은 균열이 퍼져나가고, 균열 사이로 붉은 빛이 새어 나오는 긴장감 있는 장면.",
+      "prompt_en": "Photorealistic cinematic extreme close-up of a massive gold bullion bar with deep dramatic cracks spreading across its surface, glowing ominous red-orange light seeping through the fractures. The gold surface reflects navy blue and deep gold ambient lighting, creating a tension-filled atmosphere of crisis and collapse. Dark moody background with dramatic side lighting casting sharp shadows across the fractured gold surface. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 어두운 바다 위 불타는 유조선 실루엣, 바다가 녹은 금빛으로 물들어 있고 하늘은 검붉은 연기로 뒤덮인 시네마틱 장면.",
+      "prompt_en": "Photorealistic cinematic wide shot of a burning oil tanker silhouetted against a dark crimson sky filled with thick black smoke. The ocean surface reflects molten gold color, creating a surreal contrast between destruction and wealth. Navy blue deep water in the foreground transitions to fiery gold and red reflections near the tanker. Dramatic ominous atmosphere with volumetric smoke clouds and distant flames illuminating the scene. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 거대한 금색 저울이 기울어져 있고, 한쪽에는 금괴, 다른 쪽에는 미사일이 올려져 있는 상징적 장면. 배경은 주가 차트가 폭락하는 모습.",
+      "prompt_en": "Photorealistic cinematic composition of an oversized ornate golden scale dramatically tilted to one side. On the lower side sits a cluster of gold bullion bars glowing warmly, on the higher side a dark military missile pointing upward. Behind the scale, a massive stock market chart with a sharp red downward crash line fills the background. Deep navy blue and gold color palette dominates with dramatic red accents on the falling chart. Bright vivid lighting with high contrast shadows creating a tense shocking atmosphere. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
