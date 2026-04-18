@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "weekly-0418",
+    "titles": [
+      "유가 12% 폭락, 근데 기름값은 왜 안 내려오나 | 4월 셋째주 주간총정리",
+      "호르무즈 열렸는데 진짜 위험한 건 따로 있다 | 코스피 6,200·SK하이닉스 40조",
+      "코스피 6,200 뚫었는데 환율은 왜 안 떨어지나 | S&P 7,000 시대의 함정"
+    ],
+    "thumbnail_texts": [
+      "유가 12% 폭락 / 기름값은 그대로",
+      "코스피 6,200 / S&P 7,000 돌파",
+      "SK하이닉스 40조 / 영업이익률 70%"
+    ],
+    "image_concepts": {
+      "A": "호르무즈 해협의 거대한 유조선과 기름이 쏟아지는 장면 — 유가 폭락과 에너지 위기의 긴장감",
+      "B": "반도체 칩 위에 솟아오르는 금빛 그래프 — SK하이닉스와 반도체 슈퍼사이클의 폭발적 상승"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 호르무즈 해협을 항해하는 거대 유조선, 붉은 석양 아래 기름이 바다 위로 번지며 긴장감 있는 시네마틱 장면.",
+      "prompt_en": "Photorealistic cinematic wide shot of a massive oil tanker navigating through a narrow strait at sunset, with deep navy blue ocean waters reflecting ominous red and orange sky. Crude oil spills spreading across the water surface, creating dark iridescent patterns against the golden sunset light. The tanker appears small against towering rocky cliffs on both sides, emphasizing the chokepoint tension. Dramatic volumetric lighting with deep shadows and warm golden highlights, ominous atmosphere of crisis and uncertainty. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 빛나는 HBM4 반도체 칩 클로즈업, 그 위로 금빛 주가 그래프가 급등하며 솟아오르는 장면.",
+      "prompt_en": "Photorealistic extreme close-up of a gleaming SK hynix HBM4 memory chip on a dark navy circuit board, with golden light rays emanating from the chip surface. A luminous gold stock chart line dramatically shoots upward from the chip, piercing through the dark atmosphere like a rocket trail. The circuit board traces glow with subtle navy blue and gold energy pulses. Cinematic shallow depth of field with the chip razor-sharp in the center, surrounded by bokeh lights in gold and deep blue tones. Atmosphere of technological power and financial explosion. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 갈라진 땅 위에 서 있는 사람의 뒷모습, 한쪽은 불타는 유전 지대(빨강), 다른 한쪽은 빛나는 도시 스카이라인(골드) — 위기와 기회의 갈림길.",
+      "prompt_en": "Photorealistic cinematic shot of a lone figure seen from behind, standing at the edge of a dramatic crack splitting the ground in two. On the left side, burning oil fields with intense red-orange flames and thick black smoke rise against a dark stormy sky. On the right side, a gleaming modern city skyline bathed in warm golden light with stock ticker holographic displays floating upward showing green numbers. The figure stands at the exact divide, silhouetted against both worlds, wearing a simple business coat. Deep navy shadows with contrasting gold and red accent lighting create tension and duality. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
