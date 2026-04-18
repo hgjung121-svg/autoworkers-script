@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep05",
+    "titles": [
+      "\"11억 넣고 3억만 남았습니다\" 절대 사면 안 되는 위험한 ETF 4가지",
+      "\"ETF는 안전하다고요?\" 워런 버핏도 절대 안 사는 ETF의 충격적인 비밀",
+      "\"3배면 3배 벌겠지?\" 8억 날린 투자자가 뒤늦게 알게 된 ETF의 구조"
+    ],
+    "thumbnail_texts": [
+      "3배면 3배 버는 거 아냐? + 연 12% 녹는 ETF + 당신도 갖고 있다",
+      "ETF니까 안전하지? + 아닌데요 + 매일 녹고 있습니다",
+      "레버리지 ETF + 사면 안 되는 이유 + 연 12%가 증발"
+    ],
+    "image_concepts": {
+      "A": "버핏 경고 + 녹아내리는 ETF 차트 — 버핏이 급락하는 레버리지 ETF 차트판 앞에서 손바닥을 내밀며 경고하는 장면",
+      "B": "투자자 패닉 + 증권 화면 — 직장인이 여러 모니터의 빨간 하락 차트에 둘러싸여 머리를 감싸쥐는 트레이딩룸 장면"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-photorealistic",
+      "concept_ko": "컨셉 A 실사. 워런 버핏이 거대한 증권 전광판 앞에 서 있다. 전광판에는 'SOXL -30%', 'TQQQ -28%' 같은 레버리지 ETF 종목들이 빨간색으로 급락하는 차트와 함께 표시되어 있다. 버핏은 카메라를 정면으로 바라보며 한 손을 앞으로 내밀어 경고 제스처를 하고 있다. 진지하고 단호한 표정. 전광판의 빨간 빛이 버핏의 얼굴을 비추고 있다.",
+      "prompt_en": "Photorealistic cinematic portrait of Warren Buffett (Berkshire Hathaway chairman, elderly man with glasses and suit) standing in front of a massive stock market display board. The board behind him shows multiple leveraged ETF tickers in bright red with sharp declining charts — 'SOXL -30%', 'TQQQ -28%', '3X BEAR -45%' glowing in vivid red digital numbers. Buffett faces the camera with a stern serious expression, his right hand raised toward the viewer in a firm warning 'stop' gesture. The red glow from the crashing display board illuminates his face with dramatic side lighting. Deep navy blue ambient background contrasting with the vivid red chart displays and warm golden lighting on Buffett's suit. His figure and the display board fill the upper 60% of the frame, making both the person and the financial context immediately readable at thumbnail size. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-photorealistic",
+      "concept_ko": "컨셉 B 실사. 30대 한국인 남성 직장인이 어두운 방에서 노트북과 스마트폰을 동시에 보고 있다. 노트북 화면에는 빨간 하락 차트가 가득하고, 스마트폰에는 '-72%' 수익률이 크게 표시되어 있다. 두 화면의 빨간 빛이 그의 충격받은 얼굴을 비추고 있다. 한 손으로 머리를 감싸쥐고, 테이블 위에는 흩어진 ETF 관련 서류와 커피잔이 보인다.",
+      "prompt_en": "Photorealistic dramatic portrait of an attractive young Korean man in his 30s wearing a loosened white dress shirt, sitting at a dark desk. In front of him, a laptop screen displays multiple red crashing stock charts with ETF ticker symbols visible. He holds a smartphone in one hand showing a large '-72%' return in glowing red numbers. His other hand grips his hair in distress. Both screens cast harsh red light onto his shocked face — eyes wide, mouth slightly open in disbelief. On the messy desk, scattered financial documents and a knocked-over coffee cup add to the chaos. The man, screens, and desk fill the upper 60% of the frame, making the financial disaster context immediately clear. Deep navy dark background with the vivid red screen glow as the dominant light source creating intense dramatic shadows. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. A vs B 대조 구도. 왼쪽에 워런 버핏이 초록색 상승 차트가 표시된 모니터 앞에서 환하게 웃으며 'S&P 500' ETF를 가리키고 있다. 오른쪽에 한국인 청년 투자자가 빨간 급락 차트와 'SOXL -30%', '인버스2X -78%' 가 표시된 모니터 앞에서 머리를 감싸쥐고 있다. 중앙에 날카로운 대각선 분리.",
+      "prompt_en": "Photorealistic dramatic split-composition image. Left side: Warren Buffett (Berkshire Hathaway chairman, elderly man with glasses) smiling confidently, standing next to a monitor showing a bright green ascending 'S&P 500' chart with '+10.5% annual' displayed. Warm golden lighting illuminates his side, conveying safety and wisdom. Right side: an attractive young Korean man in his 30s in a crumpled dress shirt, clutching his head with both hands in despair. Behind him, multiple monitors show crashing red charts with 'SOXL -30%', 'Inverse 2X -78%' in glowing red numbers. Cold blue-red harsh lighting on his side. The two sides are divided by a sharp diagonal line of light running through the center. Both figures are surrounded by their respective financial context — green prosperity on left, red devastation on right. Both shown from chest up with their monitors visible, filling the upper 60% of the frame. Deep navy background with bright vivid accent colors. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
