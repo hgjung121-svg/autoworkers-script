@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0420-evening",
+    "titles": [
+      "외국인 63조 팔고 도망쳤다…이슬라마바드에서 깨진 한 줄이 당신 월급 때리는 진짜 이유",
+      "삼성전자 42조·하이닉스 22조…외국인이 2주 만에 뒤돌아선 5글자의 경고",
+      "환율 1,500원까지 17원 남았다…1979년 다시 오면 벌어질 3가지"
+    ],
+    "thumbnail_texts": [
+      "외국인 63조 대탈출 / 코스피 6,200 붕괴",
+      "환율 1,483원 / 1,500원 코앞",
+      "유가 $93→$174? / 반도체 수출 152%↑ 역설"
+    ],
+    "image_concepts": {
+      "A": "트럼프 대통령 — 중동 협상 결렬 직후 기자회견 중 분노한 표정, 배경에 코스피 급락 차트",
+      "B": "이재용 삼성 회장 — 어두운 집무실에서 반도체 차트 모니터 응시, 긴장된 옆모습"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. Donald Trump, US President가 백악관 프레스룸에서 굳은 표정으로 말하는 장면. 뒤 대형 모니터에 코스피 하락 캔들 차트와 붉은 숫자 '63조' 표시. 네이비·골드 브랜드 컬러로 조명.",
+      "prompt_en": "Photorealistic cinematic portrait of Donald Trump, US President, standing at a White House press briefing podium with a tense, furrowed expression and one hand raised, mid-statement. Behind him, a massive LED screen displays a red plunging KOSPI candlestick chart with the glowing figure '63조' (63 trillion) in bold Korean typography. Dramatic navy-blue and gold accent lighting from above casts sharp shadows on his face. Shot on an 85mm lens at f/2.0, shallow depth of field, moody newsroom atmosphere. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. Lee Jae-yong, Samsung Chairman이 심야 집무실에서 반도체 주가 차트 모니터를 바라보는 장면. 코스피 6,192, 삼성전자 -0.69% 표시. 긴장된 옆모습.",
+      "prompt_en": "Photorealistic cinematic side-profile of Lee Jae-yong, Samsung Electronics Chairman, in a darkened modern executive office at night, leaning forward toward a curved ultrawide monitor displaying a declining Samsung Electronics stock chart with the numbers '216,000원 -0.69%' and KOSPI '6,192' in crisp digital typography. His reflection shows tension and deep concentration, hand on chin. The office is lit only by the cold blue glow of the screen and a single gold desk lamp, creating a navy-and-gold brand palette. Shot on 50mm at f/1.8, ultra-sharp realism, corporate thriller mood. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 미국 트럼프와 이란 외교장관 아라그치가 이슬라마바드 협상 테이블에서 등 돌리고 일어서는 순간. 두 인물 사이 테이블 위 서류에 'DEAL BROKEN' 도장. 배경 호르무즈 해협 지도와 유가 차트.",
+      "prompt_en": "Photorealistic split-composition showing Donald Trump, US President, on the left and Abbas Araghchi, Iranian Foreign Minister, on the right, both standing up from a polished negotiation table in Islamabad, their backs turning away from each other, body language of refusal. On the table between them lies a document stamped 'DEAL BROKEN' in red ink. The back wall shows a dark Hormuz Strait map with oil tanker icons and a rising WTI price chart marked '$93 → $174?'. Dramatic top-down spotlight with navy-blue and gold architectural accents, high-contrast diplomatic thriller aesthetic. Shot on 35mm at f/4, sharp focus on both figures, Reuters-style editorial photography. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
