@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep09",
+    "titles": [
+      "\"60:40은 죽었다\"던 사람들이 1년 만에 입장 바꾼 이유 — 박대리 35살, 몇 대 몇으로 섞어야 하나",
+      "월배당 채권 ETF라고 담았다가 당한다 — 진짜 채권 vs 커버드콜 가짜 채권 구별법 3가지",
+      "2022년 -17.5% 참사 85년 만에 왔다 — 60:40 부활의 조건과 지금 포트폴리오 공식"
+    ],
+    "thumbnail_texts": [
+      "60:40 사망선고 / 1년 만에 부활",
+      "진짜 채권 vs 가짜 채권 / 속지 마라",
+      "박대리 35살 / 주식 65 채권 35"
+    ],
+    "image_concepts": {
+      "A": "박대리(30대 샐러리맨) — 거대한 바이킹 놀이기구 앞에 서서 멍하니 올려다보며 한쪽 손에 'STOCKS', 다른 손에 'BONDS' 표찰을 들고 있음",
+      "B": "Warren Buffett + Ray Dalio — 두 투자 거장이 서로 마주보며 주식·채권 저울을 들고 논쟁하는 구도, 사이에 60:40 황금 저울"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 박대리 30대 한국 샐러리맨이 거대한 놀이공원 바이킹 배 앞에 서서 멍하니 올려다보는 장면. 바이킹의 앞좌석과 뒷좌석이 서로 반대로 출렁이는 순간. 박대리 양손에 각각 'STOCKS' 표찰과 'BONDS' 표찰.",
+      "prompt_en": "Photorealistic cinematic wide shot of a 30-something Korean male salaryman in a crisp navy suit standing in an empty amusement park at dusk, gazing upward in contemplation at a massive retro Viking pirate ship ride swinging dramatically through the air, front seats tilted sharply upward and rear seats tilted sharply downward in mid-motion. The salaryman holds two large wooden signboards — the left sign reads 'STOCKS' in bold white serif letters, the right sign reads 'BONDS' in bold white serif letters. Dramatic navy-blue twilight sky with warm gold stage lighting washing across the scene, motion blur on the swinging ship, shallow depth of field. Shot on 35mm at f/4, Korean cinematic drama aesthetic. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. Warren Buffett과 Ray Dalio가 마주보며 각각 주식·채권 상징물을 손에 들고 논쟁하는 구도. 두 사람 사이엔 거대한 황금 저울이 '60/40'으로 기울어져 있고 배경은 월가의 어두운 컨퍼런스룸.",
+      "prompt_en": "Photorealistic cinematic symmetrical composition with Warren Buffett on the left in a charcoal suit, holding up a golden bull statue (symbolizing stocks) with a skeptical expression. Ray Dalio on the right in a navy suit, holding up a stack of glowing US Treasury bond certificates (symbolizing bonds) with a measured debating gesture. Between them, a massive antique brass balance scale tilted slightly toward the stocks side, with digital numbers '60' engraved on the left pan and '40' engraved on the right pan in bold raised metallic relief. Dark mahogany-paneled Wall Street conference room background with deep navy and gold accent lighting, dramatic overhead spotlight creating high-contrast shadows on both faces. Shot on 85mm at f/2.8, editorial financial magazine cover aesthetic. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 화면 세 개로 분할. 왼쪽은 20대 박대리(주식 80), 가운데는 35살 박대리(65:35), 오른쪽은 60대 박대리(40:60). 각 인물 위로 서로 다른 비율의 파이 차트가 떠 있음.",
+      "prompt_en": "Photorealistic cinematic triptych composition of the same Korean male character at three life stages, standing in identical poses side by side. Left panel: his late 20s version in casual smart-casual attire holding a pie chart hologram overhead showing 80 percent stocks 20 percent bonds in red and blue wedges. Middle panel: his current mid-30s version in a navy business suit holding a pie chart overhead showing 65 stocks 35 bonds. Right panel: his 60s retirement version in a more relaxed cardigan holding a pie chart showing 40 stocks 60 bonds. Each panel separated by thin gold vertical dividing lines. Consistent dark navy-blue studio background with dramatic gold rim lighting on all three figures, editorial infographic magazine aesthetic. Shot on 50mm at f/5.6, sharp focus across the entire frame. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
