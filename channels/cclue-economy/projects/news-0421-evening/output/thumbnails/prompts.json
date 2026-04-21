@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0421-evening",
+    "titles": [
+      "36시간 후 판이 갈린다…유가는 7%, 헬륨값은 50% 튄 이유",
+      "외국인 다시 돌아왔다…그런데 반도체 공장엔 이미 빨간불 켜졌다",
+      "이슬라마바드 시한 D-1…한국 통장을 뒤흔들 5가지 변수"
+    ],
+    "thumbnail_texts": [
+      "유가 7%↑ / 헬륨 50%↑ / 시한 36시간",
+      "카타르 헬륨 산단 드론 타격 / 반도체 공장 빨간불",
+      "협상 타결 45% / 결렬 연장 40% / 전면전 15%"
+    ],
+    "image_concepts": {
+      "A": "트럼프 대통령과 이란 아라그치 외교장관 — 이슬라마바드 세레나 호텔 협상 테이블, 창밖으로 보이는 타이머 36:00",
+      "B": "이재용 삼성 회장 — 반도체 클린룸에서 헬륨 50%↑ 차트를 응시하며 손에 든 서류, 비상 경보등"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 이슬라마바드 세레나 호텔 협상장. Donald Trump, US President와 Abbas Araghchi, Iranian Foreign Minister가 길게 뻗은 어두운 나무 협상 테이블 양끝에 앉아 서로를 쏘아보는 순간. 테이블 중앙 위로 떠 있는 홀로그램 타이머 '36:00:00'. 뒤 벽에는 호르무즈 해협 지도와 WTI 유가 차트 '$89.61 +6.87%'. 네이비·골드 조명.",
+      "prompt_en": "Photorealistic cinematic wide shot inside the Serena Hotel negotiation room in Islamabad at night. Donald Trump, US President, sits at the far left of a polished long dark mahogany negotiation table with arms crossed and a tense expression. Abbas Araghchi, Iranian Foreign Minister, sits at the far right in a dark suit, staring back with cold resolve. A glowing holographic countdown timer '36:00:00' hovers above the table center. The back wall shows a large dark map of the Hormuz Strait with red oil tanker icons and a rising WTI chart labeled '$89.61 +6.87%'. Dramatic navy-blue and gold overhead lighting, high-contrast diplomatic thriller aesthetic. Shot on 35mm at f/4, Reuters-style editorial realism. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. Lee Jae-yong, Samsung Chairman이 반도체 클린룸 외부 유리창 앞에서 손에 든 서류를 응시. 뒤 대형 모니터에 헬륨 가격 '+50%' 급등 차트와 '카타르 헬륨 산단 가동 중지' 자막. 붉은 비상 경보등 회전.",
+      "prompt_en": "Photorealistic cinematic close-up of Lee Jae-yong, Samsung Electronics Chairman, standing outside a glass-walled semiconductor cleanroom at night, wearing a dark suit, brow furrowed, looking down at a document in his hand with deep concern. Behind him through the glass, a massive digital monitor displays a steeply rising red chart labeled 'Helium Price +50%' and a news ticker reading 'Qatar Helium Plant Shutdown'. A single red emergency rotating beacon spins overhead, casting alternating red and navy-blue reflections on his face. Industrial clean blue-white ambient with gold accent lighting. Shot on 85mm at f/1.8, shallow depth of field, corporate crisis mood. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 화면 반으로 갈라진 구도. 왼쪽 — 이란 드론이 카타르 헬륨 산단 상공을 지나는 장면(화염), 오른쪽 — 한국 반도체 공장 내부 생산 라인 정지 경보등. 중앙에 파열된 헬륨 가스관.",
+      "prompt_en": "Photorealistic split-screen composition. Left half: an Iranian military drone with glowing red navigation lights flying low over a burning Qatari helium industrial complex, orange flames rising against a night sky, silhouettes of industrial towers. Right half: the interior of a Korean semiconductor fabrication cleanroom with a halted production line, red warning lights flashing over idle robotic arms, a technician in white cleanroom suit looking up in alarm. A severed silver helium gas pipe erupts in the center dividing line, releasing a white vapor cloud that connects both scenes. Navy-blue and gold cinematic grading, high-contrast thriller aesthetic. Shot on 50mm at f/4, sharp on both halves, National Geographic investigative style. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
