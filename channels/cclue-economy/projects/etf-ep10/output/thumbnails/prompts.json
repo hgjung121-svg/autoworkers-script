@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep10",
+    "titles": [
+      "\"같은 수익 4,800만인데 1,000만 냈다\" 박대리가 세금으로 날린 돈 — 해외 ETF 절세 공식 25분 총정리",
+      "해외 직투 22% vs 국내 상장 15.4% — 세금 폭탄 맞는 사람이 반드시 놓친 5가지",
+      "ISA·연금저축·IRP 3단 공식으로 매년 178만 원 돌려받는 법 (ep10 세금 마스터)"
+    ],
+    "thumbnail_texts": [
+      "수익 4,800만 / 세금 1,000만 / 절세 공식",
+      "연금 600 + IRP 300 + ISA / 환급 178만",
+      "피부양자 박탈 / 건보료 연 300만 폭탄"
+    ],
+    "image_concepts": {
+      "A": "박대리(30대 샐러리맨) — 한 손에 두꺼운 달러 현금 뭉치, 다른 손에 세금 고지서와 피같이 빨간 도장, 국세청 엠블럼이 뒤에 크게",
+      "B": "3단 피라미드 구조 — 연금저축·IRP·ISA 세 계좌가 층층이 쌓인 황금 금고"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 박대리 30대 샐러리맨이 양복 차림으로 책상 앞에 서서 한 손에 두꺼운 100달러 지폐 뭉치를 쥐고, 다른 손에 붉은 도장이 찍힌 세금 고지서를 들고 있음. 배경에 국세청 엠블럼과 세금 서류 산더미. 표정은 낙담과 체념.",
+      "prompt_en": "Photorealistic cinematic medium shot of a Korean male salaryman in his mid-30s wearing a wrinkled charcoal suit and loosened red tie, standing behind a cluttered wooden desk in a dimly lit home office at night. In his left hand he clutches a thick bundle of US one-hundred dollar bills, in his right hand he holds up an official-looking tax notice document stamped with a large red seal. His face shows defeated resignation, shoulders slumped. Behind him on the wall, a large Korean National Tax Service emblem glows faintly, and piles of tax forms cover every surface of the desk. Deep navy-blue ambient shadows with dramatic gold rim light from a single desk lamp, high-contrast financial thriller aesthetic. Shot on 50mm at f/2.0. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 세 층으로 쌓인 황금 금고 피라미드. 맨 아래 'ISA'라고 새겨진 대형 금고, 중간 'IRP' 금고, 맨 위 '연금저축' 금고. 박대리가 사다리를 타고 올라가 맨 위 금고에 돈다발 넣는 장면.",
+      "prompt_en": "Photorealistic cinematic low-angle shot of three massive stacked gold vault safes forming a pyramid against a dark navy-blue studio backdrop. The bottom widest vault has 'ISA' engraved in bold raised metallic relief, the middle vault has 'IRP' engraved, and the top smallest vault has '연금저축' (Pension Savings) engraved. A Korean male salaryman in his mid-30s in a navy suit climbs a sturdy wooden ladder up the side of the pyramid, reaching toward the top vault with a thick bundle of Korean won banknotes in his hand. Warm gold volumetric spotlight beams illuminate each vault, dramatic rim lighting, money being deposited creates sparkles. Shot on 35mm at f/4, editorial magazine cover aesthetic. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 화면 양분. 왼쪽 '해외 직투' 길 — 박대리가 넓은 자유로운 도로를 달림. 오른쪽 '국내 상장 ETF' 길 — 종합과세 장벽에 막힌 박대리. 두 길 사이 갈림길 표지판 '22% vs 15.4%'.",
+      "prompt_en": "Photorealistic cinematic split-road composition. Left half: a wide open golden-lit highway stretching to the horizon, a Korean male salaryman in business attire walking confidently down the road carrying a briefcase, with a large signpost reading 'OVERSEAS DIRECT' arrow pointing forward, blue sky and sunset behind. Right half: a narrow path blocked by a massive red warning barrier with chains, the same salaryman stops in frustration with hands on hips, signpost reading 'DOMESTIC ETF' pointing into darkness, stormy gray sky. Between the two paths stands a large wooden fork-in-the-road signpost. Deep navy-blue and gold cinematic color grading, high-contrast decision-making metaphor aesthetic. Shot on 35mm at f/4, editorial documentary style. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
