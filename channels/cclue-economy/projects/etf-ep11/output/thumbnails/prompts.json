@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep11",
+    "titles": [
+      "\"60:40이 -17.5% 박살 날 때 이 세 놈만 웃었다\" 박대리가 놓친 제3의 바퀴 — 금·원자재·리츠 25분 마스터",
+      "금값 5,589달러 사상 최고 — 지금 사도 되나? 55:30:15 포트폴리오 실전 공식",
+      "레이 달리오 올웨더 vs 박대리 포트폴리오 — 대안 자산 15% 넣으면 생기는 일"
+    ],
+    "thumbnail_texts": [
+      "60:40 박살 -17.5% / 이 셋만 웃었다",
+      "금 5,589달러 사상 최고 / 지금 사도 될까",
+      "55:30:15 공식 / 제3의 바퀴"
+    ],
+    "image_concepts": {
+      "A": "박대리(30대 샐러리맨) — 기울어진 자전거 앞에서 절망, 그 옆에 세 바퀴 달린 안정적인 삼륜차가 햇빛을 받으며 빛남",
+      "B": "거대한 황금 금괴 더미 위에 서 있는 Ray Dalio, 아래 '30:55:15' 숫자가 바닥에 새겨짐, 배경은 월가 야경"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 박대리 30대 한국 샐러리맨이 한쪽 바퀴가 터진 자전거 앞에 쭈그리고 앉아 좌절한 표정. 바로 옆 차로에 광택 나는 세 바퀴 삼륜 전기차가 황금빛 햇살을 받으며 부드럽게 지나감. 삼륜차 각 바퀴에 'STOCKS' 'BONDS' 'ALTERNATIVES' 글자.",
+      "prompt_en": "Photorealistic cinematic wide shot. Foreground left: a Korean male salaryman in his mid-30s wearing a crumpled business suit crouches on an empty dawn street beside a tipped-over old bicycle with a flat rear tire, face in hands in frustration. Mid-ground right: a gleaming futuristic three-wheeled electric vehicle glides smoothly past him, golden morning sunlight catching its polished chrome frame, each of its three wheels subtly labeled 'STOCKS', 'BONDS', 'ALTERNATIVES' in clean minimalist embossed text. Dramatic navy-blue dawn sky with gold rim light on the three-wheeler, warm sunlight breaking over the horizon, cinematic drama aesthetic. Shot on 35mm at f/4. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 금괴 언덕 위에 Ray Dalio(브리지워터 창업자, 70대 백발 남성)가 양팔을 벌리고 서 있음. 금괴 언덕 바닥에 '30:55:15' 숫자가 빛나는 라인으로 새겨짐. 배경은 월스트리트 야경과 달.",
+      "prompt_en": "Photorealistic cinematic wide-angle shot of Ray Dalio, Bridgewater Associates founder, a 70-something silver-haired man in a dark suit standing confidently atop a massive hill made of stacked glistening gold bars, arms spread wide in an almost preacher-like pose. At the base of the gold hill, the numbers '30:55:15' are engraved in glowing cyan-white neon lines on the marble ground. Behind him stretches the Wall Street skyline at night with the New York Stock Exchange visible, a full moon casting cool light, American flags subtle in the distance. Navy-blue night sky with gold bar reflections and warm spotlight illuminating Dalio's figure from below, editorial financial magazine cover aesthetic. Shot on 35mm at f/4. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 한 장면에 세 가지 대안 자산 상징물이 나란히. 왼쪽 거대한 금괴 타워, 중앙 원유 배럴이 활활 타며 솟아오르는 불꽃, 오른쪽 유리 외벽 고층 빌딩(리츠). 박대리가 중앙에서 세 개를 올려다봄.",
+      "prompt_en": "Photorealistic cinematic wide shot with three monumental alternative asset symbols arranged in a triptych composition against a dark navy-blue studio backdrop. Left: a towering stack of gleaming gold bars rising to the sky with golden light beams. Center: a massive black steel oil barrel erupting with controlled bright orange flames into the air, smoke swirling. Right: an ultra-modern glass-walled skyscraper at dusk representing REITs, window lights glowing warm amber. In the foreground center, a Korean male salaryman in a navy business suit stands with back to camera, looking up at the three towering symbols with awe, hands in pockets. Dramatic gold volumetric spotlights from above, high-contrast editorial magazine aesthetic. Shot on 35mm at f/4. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
