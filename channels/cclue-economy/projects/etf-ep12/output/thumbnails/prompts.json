@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep12",
+    "titles": [
+      "\"아버지, 2억으로 은퇴 가능할까?\" — 한국은 4%룰이 아니다, 국민연금·주택연금까지 합친 진짜 은퇴 공식",
+      "미국 8억 vs 한국 4억 — 같은 은퇴인데 필요 자산이 절반인 이유 (4%룰 한국 적용 가이드)",
+      "FIRE 30대 은퇴 9억의 함정 — 50년 기준이면 3.5%로 낮춰야 한다, 시퀀스 리스크 해부"
+    ],
+    "thumbnail_texts": [
+      "미국 8억 / 한국 4억 / 절반의 비밀",
+      "65세 2억 가능? / 국민 + 주택 + 연금저축",
+      "FIRE 9억 함정 / 50년이면 12억 필요"
+    ],
+    "image_concepts": {
+      "A": "박아버지(60대 초반 은퇴 직전 남성)와 박대리(30대 아들)가 나란히 앉아 계산기를 두드리며 계좌 분석, 탁자엔 국민연금·주택연금·ETF 서류",
+      "B": "저울 양쪽에 미국 달러 더미(왼쪽 8억)와 한국 원화+집 모형+국민연금 카드(오른쪽 4억)가 균형을 이룸"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 박아버지(60대 초반 은퇴 직전 한국 남성, 짧은 백발, 밝은 셔츠)와 박대리(30대 아들, 양복)가 가정집 식탁에 나란히 앉아 노트북과 계산기를 펼치고 심각한 표정으로 은퇴 계산. 탁자엔 국민연금 안내장, 주택연금 팜플렛, 연금저축 통장.",
+      "prompt_en": "Photorealistic cinematic medium shot of two Korean men at a warmly lit home dining table late afternoon. On the left, a 60-something Korean father with short silver hair wearing a soft beige cardigan and reading glasses, leaning forward with a concerned but thoughtful expression, holding a calculator. On the right, his 30-something son in a crisp navy business suit, sleeves rolled up, pointing at a laptop screen showing financial charts with earnest intensity. Between them on the wooden table: open brochures for National Pension and Housing Pension, stacked pension savings account booklets, handwritten notes with numbers, and two coffee cups. Warm golden hour window light with navy-blue ambient shadows, intimate family financial planning aesthetic. Shot on 50mm at f/2.0. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 황동 저울. 왼쪽 저울엔 미국 달러 지폐 산이 쌓임 '$8억' 라벨. 오른쪽 저울엔 원화 지폐 더미 + 미니어처 한국 아파트 모형 + 국민연금 카드가 함께. 균형을 이루는 순간의 극적인 장면.",
+      "prompt_en": "Photorealistic cinematic wide-angle shot of a massive ornate brass balance scale perfectly balanced in the center of a dramatic studio space. Left pan: a tall mountain of neatly stacked US one-hundred dollar bills glowing green, with a bold engraved plaque '8 billion KRW'. Right pan: a smaller stack of Korean won banknotes, a detailed miniature Korean apartment building, a red national pension ID card, and a miniature Korean house all arranged together, with a plaque '4 billion KRW'. The two pans are at exactly the same height, indicating balance. Deep navy-blue studio backdrop with dramatic gold volumetric spotlight from above, high-contrast editorial magazine aesthetic. Shot on 50mm at f/4. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 다섯 개의 파이프가 하나의 수도꼭지로 합쳐지는 인포그래픽 장면. 각 파이프에 '국민연금' '주택연금' '연금저축' 'IRP' '일반투자' 라벨. 수도꼭지 아래에 은퇴자가 컵으로 물을 받는 모습.",
+      "prompt_en": "Photorealistic cinematic conceptual wide shot of five separate industrial copper pipes converging from five directions into a single large brass faucet at center. Each pipe has a metallic engraved label in embossed relief: 'National Pension', 'Housing Pension', 'Pension Savings', 'IRP', 'Regular Investment'. Below the faucet, a 60-something Korean retiree in casual home clothes holds a simple glass cup catching a steady stream of golden liquid flowing out. The retiree's face shows peaceful calm. Deep navy-blue industrial backdrop with warm gold accent lighting on the copper pipes and brass faucet, volumetric light rays illuminating the falling liquid stream, infographic-style editorial aesthetic. Shot on 35mm at f/5.6. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
