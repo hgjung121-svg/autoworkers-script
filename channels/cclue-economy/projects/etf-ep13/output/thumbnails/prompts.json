@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep13",
+    "titles": [
+      "\"같은 월급 80만 투자인데 30년 뒤 6.7억 차이\" 박대리 vs 김주임 — ETF 로드맵의 모든 것",
+      "35살 박대리가 65살 10억 되는 법 — 6구간 포트폴리오 재조정 타임라인 완전 공개",
+      "복리의 비밀은 '가장 좋은 20일' — 30년 로드맵 없으면 수익 절반 사라진다"
+    ],
+    "thumbnail_texts": [
+      "박대리 10.5억 / 김주임 3.8억 / 같은 월급 같은 30년",
+      "35살 → 65살 / 6구간 로드맵 / 10억 공식",
+      "가장 좋은 20일 / 놓치면 수익 절반"
+    ],
+    "image_concepts": {
+      "A": "박대리(왼쪽)와 김주임(오른쪽) 나란히 30년 뒤 자산 공개 — 박대리 뒤 10.5억 그래프 우상향, 김주임 뒤 3.8억 평탄한 그래프",
+      "B": "거대한 6단 계단 — 각 계단마다 나이(35·40·45·50·55·60·65)와 자산 규모 표시, 박대리가 계단을 올라가는 장면"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 60대 중반 박대리(왼쪽)와 김주임(오른쪽)이 나란히 양복을 입고 서 있음. 박대리 뒤 대형 모니터에 우상향 10.5억 자산 그래프, 만족스러운 표정. 김주임 뒤 평탄한 3.8억 그래프, 좌절한 표정. 두 사람 사이 거대한 '6.7억' 차이 표시.",
+      "prompt_en": "Photorealistic cinematic wide shot of two Korean men in their mid-60s standing side by side in a modern financial office. On the left, the 'Park' character in a tailored navy suit with silver hair, confident warm smile, arms crossed with relaxed posture. On the right, the 'Kim' character in a crumpled gray suit with balding head and tired expression, shoulders slumped, hands in pockets. Behind Park, a massive wall-mounted monitor displays a steadily rising green stock portfolio chart. Behind Kim, another monitor shows a flat, stagnant chart with occasional spikes and drops. Between them in the gap, a large floating holographic display shows the difference figure in glowing gold digital lines. Navy-blue and gold dramatic studio lighting, editorial magazine financial thriller aesthetic. Shot on 50mm at f/2.8. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 6단 황금 계단. 각 단에 나이(35·40·45·50·55·60·65)가 돌에 새겨짐. 박대리(35살 시작점 모습)가 계단 아래 서 있고, 65살 박대리의 반투명 실루엣이 꼭대기에 서 있음. 계단 옆 대형 자산 그래프 우상향.",
+      "prompt_en": "Photorealistic cinematic low-angle shot of a grand six-step marble and gold staircase rising into a dramatic dark cinematic sky. Each step has large engraved Roman numeral ages '35' '40' '45' '50' '55' '60' '65' carved into polished marble with gold-filled grooves. At the base, a 35-year-old Korean male salaryman in a navy suit stands looking up with determination, briefcase in hand. At the summit of the staircase, a translucent ghostly silhouette of the same man at 65 stands triumphantly with arms slightly spread. Beside the staircase, a massive transparent rising graph line climbs upward paralleling the steps. Navy-blue and gold dramatic lighting with volumetric light rays from above, editorial epic aesthetic. Shot on 35mm at f/5.6. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 마라톤 결승선 장면. 박대리가 일정한 속도로 꾸준히 달려 결승선 통과. 김주임은 뒤에서 힘들게 뛰다 멈췄다 반복하며 뒤쳐짐. 결승선엔 '10억'이라는 테이프.",
+      "prompt_en": "Photorealistic cinematic dramatic shot of a marathon finish line at dawn. Park, a Korean male runner in his 60s wearing a professional blue running outfit with a race bib, crosses the finish line with a strong confident stride and a calm expression of fulfilled effort. Far behind him at a staggered distance, Kim, another Korean male runner in a disheveled red outfit, doubles over exhausted with hands on knees, having stopped multiple times visible in tire tracks behind him. The finish line tape is bright gold with bold embossed text, held between two tall poles with gold crown decorations. Warm dawn sunlight cuts through navy-blue morning fog, dramatic rim lighting on Park's victorious figure, sports documentary aesthetic. Shot on 85mm at f/2.8. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}

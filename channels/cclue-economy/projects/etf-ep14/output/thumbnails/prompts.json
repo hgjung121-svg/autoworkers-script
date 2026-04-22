@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "etf-ep14",
+    "titles": [
+      "ETF 시리즈 13편의 결정체 — 평생 쓰는 15가지 규칙 + 실전 포트폴리오 한 장 + 박대리 미래 편지",
+      "\"깊이 읽는 사람만 10억 만든다\" 박대리 ETF 시리즈 총정리 — 같은 월급, 6.7억 차이의 비밀",
+      "65살 박대리가 35살 자신에게 쓴 편지 — ETF 시리즈 최종 정답지 (ep14)"
+    ],
+    "thumbnail_texts": [
+      "13편의 결정체 / 평생 쓰는 15가지 규칙",
+      "35살 박대리 / 65살 박대리 / 편지 한 장",
+      "10만 자 여정 / 한 장으로 끝"
+    ],
+    "image_concepts": {
+      "A": "35살 박대리와 65살 박대리가 마주보고 앉아 편지를 주고받는 장면. 두 사람 사이 시간의 빛 터널, 탁자엔 13권의 책(각 편)이 쌓임",
+      "B": "거대한 책 한 권 '박대리 ETF 로드맵' 펼쳐져 있고, 양면에 15가지 규칙과 실전 포트폴리오 그림"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 35살 박대리(왼쪽)와 65살 박대리(오른쪽)가 서로 마주보고 있음. 둘 사이 공간엔 시간의 빛 터널이 이어지며 과거와 미래가 교차. 탁자엔 13권의 책이 차곡차곡 쌓여 있고 맨 위에 빛나는 편지 한 장.",
+      "prompt_en": "Photorealistic cinematic wide shot of a dreamlike portrait study. On the left, a 35-year-old Korean man in a modern navy business suit sits at a wooden desk looking right with a contemplative expression. On the right, the same man at age 65 with silver hair in a relaxed beige cardigan sits at another desk facing left with a warm knowing smile. Between them, a translucent ribbon of golden time-tunnel light connects the two, with soft particle effects flowing through. On the table between them, a stack of 13 leather-bound books is arranged, and on top rests a single glowing handwritten letter catching light. Deep navy-blue studio backdrop with dramatic gold volumetric rim lighting, introspective editorial aesthetic. Shot on 50mm at f/2.8. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 거대한 고서 책 한 권이 펼쳐져 있음. 왼쪽 페이지엔 15가지 규칙이 한국어로 빼곡히, 오른쪽 페이지엔 실전 포트폴리오 파이차트와 그래프. 책 위로 박대리가 만족스럽게 내려다봄.",
+      "prompt_en": "Photorealistic cinematic overhead composition of a massive ancient-looking leather-bound tome spread open on a dark polished wooden table. The left page is densely filled with elegant Korean calligraphy forming a list of rules (abstract flowing calligraphy, no specific readable text). The right page features an ornate illustrated pie chart showing portfolio allocation with navy-blue and gold sectors, along with a rising line graph and small icon symbols. A Korean male salaryman in his 30s leans over the book with both hands resting on the table edges, looking down with a satisfied confident expression. Warm library-style lighting with golden accent rays from above, academic timeless aesthetic. Shot on 35mm at f/4. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 13개의 돌 비석이 줄지어 서 있고 각 비석에 ep01~ep13 라벨. 맨 끝에 큰 황금 문이 있고 박대리가 그 문을 열고 들어가려는 순간. 문 너머 빛나는 황금 길.",
+      "prompt_en": "Photorealistic cinematic wide shot of thirteen tall ancient stone monoliths arranged in a line stretching across a vast misty plain at dawn, each monolith numbered from 1 to 13 with Roman numerals carved into weathered stone. At the far end of the procession, a magnificent pair of golden doors stands slightly ajar, blinding warm light streaming through the gap. A Korean male salaryman in a navy business suit stands before the open doors at the threshold, one hand pressed against the door, looking forward into the bright light with determination. Navy-blue dawn mist swirls between the monoliths, gold rim light catches each stone, cinematic epic fantasy aesthetic. Shot on 24mm at f/5.6. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
