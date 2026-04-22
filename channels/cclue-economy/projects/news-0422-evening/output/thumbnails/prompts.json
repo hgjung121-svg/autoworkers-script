@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0422-evening",
+    "titles": [
+      "이란 휴전 '연장'에 속지 마라 — 봉쇄는 그대로, 유가 200달러가 다시 살아났다",
+      "트럼프 발표문에 묻힌 한 줄 — \"봉쇄는 계속한다\"가 원달러 1,500원 방아쇠",
+      "수출 49% 폭등의 함정 — 호르무즈 한 번 막히면 휘발유 2,000원 시대 고착"
+    ],
+    "thumbnail_texts": [
+      "휴전 뒤 봉쇄 / 유가 200달러 경고",
+      "서울 2천원 시대 / 호르무즈의 함정",
+      "원달러 1,500원 초읽기 / 한은은 손이 묶였다"
+    ],
+    "image_concepts": {
+      "A": "트럼프와 이란 외교장관의 대립 구도 + 호르무즈 해협 지도와 유조선 실루엣 + 상승하는 유가 그래프",
+      "B": "서울 주유소에서 2,000원대 가격판을 올려다보며 충격받는 한국 중년 남성 + 배경에 호르무즈 유조선 오버레이"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 왼쪽에 미국 도널드 트럼프 대통령, 오른쪽에 이란 외교장관이 대치하는 구도. 둘 사이에는 호르무즈 해협의 반투명 지도와 유조선 실루엣이 떠 있고, 경고색 붉은 라인이 해협을 가로지른다. 배경에는 급등하는 유가 그래프와 하락하는 주가 티커가 동시에 떠 있어 '연장됐지만 위기는 오히려 커졌다'는 역설 전달.",
+      "prompt_en": "Photorealistic cinematic wide-angle editorial composition. On the left side, Donald Trump, US President, in his early 80s wearing a dark navy suit and red tie, is caught mid-speech with a stern resolved jaw-set expression, one hand raised in a commanding gesture. On the right side, the Iran Foreign Minister in his 60s wearing a charcoal suit and traditional collarless shirt stands with an angry defiant glare, finger pointing forward. Between them hovers a large semi-transparent glowing map of the Strait of Hormuz with neon crimson warning lines cutting across the narrow waterway and tiny golden oil tanker silhouettes trapped inside. Behind them, a stock ticker wall shows sharp red declining arrows on one side and a massive upward-surging oil price graph on the other, with a golden oil barrel icon prominently featured. Deep navy-blue geopolitical newsroom backdrop with dramatic gold rim lighting on both figures, high-tension thriller aesthetic, shot on 50mm at f/2.2. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 서울 주유소에서 한국 중년 남성이 요금판을 올려다보며 충격받은 표정. 요금판은 네 자릿수가 붉게 올라가는 중. 배경에 호르무즈 해협 유조선 실루엣이 반투명으로 겹쳐 '기름값이 왜 오르는지'를 한 장에 설명.",
+      "prompt_en": "Photorealistic cinematic medium close-up of a middle-aged Korean man in his late 40s wearing a navy windbreaker over a gray shirt, standing at a Seoul gas station pump at blue-hour twilight, looking up at a massive illuminated fuel price display with an openly shocked expression and one hand covering his mouth. The overhead digital price board glows vivid red and warm gold, showing steeply climbing four-digit numerals that dominate the upper frame. Behind the price board, a translucent ghost overlay shows the Strait of Hormuz with dark oil tanker silhouettes crossing narrowly, subtly layered into the night sky. A golden upward price-surge arrow glows beside the numbers. Wet asphalt reflects the neon gold light of the board, his car hood also catches the reflection. Cool navy urban background with warm gold foreground accents, emotional shock editorial aesthetic, shot on 50mm at f/1.8. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 도널드 트럼프가 군 지휘관 앞에서 해군 봉쇄 명령서를 드는 장면을 중심에 두고, 배경 절반에는 원달러 환율 급등 경보(1500 임박 붉은 전광판), 반대편 절반에는 폭발하듯 치솟는 유가 그래프. '트럼프가 서명한 한 줄이 한국 환율·유가를 동시에 태운다'는 메시지 시각화.",
+      "prompt_en": "Photorealistic cinematic wide editorial composition featuring Donald Trump, US President, in his early 80s standing slightly left of center wearing a dark navy suit and red tie, holding up a signed executive-style document with a stern resolved expression. Behind him, split vertically: on the right half, a massive wall of glowing red digital exchange rate board showing a steeply climbing USD-KRW rate with urgent upward-pointing red arrows stacking upward, every digit trending higher like a rising thermometer, bright red emergency warning lights flashing across the board, evoking a currency on the verge of breaking a psychological ceiling. On the left half, a colossal oil-price line graph surges vertically into the sky with a bright golden flame-like glow at the tip, a huge golden barrel icon near the floor. Tiny silhouettes of oil tankers passing a narrow dark Strait of Hormuz sit faintly at the base of the graph. Dramatic navy-blue newsroom backdrop, gold rim light on Trump's figure, red emergency wash on the right side, gold heat-glow on the left side, investigative geopolitical thriller aesthetic, shot on 35mm at f/3.5. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+    }
+  ]
+}
