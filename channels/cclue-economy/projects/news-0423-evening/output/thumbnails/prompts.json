@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0423-evening",
+    "titles": [
+      "코스피 6,500 뚫었는데 외국인이 어제 산 건 딱 2종목이야",
+      "SK하이닉스 37조 실적, '기초체력 최강' 진짜 의미는 소거법이야",
+      "외국인이 한국을 산 진짜 이유 — 2000년 닷컴 버블이 남긴 교훈"
+    ],
+    "thumbnail_texts": [
+      "37조의 진실",
+      "외인이 산 2종목",
+      "6개월 시한"
+    ],
+    "image_concepts": {
+      "A": "SK하이닉스 CEO 인물 클로즈업 + HBM 칩 모듈 배경, 숫자 37조 임팩트",
+      "B": "코스피 6500 돌파 차트 + 외국인 순매수 2종목 집중 시각화"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "A안 승리 공식: SK하이닉스 CEO 곽노정 실존 인물 클로즈업. 배경에 HBM 칩 모듈 클로즈업 + 거대 '37조' 숫자가 붉은색으로 떠오름. 인물 표정은 자신감과 긴장이 섞인 시선. 네이비+골드 톤.",
+      "prompt_en": "Photorealistic cinematic portrait of Kwak Noh-jung, CEO of SK Hynix, a South Korean executive man in his 60s wearing a dark navy suit, captured in a close-up three-quarter shot with a tense confident expression. Behind him, a massive HBM (High Bandwidth Memory) semiconductor chip module glows with gold and blue electric patterns, floating in deep navy darkness. A huge bold red number '37조' (37 trillion) appears to the right like a shattering headline, with fragmenting golden shards. Dramatic chiaroscuro lighting from below, newsroom crisis aesthetic. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "B안 대조군: 거대한 KOSPI 6,500 차트 돌파 장면 + 한국 거래소 트레이딩 플로어 배경에 외국인 투자자 실루엣 2명이 두 개의 반도체 종목(삼성전자·SK하이닉스) 로고만 가리키는 구도. 차트는 붉은색으로 폭등.",
+      "prompt_en": "Photorealistic cinematic wide shot of a South Korean stock exchange trading floor with two silhouetted foreign investors in suits pointing at two glowing semiconductor company logos (Samsung and SK Hynix) on massive LED screens. A giant rising candlestick chart shows KOSPI breaking the 6,500 milestone with red bullish candles soaring upward. Gold confetti particles floating. Deep navy blue environment with dramatic golden rim lighting. Intense tension between euphoria and unease in the composition. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드: 2000년 닷컴 버블 붕괴 vs 2026년 한국 반도체 랠리의 거울 구도. 왼쪽은 시스코·MS·인텔 옛 로고가 무너지는 2000년 나스닥, 오른쪽은 SK하이닉스·삼성전자 로고가 솟아오르는 2026년 코스피. 두 시대의 비교.",
+      "prompt_en": "Photorealistic cinematic split-screen composition comparing two stock market eras. Left half: a grainy 2000s-style image of collapsing NASDAQ screens showing Cisco, Microsoft, Intel logos falling apart with red downward arrows, muted desaturated tones. Right half: a vibrant 2026 Korean stock exchange screen showing SK Hynix and Samsung Electronics logos rising with golden bullish arrows, hyper-saturated. A mirror reflection line splits the two, with a single male financial analyst in his 40s in the center foreground looking worriedly between both sides. Deep navy background. Historical and present reality collide. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}
