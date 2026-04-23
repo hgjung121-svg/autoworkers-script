@@ -23,9 +23,10 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ## 1단계: 설정
 1. `TZ=Asia/Seoul date +%Y-%m-%d` → {TODAY}, {MMDD}
 2. Read: `channels/cclue-economy/config/profile.md`
-3. Read: `channels/cclue-economy/config/pd-guide.md` ← **섹션 0(심층 대본 3대 원칙) 필수 준수**
+3. Read: `channels/cclue-economy/config/pd-guide.md` ← **섹션 0·10·11·12 필수 준수**
 4. Read: `channels/cclue-economy/config/thumbnail-strategy.json` — human_figure_rule 필드 반드시 준수
-5. `mkdir -p channels/cclue-economy/projects/weekly-{MMDD}/_script channels/cclue-economy/projects/weekly-{MMDD}/output/thumbnails channels/cclue-economy/projects/weekly-{MMDD}/_refs`
+5. Read: `channels/cclue-economy/_refs/topic-rotation-log.md` ← 이번 주 TOP 3 이슈 선정 시 참고
+6. `mkdir -p channels/cclue-economy/projects/weekly-{MMDD}/_script channels/cclue-economy/projects/weekly-{MMDD}/output/thumbnails channels/cclue-economy/projects/weekly-{MMDD}/_refs`
 
 ## 2단계: 자료 수집 (주간 R0~R5)
 
@@ -60,8 +61,9 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ## 핵심 숫자 5개 이하
 ```
 
-## 3단계: 대본 작성 (15~20분, ~7,000자)
-**R5 자료 노트만 보고** 작성. pd-guide.md 섹션 0 3대 원칙 필수 준수.
+## 3단계: 대본 작성 (10~13분, ~5,000자) ★길이 캡 적용★
+**R5 자료 노트만 보고** 작성. pd-guide.md 섹션 0(3대 원칙) + 섹션 12(영상 길이 캡) 필수 준수.
+주간은 일일 대비 조금 길어도 되나 **15분 초과 금지**.
 
 **구조**: Hook(3패턴 택일) → Intro(이번 주 핵심 이슈 예고) → **CTA(초반!)** → 본문(TOP 3~5 이슈, 각각 심층 레이어 2종+) → 다음 주 전망(핵심 일정+주시 포인트) → 클로징(통제감+다음 영상 예고)
 
@@ -131,7 +133,16 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - 브랜드 컬러: 네이비+골드 반영
 - 컨셉 A와 B는 본질적으로 다른 비주얼 방향
 
-## 5단계: Git push
+### A/B 테스트 승리 공식 (pd-guide §10)
+- 🏆 1번(A안) = 인물 + 구체 사건/장소 + 짧은 텍스트(10자 이하)
+- 2번(B안) = 차트·오브젝트 중심
+- 3번(와일드카드) = 추상 프레이밍 또는 다른 인물 구도
+- 3장 중 최소 2장은 인물 중심
+
+## 5단계: 로테이션 로그 업데이트 (대본 완성 후)
+`channels/cclue-economy/_refs/topic-rotation-log.md`에 주간 항목 1개 추가 (카테고리: 주간총정리).
+
+## 6단계: Git push
 ```
 git config user.name "autoworkers-bot"
 git config user.email "bot@autoworkers.script"

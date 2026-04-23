@@ -23,9 +23,10 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ## 1단계: 설정
 1. `TZ=Asia/Seoul date +%Y-%m-%d` → {TODAY}, {MMDD}
 2. Read: `channels/cclue-economy/config/profile.md`
-3. Read: `channels/cclue-economy/config/pd-guide.md` ← **섹션 0(심층 대본 3대 원칙) 필수 준수**
-4. Read: `channels/cclue-economy/projects/news-{MMDD}-morning/_script/script.txt` (파일 없으면 skip)
-5. `mkdir -p channels/cclue-economy/projects/news-{MMDD}-evening/_script channels/cclue-economy/projects/news-{MMDD}-evening/output/thumbnails channels/cclue-economy/projects/news-{MMDD}-evening/_refs`
+3. Read: `channels/cclue-economy/config/pd-guide.md` ← **섹션 0·11·12 필수 준수**
+4. Read: `channels/cclue-economy/_refs/topic-rotation-log.md` ← **주제 로테이션 체크** (최근 2편과 같은 카테고리면 오늘은 다른 카테고리)
+5. Read: `channels/cclue-economy/projects/news-{MMDD}-morning/_script/script.txt` (파일 없으면 skip)
+6. `mkdir -p channels/cclue-economy/projects/news-{MMDD}-evening/_script channels/cclue-economy/projects/news-{MMDD}-evening/output/thumbnails channels/cclue-economy/projects/news-{MMDD}-evening/_refs`
 
 ## 2단계: 자료 수집 (R0~R5, pd-guide.md §9)
 
@@ -36,7 +37,7 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - "{TODAY} 한국 증시 마감 코스피"
 - "{TODAY} 원달러 환율 유가"
 - "{TODAY} 한국 경제 단독 속보" ← 지표 외 이슈 반드시 포함
-→ 핵심 주제 1개 선정
+→ 핵심 주제 1개 선정 (**topic-rotation-log.md 준수 — 최근 2편과 다른 카테고리 우선**)
 
 ### R2. Who/Why (WebSearch 3회 + WebFetch 5회) ★핵심★
 - WebSearch: "{주제} 공식 발표 원문" / "{주제} 관계자 발언" / "{주제} 역사적 전례"
@@ -72,9 +73,10 @@ Bash, Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 - {숫자} — {의미}
 ```
 
-## 3단계: 대본 작성 (15~20분, ~7,000자)
+## 3단계: 대본 작성 (9~12분, ~4,500자) ★길이 캡 적용★
 **R5 자료 노트만 보고** 작성. 원자료를 보면서 쓰지 말 것 — 숫자 편향 원인.
-pd-guide.md **섹션 0 3대 원칙 필수 준수**.
+pd-guide.md **섹션 0(3대 원칙) + 섹션 12(영상 길이 캡) 필수 준수**.
+**15분 초과 금지** — 18분짜리 0422 영상의 노출 549 사례 재발 방지.
 
 **구조**: Hook(3패턴 중 택일) → "오전에 ~라고 했지"(오전 대본 있으면) → Intro(신뢰 근거+약속) → **CTA(초반!)** → 본문(필수 심층 레이어 3종 포함) → 시나리오 2개+ → 클로징(통제감+다음 영상 예고)
 
@@ -145,7 +147,20 @@ pd-guide.md **섹션 0 3대 원칙 필수 준수**.
 - 브랜드 컬러: 네이비+골드 반영
 - 컨셉 A와 B는 본질적으로 다른 비주얼 방향
 
-## 5단계: Git push
+### A/B 테스트 승리 공식 (pd-guide §10, 2026-04 실데이터)
+- 🏆 **1번(A안) = 인물 + 구체 사건/장소/행위 + 짧은 텍스트(10자 이하)**
+  - 승리 예: "카타르 헬륨 산단 드론 타격"(43.6%), "TSMC 역대 최대인데 주가 폭락"(53.8%)
+  - 추상 프레이밍("판이 갈린다", "운명의 시간") 단독 금지 — 1번에 넣지 말 것
+- 2번(B안) = 차트·오브젝트 중심 (대조군)
+- 3번(와일드카드) = 추상 프레이밍 또는 다른 인물 구도 (대조군)
+- 3장 중 최소 2장은 인물 중심
+
+## 5단계: 로테이션 로그 업데이트 (대본 완성 후)
+`channels/cclue-economy/_refs/topic-rotation-log.md`를 Edit으로 업데이트:
+- 최상단 표에 오늘 항목 추가 (날짜·프로젝트·카테고리·세부 주제)
+- 7편 초과 시 맨 아래 행 삭제
+
+## 6단계: Git push
 ```
 git config user.name "autoworkers-bot"
 git config user.email "bot@autoworkers.script"
