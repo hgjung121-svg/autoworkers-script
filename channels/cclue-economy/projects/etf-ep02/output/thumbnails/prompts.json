@@ -3,37 +3,44 @@
     "project": "etf-ep02",
     "titles": [
       "\"2만 원이 사라지는 경로\" ETF 한 주 사면 내 돈이 실제로 어디로 가는지 밀키트처럼 뜯어봤다",
-      "ETF 한 주 사면 내 2만 원은 어디로 가는 걸까? 아무도 안 알려준 ETF의 내부 구조",
-      "\"내 돈이 진짜 여기로 간다고?\" ETF 작동 원리를 밀키트 뜯어보듯 완전 해부"
+      "ETF 한 주 안에 500개 기업이 들어있다 — 밀키트처럼 뜯어본 진짜 내부 구조",
+      "매수 버튼 누르면 2만 원이 거치는 4단계 — LP·AP·NAV 전부 해부"
     ],
     "thumbnail_texts": [
-      "에라이~ / ETF 안에 뭐가 들었는지 / 봤어?",
-      "ETF 한 주 / 2만 원의 여행 / 끝까지 따라가봤다",
-      "너 지금 / 뭔지도 모르고 / 사고 있는 거야"
+      "2만 원이 사라지는 경로 / ETF 안에 뭐가 있나",
+      "ETF = 밀키트 / 내 돈 여행 4단계",
+      "숨겨진 함정 / 모르면 돈 잃는다"
     ],
-    "image_concepts": {
-      "A": "딥블루 배경 위에서 밀키트 박스가 뜯겨 금색 내부가 화려하게 드러나는 장면",
-      "B": "틸-네이비 그라데이션 배경 위에서 2만원 지폐가 폭발하며 분해되는 역동적 장면"
+    "character_poses": {
+      "1": "INTRO-03 돋보기로 분석 — ETF 밀키트 내부 해부 탐정 톤",
+      "2": "INTRO-04 차트 가리키며 설명 — 2만 원 여행 경로 프레젠터",
+      "3": "REACT-04 깜짝 놀람 — 레버리지·환헤지 함정 경고"
+    },
+    "design_rule": "상단 47% 이미지 + 하단 53% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 스컹크 벡터 스타일. 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "2만 원이 사라지는 경로", "sub": "ETF 안에 뭐가 있나", "label_top_right": "500개 기업"},
+      "2": {"main": "내 2만 원의 여행", "sub": "4단계 경로 해부", "label_top_left": "LP·AP·NAV"},
+      "3": {"main": "숨겨진 함정", "sub": "모르면 돈 잃는다", "label_top_right": "레버리지·환헤지"}
     }
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "진한 로열블루에서 틸 그라데이션 배경. 중앙에 프리미엄 밀키트 박스가 극적으로 뜯겨 있고, 박스 안에서 금색 기어, 빛나는 동전, 미니어처 빌딩이 화려하게 쏟아져 나온다. 금색 광채가 어두운 배경과 강렬하게 대비.",
-      "prompt_en": "Photorealistic cinematic photograph of a premium white meal-kit box labeled 'ETF' in bold letters, dramatically torn open in the center of the frame. Golden mechanical gears, gleaming coins, miniature glass skyscrapers, and colorful stock chart ribbons burst out abundantly from inside. The background is a rich deep royal blue to teal gradient, giving a premium financial atmosphere. Warm golden light radiates from inside the box, creating striking contrast against the cool blue background. The golden contents are oversized and filling the frame generously. Dramatic studio lighting with strong rim lights on the box edges. Extremely vivid saturated colors, high contrast, eye-catching and premium feel. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-mealkit-dissect",
+      "concept_ko": "컨셉 1 — 스컹크 돋보기 분석(INTRO-03). 좌측 스컹크가 대형 금색 돋보기로 우측 반투명 ETF 밀키트 박스 내부를 들여다봄. 박스 안에 애플·삼성·LG·SK하이닉스 등 500개 기업 로고 실루엣이 비율별로 담겨있는 투명 포장. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with determined detective expression, small pink nose. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, half body shot, holding a large golden magnifying glass with both paws and leaning forward to examine. On the RIGHT side: a large transparent meal-kit style package with clear plastic wrapping, clearly visible inside are miniature stylized company logos of Apple, Samsung, LG, SK, Google, Microsoft and many more tech and financial icons arranged in proportional weight layers like ingredients, glowing with blue and gold accents. A small golden banknote icon floats near the bottom-right of the package being drawn into it. Background: clean navy blue gradient with subtle golden bokeh and holographic grid pattern. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no watermark anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors."
     },
     {
       "id": 2,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "틸에서 네이비로 이어지는 그라데이션 배경. 대형 금색 2만원 지폐가 공중에서 수십 조각으로 폭발하며 금색 화살표, 동전, 차트 조각으로 변해 사방으로 흩어지는 역동적 장면.",
-      "prompt_en": "Photorealistic dramatic slow-motion photograph of a large golden 20000 Korean won banknote exploding apart in mid-air into dozens of brilliant fragments. The pieces transform into golden arrows, shimmering coins, miniature stock chart strips, and glowing particles scattering dynamically in all directions. Background is a vivid teal-to-deep-navy gradient creating a rich premium financial atmosphere. The banknote fragments are intensely golden with strong metallic reflections catching dramatic studio light. Dynamic composition with motion blur on outer fragments and sharp focus on the center explosion. High energy, extremely vivid saturated colors, cinematic lighting with volumetric light rays. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-money-journey-4stages",
+      "concept_ko": "컨셉 2 — 스컹크 차트설명(INTRO-04). 중앙 스컹크가 4단계 여행 다이어그램을 프레젠터처럼 가리킴. 좌에서 우로: 증권사 앱(스마트폰) → 거래소(건물) → LP(마트 아이콘) → AP(공장 아이콘). 각 단계 위를 황금 2만 원 지폐가 이동하는 화살표 연결. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, confident teacher expression. Clean vector illustration style, thick outlines, soft shading. The skunk stands CENTER-LEFT in the upper frame, full body shot, one paw extended forward pointing at a horizontal 4-stage journey diagram on the right side. The diagram shows four glowing icon nodes connected by animated golden arrows: 1) a smartphone with a generic stock trading app screen showing candlestick chart, 2) a classical stock exchange building with columns, 3) a small supermarket store icon representing a liquidity provider, 4) a factory icon representing an authorized participant. Between each node, stylized golden banknotes with subtle wing motifs float along the arrow path. Background: deep navy blue gradient with a faint world map outline and financial grid pattern. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no readable labels on icons anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors."
     },
     {
       "id": 3,
-      "type": "wildcard",
-      "concept_ko": "깊은 네이비에서 일렉트릭 블루 그라데이션 배경. 거대한 투명 밀키트 패키지 안에 미니어처 금융 도시가 보석처럼 빛나며 들어있는 장면.",
-      "prompt_en": "Photorealistic cinematic photograph of an oversized transparent premium package standing upright, labeled 'ETF' in large bold white letters. Inside the package, a spectacular miniature golden city glows brilliantly with tiny gleaming skyscrapers, flowing rivers of golden coins, and interconnected luminous circuit pathways. Tiny miniature people walk between the buildings. Background is a deep navy-to-electric-blue gradient with subtle aurora-like light effects, creating a magical premium atmosphere. Bright warm spotlight from above makes the package interior glow like a precious jewel display. The miniature world inside is incredibly detailed and luminous, radiating golden warmth against the cool blue backdrop. Vivid saturated colors, high contrast, curious and fascinating composition. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-hidden-trap-warning",
+      "concept_ko": "컨셉 3 — 스컹크 깜짝 놀람(REACT-04). 스컹크가 양 볼 잡고 충격 리액션. 뒤 배경에 경고 삼각형 아이콘과 음의 복리 그래프(아래로 꺾이는 빨간 곡선), '함정' 상징 덫 실루엣. 레버리지 ETF와 환헤지 H 스티커 아이콘이 떠있음. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes wide open in shock, small pink nose, alarmed panic expression with both paws holding the cheeks. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, upper body shot. On the RIGHT side: a large glowing red warning triangle silhouette shape (no actual text), behind it a stylized downward-plunging negative compound interest curve showing a sharp decay pattern, and a subtle metallic bear trap silhouette at the bottom edge of the upper zone. Two small floating sticker-style icons: one round sticker showing stylized leverage arrow symbols and another showing a currency hedge shield icon. Background: deep crimson red to navy blue gradient with faint financial grid, slight red glow particles floating. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no warning text anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with strong red warning atmosphere."
     }
   ]
 }

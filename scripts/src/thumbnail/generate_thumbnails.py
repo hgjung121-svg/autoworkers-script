@@ -43,12 +43,19 @@ def get_prompt_suffixes(strategy: dict | None) -> list[str]:
     # Text space / composition rule
     text_space = (strategy or {}).get("text_space", "bottom-half")
 
-    if text_space == "bottom-2/5-black":
+    if text_space in ("bottom-2/5-black", "bottom-53-black"):
         suffixes.append(
-            "The bottom 40% of the image transitions from the scene into pure "
-            "solid black (#000000) through a smooth gradient fade. The gradient "
-            "starts at the 60% line and becomes fully black by the 75% line. "
-            "The remaining bottom 25% is completely solid black with no elements"
+            "CRITICAL COMPOSITION RULE: The lower half of the frame is reserved "
+            "for text overlay. The bottom 53% of the image (more than half the "
+            "total frame height) must be pure solid black (#000000) completely "
+            "empty flat void. This is larger than a typical half-and-half split. "
+            "The gradient transition starts at the 45% line (from top) and must "
+            "be fully solid black by the 60% line. The remaining bottom 40% is "
+            "100% pure black with absolutely zero visual elements — no gradient, "
+            "no texture, no shadows, no details, pure #000000 flat void. "
+            "Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery "
+            "and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid "
+            "black text panel. Prioritize this composition rule above aesthetic balance"
         )
     elif text_space == "bottom-half":
         suffixes.append(

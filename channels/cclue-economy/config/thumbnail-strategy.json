@@ -3,18 +3,18 @@
   "art_styles": ["photorealistic"],
   "color_palette": "bright",
   "emotions": ["tension", "shock"],
-  "text_space": "bottom-2/5-black",
+  "text_space": "bottom-53-black",
   "face_style": "exaggerated",
   "human_figure_rule": "모든 썸네일에 주제 관련 유명 인물을 반드시 포함한다. 추상 오브젝트만 금지. 주제와 직접 관련된 실존 유명인 우선 (예: 경제 주제 — 트럼프, 이재명, 워런 버핏, 최태원, 이재용, 파월, 젠슨황, 이란 외교장관 아라그치 등). 실존 인물은 실명+직함 영문 표기 (예: Donald Trump, US President / Chey Tae-won, SK Group Chairman). 인물 표정/제스처 + 주제 맥락 배경(차트, 모니터, 종목 티커, 지도, 숫자 등)을 함께 배치하여 한눈에 영상 주제가 읽히게 한다. 3장 모두 인물 중심. 시청자 대리 일반인은 보조로만 사용 가능하며 단독으로는 금지.",
   "brand": {
     "colors": ["네이비", "골드"],
     "mascot": false,
-    "fixed_layout": "상단 3/5 이미지 + 하단 2/5 검정 텍스트 영역"
+    "fixed_layout": "상단 47% 이미지 + 하단 53% 검정 텍스트 영역"
   },
   "layout": {
-    "top": "이미지를 프레임 전체에 밝고 풍성하게 채운다. 'top 60% only' 같은 제한 금지.",
-    "bottom": "2/5 — 하단은 이미지에서 검정으로 자연스럽게 그라데이션 전환. 사용자가 미리캔버스에서 텍스트 배치.",
-    "prompt_rule": "프롬프트 끝에 'The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements' 반드시 포함. 단, 'top 60% of image only' 같은 이미지 제한 문구는 사용 금지 — 이미지를 프레임 전체에 채우되 하단만 자연스럽게 페이드."
+    "top": "이미지를 프레임 전체에 밝고 풍성하게 채운다. 'top 47% only' 같은 제한 금지.",
+    "bottom": "53% — 하단은 이미지에서 검정으로 자연스럽게 그라데이션 전환. 사용자가 미리캔버스에서 텍스트 배치.",
+    "prompt_rule": "프롬프트 끝에 다음 강화 문구 반드시 포함 (AI가 40% 지시를 실제로는 30% 이하로 축소 렌더링하는 경향 보정용, 53% 지시로 실측 40~45% 확보):\n'CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.'\n단, 'top 47% of image only' 같은 이미지 제한 문구는 사용 금지 — 이미지를 프레임 전체에 채우되 하단만 자연스럽게 페이드."
   },
   "benchmark_analysis": null
 }

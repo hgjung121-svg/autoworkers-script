@@ -3,37 +3,44 @@
     "project": "etf-ep03",
     "titles": [
       "\"그 계좌로 사면 끝장이야\" ETF 사는 법, 절세 계좌, 포트폴리오까지 이 영상 하나로 끝",
-      "처음 ETF 사는 사람이 꼭 봐야 할 실전 가이드 — 계좌 개설부터 포트폴리오까지 완벽 정리",
-      "\"2만 원이면 시작할 수 있어\" 내 첫 ETF 고르고, 사고, 포트폴리오 세팅하는 법"
+      "같은 ETF인데 세금 77만 원 vs 0원 — ISA·연금저축·IRP 완벽 정리",
+      "ETF 첫 매수 5분 가이드 — 호가창·지정가·리밸런싱까지 한 번에"
     ],
     "thumbnail_texts": [
-      "그 계좌로 사면 + 세금 폭탄 + ETF 실전편",
-      "ETF 처음 산다고? + 이것부터 해 + 실전 가이드",
-      "계좌 잘못 골랐다고? + 77만 원 증발 + ETF 실전"
+      "그 계좌로 사면 끝장 / 세금 77만원 vs 0원",
+      "ISA·연금·IRP / 148만원 돌려받는 법",
+      "따라만 하면 된다 / 첫 매수 완벽 가이드"
     ],
-    "image_concepts": {
-      "A": "증권사 앱 매수 버튼 직전의 긴장감 — 스마트폰 화면 클로즈업과 손가락",
-      "B": "ISA 계좌 vs 일반 계좌의 극적 대비 — 황금 금고 vs 구멍 뚫린 지갑"
+    "character_poses": {
+      "1": "REACT-02 걱정 경고 — 세금 77만원 경고 긴장감",
+      "2": "INTRO-07 메모하며 정리 — 절세 3종 체크리스트 톤",
+      "3": "INTRO-06 커피들고 인사 — 친근 실전 가이드 톤"
+    },
+    "design_rule": "상단 47% 이미지 + 하단 53% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 스컹크 벡터 스타일. 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "그 계좌로 사면 끝장", "sub": "세금 77만원 vs 0원", "label_top_center": "같은 ETF"},
+      "2": {"main": "ISA·연금·IRP", "sub": "148만원 돌려받는 법", "label_top_right": "절세 3종"},
+      "3": {"main": "따라만 하면 된다", "sub": "첫 매수 완벽 가이드", "label_top_left": "호가창 완벽"}
     }
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 딥 네이비 배경 위에 스마트폰 화면이 크게 보이고, ETF 매수 버튼 위에 손가락이 올려진 순간. 화면에서 골드빛과 초록 주가 차트가 빛나며, 첫 매수 직전의 긴장감과 기대감을 전달.",
-      "prompt_en": "Photorealistic dramatic close-up of a smartphone screen showing an ETF trading app with a glowing green 'Buy' button, a finger hovering just above the button about to tap. The phone screen displays S&P 500 ETF price charts with bright green candlesticks and gold accent highlights. Deep navy blue background with cinematic volumetric lighting casting warm golden rim light on the phone edges and the finger, creating an atmosphere of anticipation and tension. Bright vibrant colors with high saturation, the phone screen glowing intensely against the dark background. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-tax-shock-comparison",
+      "concept_ko": "컨셉 1 — 스컹크 걱정 경고(REACT-02). 중앙 스컹크가 이마에 땀방울 흘리며 양손 깍지 끼고 걱정. 좌우 분할 배경: 왼쪽 빨간 세금 폭탄 아이콘 + 77만원 표시 동전 산, 오른쪽 초록 ISA 방패 아이콘 + 0원 표시. 가운데 'VS' 구분선. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with worried anxious expression, small pink nose, a single sweat drop on forehead, both paws clasped together in anxiety. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned in the CENTER of the upper frame, half body shot, facing forward. The background is split LEFT vs RIGHT by a bold golden 'VS' divider: on the LEFT side, a large red tax bomb icon with a lit fuse, surrounded by a pile of golden coins being drained away into red flames, deep crimson glow atmosphere. On the RIGHT side, a large glowing green shield icon representing a tax-saving account, with golden coins staying safely inside the shield, bright emerald green glow atmosphere. Small stylized financial document icons float around each side. Background base: deep navy blue gradient with subtle grid pattern. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no watermark anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with strong red vs green contrast."
     },
     {
       "id": 2,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 화면 좌측에 황금빛으로 빛나는 ISA 금고에서 금화가 쌓여가고, 우측에 구멍 뚫린 빨간 지갑에서 지폐가 흩날리며 빠져나가는 극적 대비. 딥 네이비 배경 위 좌우 분할 구도로 계좌 선택의 결과 차이를 시각화.",
-      "prompt_en": "Photorealistic dramatic split composition on a deep navy background. Left side features a gleaming golden safe vault labeled 'ISA' with stacks of gold coins and bills accumulating inside, bathed in warm golden light with bright vibrant glow. Right side shows a worn red leather wallet with visible holes, paper bills and coins dramatically flying out and scattering away, illuminated by harsh cold red-tinted light. A sharp dividing line of light splits the frame vertically. High contrast cinematic lighting with saturated rich colors — warm gold tones versus alarming crimson red. The overall mood conveys the stark consequences of choosing the wrong account. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-tax-savings-three-accounts",
+      "concept_ko": "컨셉 2 — 스컹크 메모 정리(INTRO-07). 좌측 스컹크가 노트에 체크 표시 그리며 정리 중. 우측에 3개 절세 계좌 카드 진열: ISA(파랑), 연금저축(금색), IRP(초록) 카드. 각 카드 위에 작은 동전 더미와 체크마크. 위쪽에 세액공제 화살표. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with focused studious expression behind small round glasses, small pink nose, sitting pose. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, half body shot, holding a large notebook on the lap with one paw writing a check mark with a yellow pencil. On the RIGHT side: three stylized account card icons arranged in a fan layout — a blue card representing a tax-exempt savings account, a gold card representing a retirement savings account, a green card representing an individual retirement pension card. Each card has a small pile of golden coins on top and a glowing check mark. Above the cards, a cluster of small upward golden arrows representing tax deduction refunds. Background: warm beige to navy blue gradient with subtle grid pattern and soft sparkle particles. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no readable card labels anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors."
     },
     {
       "id": 3,
-      "type": "wildcard",
-      "concept_ko": "와일드카드. 거대한 금색 체크리스트 보드가 화면 중앙에 떠 있고, 체크리스트 항목들이 하나씩 초록 체크 표시로 완료되어 가는 장면. 주변에 ETF 로고, 증권사 앱 아이콘, ISA 뱃지가 떠다니며 실전 단계를 시각화. 딥 네이비 배경에 골드+초록 포인트.",
-      "prompt_en": "Photorealistic cinematic scene of a large floating golden checklist board in the center of the frame, with several checklist items being ticked off with bright glowing green checkmarks. Around the checklist, floating holographic elements include a smartphone showing a stock trading app, a golden 'ISA' badge, an S&P 500 ETF logo, and small portfolio pie charts — all orbiting the central checklist with subtle motion blur. Deep navy blue background with dramatic volumetric lighting, bright vibrant colors with gold and emerald green accent highlights creating a sense of achievement and progress. High saturation cinematic atmosphere conveying mastery and confidence. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+      "type": "skunk-first-purchase-guide",
+      "concept_ko": "컨셉 3 — 스컹크 커피 인사(INTRO-06). 좌측 스컹크가 커피 머그 들고 친근하게 손 흔들기. 우측에 대형 스마트폰 목업 — 증권앱 호가창(매수/매도 호가 바)과 큰 매수 버튼, 옆에 체크리스트 아이콘 4개. 친근하고 따뜻한 톤. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with warm friendly smile, small pink nose, wearing a casual striped sweater. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, half body shot, holding a steaming coffee mug in one paw and waving the other paw in a welcoming gesture. On the RIGHT side: a large realistic smartphone mockup tilted slightly, the screen displays a stylized stock trading app interface with a visible bid-ask order book showing horizontal bars in red and blue, and a prominent large green BUY button highlighted with a soft glow (no readable text on button). Beside the phone, four small floating checklist sticker icons with check marks in a vertical stack. Background: soft cream to navy blue gradient with warm golden bokeh and cozy atmosphere. Upper 47% of the frame contains all visual elements. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no readable app labels anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, warm inviting colors."
     }
   ]
 }

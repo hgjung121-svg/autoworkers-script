@@ -7,31 +7,40 @@
       "펀드 vs ETF, 30년 후 1.3억 차이 나는 이유 — 수수료가 만든 잔인한 복리"
     ],
     "thumbnail_texts": [
-      "1.3억 증발 + 수수료의 배신",
-      "당신의 펀드가 + 돈을 갉아먹고 있다",
-      "30년의 거짓말 + 펀드의 진짜 비용"
+      "1.3억이 증발했다 / 수수료의 진짜 얼굴",
+      "ETF vs 펀드 / 30년 뒤 이 차이",
+      "월가에 맞선 한 남자 / ETF의 시작"
     ],
-    "image_concepts": {
-      "A": "수수료에 갉아먹히는 돈 — 황금빛 코인/지폐가 부서지며 가루로 변하는 Before→After 이미지",
-      "B": "고급 레스토랑 vs 밀키트 — 화려한 파인다이닝 접시와 심플한 밀키트 패키지의 좌우 대비"
+    "character_poses": {
+      "1": "INTRO-02 놀란 표정 — 1.3억 증발 충격 리액션",
+      "2": "INTRO-04 차트 가리키며 설명 — ETF/펀드 대조 프레젠터",
+      "3": "REACT-03 자신감 결론 — 월가 혁명 스토리"
+    },
+    "design_rule": "상단 60% 스컹크+배경+오브젝트 / 하단 40% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "1.3억이 증발했다", "sub": "수수료의 진짜 얼굴", "label_top_right": "2.5% vs 0.04%"},
+      "2": {"main": "ETF vs 펀드", "sub": "30년 뒤 이 차이", "label_top_left": "20배 차이"},
+      "3": {"main": "월가에 맞선 한 남자", "sub": "ETF의 시작", "label_top_right": "1976년 혁명"}
     }
   },
   "thumbnails": [
     {
       "id": 1,
-      "type": "concept-a-photorealistic",
-      "concept_ko": "컨셉 A 실사. 황금빛 코인과 지폐 더미가 우측으로 갈수록 부서지고 가루로 변해가는 드라마틱한 장면. 밝고 선명한 골드 톤과 붉은 균열이 대비를 이룬다.",
-      "prompt_en": "Photorealistic dramatic photograph of a pile of gleaming golden coins and crisp banknotes on the left side, gradually cracking, crumbling and disintegrating into fine golden dust toward the right side. Bright vivid colors with high-key lighting illuminating the golden treasures. Deep crimson cracks and fractures spread across the coins like veins, with particles floating in the air catching the light. The background features a clean navy-blue gradient with subtle golden bokeh. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements Ominous atmosphere of wealth silently eroding, dramatic contrast between intact gold and disintegrating dust."
+      "type": "skunk-shock-money-evaporate",
+      "concept_ko": "컨셉 1 — 스컹크 놀란 표정(INTRO-02). 좌측 40% 스컹크 반신 충격 리액션, 우측 60% 황금 코인/지폐 더미가 가루로 부서져 먼지로 흩날리는 드라마틱 장면. 하단 40% 순검정 (미리캔버스 텍스트 자리).",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes wide open in shock, small pink nose, mouth open with shocked surprised expression. Small exclamation marks floating around the head. Clean vector illustration style with thick outlines and soft shading. The skunk is positioned on the LEFT side of the frame, upper body shot, both paws raised in shock gesture. On the RIGHT side of the frame: a dramatic pile of gleaming golden coins and crisp banknotes gradually cracking, crumbling and disintegrating into fine golden dust particles floating in the air, with deep crimson cracks spreading across the coins. Background: navy blue to black gradient with subtle golden bokeh sparkles. Upper 60% of the frame contains all visual elements with clear empty margin in top corners for later label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no watermark anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors."
     },
     {
       "id": 2,
-      "type": "concept-b-photorealistic",
-      "concept_ko": "컨셉 B 실사. 좌측에 화려한 파인다이닝 소고기 요리가 금빛 접시 위에 놓여 있고, 우측에 심플한 밀키트 패키지가 놓여 있다. 밝고 선명한 색감으로 비용 대비 가치의 역설을 시각화.",
-      "prompt_en": "Photorealistic split-composition photograph with bright vivid lighting. On the left, an extravagant fine-dining beef steak on an ornate gold-rimmed plate under warm amber spotlight, garnished elaborately with edible gold leaf, placed on a luxurious dark navy tablecloth. On the right, a simple clean meal-kit package with fresh ingredients visible through transparent packaging, placed on a bright white surface under clean white light. A subtle golden 'VS' divider between the two sides. The left side radiates expensive warmth while the right side radiates practical simplicity. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements High saturation, vivid saturated tones, shocking contrast between luxury and practicality."
+      "type": "skunk-vs-comparison",
+      "concept_ko": "컨셉 2 — 스컹크 차트설명 포즈(INTRO-04). 중앙 스컹크가 양쪽 대조 차트를 가리킴. 왼쪽 빨간 하락(펀드), 오른쪽 초록 상승(ETF), 중앙 VS 구분선. 상단에 '20배' 라벨 자리 확보. 하단 40% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, confident teacher expression. Clean vector illustration style, thick outlines, soft shading. The skunk stands in the CENTER of the frame, full body shot, one paw pointing to the LEFT at a large downward-trending red stock chart labeled with dollar bag icon (representing high-fee mutual fund), other paw pointing to the RIGHT at a large upward-trending green stock chart labeled with a basket icon (representing low-fee ETF). A bold golden 'VS' divider separates the two sides. Left side has deep crimson red glow, right side has vibrant emerald green glow. Background: clean navy blue split with subtle financial grid pattern. Upper 60% contains all visual elements with clear empty margin in top-left corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no percentages, no watermark in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors."
     },
     {
       "id": 3,
-      ."
+      "type": "skunk-wall-street-revolution",
+      "concept_ko": "컨셉 3 — 스컹크 자신감 결론(REACT-03). 스컹크가 정장 차림으로 레트로 월가 배경 앞에 당당히 섰음. 뒤에 1976년 느낌 VANGUARD 간판 실루엣과 황금 상승 차트. 월가에 맞선 한 남자 스토리 비주얼. 하단 40% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, confident determined expression with a slight smile. Clean vector illustration style, thick outlines, soft shading. The skunk wears a tiny navy business suit with a red tie, standing CENTER-LEFT in the frame, full body shot, one paw raised with a confident thumbs-up gesture. Background: stylized retro 1970s Wall Street scene with classic brick buildings and vintage street lamps on the left side, an open sky on the upper right with a golden upward-surging stock chart rising like a comet. Small stylized icons of stock certificates and index fund symbols floating around the skunk. Warm amber and deep navy color palette with vintage film grain effect. The upper-right area of the sky is clean open space with only the rising chart comet, no buildings, no signs, no billboards, no rectangular shapes, no boxes in that area. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Absolutely no text, no letters, no words, no numbers, no signboards, no name plates, no rectangular banners anywhere in the image. Wide 16:9 aspect ratio, YouTube thumbnail composition, cinematic retro aesthetic with high saturation."
     }
   ]
 }
