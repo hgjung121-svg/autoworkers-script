@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "project": "news-0424-evening",
+    "titles": [
+      "같은 한국은행이 한 주 만에 정반대로 발표한 두 숫자, 1.7%와 99.2",
+      "\"1년 만에 비관 전환\" 4월 소비심리 7.8p 폭락, GDP 1.7% 깜짝 성장 뒤 진짜",
+      "1분기 GDP 1.7% 중 반도체 기여 55%, 두 회사 빼면 한국은 0.77% 성장이야"
+    ],
+    "thumbnail_texts": [
+      "1.7% vs 99.2",
+      "K자의 진실",
+      "두 회사 캐리"
+    ],
+    "image_concepts": {
+      "A": "신현송 한국은행 총재 인물 클로즈업 + 한은 발표문 화이트보드 위 정반대 두 숫자 강조",
+      "B": "K자 차트 분기점 — 위쪽 SK하이닉스/삼성 로고, 아래쪽 석유화학 NCC 공장",
+      "C": "1988년 vs 2026년 GDI 데자뷰 거울 구도"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "A안 승리 공식: 신현송 한국은행 총재 실존 인물 클로즈업, 어두운 한은 기자회견장 배경. 그의 양옆에 두 거대 숫자 '1.7%'(붉은 골드)와 '99.2'(차가운 블루)가 정반대 방향으로 떠올라 있음. 표정은 냉정한 긴장. 짧은 텍스트 '한은의 두 얼굴' 7자.",
+      "prompt_en": "Photorealistic cinematic close-up portrait of Shin Hyun-song, Governor of the Bank of Korea, a South Korean senior central banker man in his late 60s wearing a dark navy suit with subtle pinstripe, captured in three-quarter view with a stern composed expression at a Bank of Korea press briefing. Behind him, a dimly lit Bank of Korea press room. To his right, a massive glowing red-gold number '1.7%' rises with an upward arrow. To his left, an equally massive cold cyan number '99.2' falls with a downward arrow, both numbers floating like contradictory headlines. Newsroom crisis aesthetic with dramatic split lighting (warm gold from one side, cold blue from the other). The composition emphasizes the paradox between the two numbers from the same central bank. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "한은의 두 얼굴"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "B안 대조군: 거대한 알파벳 K 모양 차트가 화면 중앙을 가른다. K의 위쪽 가지에는 SK하이닉스·삼성전자 로고와 1.7% 숫자가 붉은 골드로 솟아오르고, 아래쪽 가지에는 석유화학 NCC 공장 실루엣과 99.2 숫자가 푸른 회색으로 가라앉음. 한국 산업의 K자 양극화 시각화.",
+      "prompt_en": "Photorealistic cinematic split composition showing a giant glowing alphabet 'K' shape splitting the screen. The upper diagonal branch of K is filled with bright gold-red glow, featuring rising semiconductor wafer chips, SK Hynix and Samsung Electronics logos, and a bold red-gold number '1.7%' rising with bullish candlesticks. The lower diagonal branch of K is filled with cold cyan-grey shadow, featuring a silhouette of a Korean naphtha cracking center (NCC) petrochemical complex with cooling towers and pipelines, dimmed factory smokestacks, and a falling cyan number '99.2' with bearish candlesticks. Deep navy background. Sharp contrast between euphoria above and despair below, embodying K-shaped recovery. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "K자의 진실"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드: 1988년 vs 2026년 GDI 데자뷰 거울 구도. 왼쪽은 1988년 서울 명동 구식 증권 객장에서 환호하는 양복 차림 남성들, 흑백+세피아 톤. 오른쪽은 2026년 한국은행 발표 화면을 비추는 모니터들 앞 분석가, 차가운 블루+골드 톤. 두 시대 모두 '8.0%'와 '7.5%' 숫자가 떠오름.",
+      "prompt_en": "Photorealistic cinematic mirror composition split-screen comparing two Korean economic eras separated by 38 years. Left half: 1988 Seoul Myeong-dong stock exchange floor in sepia-tinted vintage tones, a cluster of Korean businessmen in 1980s wide-lapel suits cheering at a paper trading board displaying a glowing '8.0%' GDI number, retro CRT monitors and rotary phones. Right half: 2026 Bank of Korea broadcast room with sleek dark navy interior, a single male Korean financial analyst in his 40s standing in front of LED walls displaying a glowing '7.5%' GDI number with semiconductor wafer imagery, cold blue and gold lighting. A faint vertical mirror seam splits both halves. The composition warns about historical déjà vu of single-commodity price illusion. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "38년 데자뷰"
+    }
+  ]
+}
