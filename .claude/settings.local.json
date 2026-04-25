@@ -3,7 +3,23 @@
     "allow": [
       "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python -c \":*)",
       "Bash(.venv/Scripts/pip install:*)",
-      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/src/thumbnail/generate_thumbnails.py --project lee-seong-gye-ep01 --channel \"history-story\")"
+      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python scripts/src/thumbnail/generate_thumbnails.py --project lee-seong-gye-ep01 --channel \"history-story\")",
+      "Bash(.venv/Scripts/python scripts/collect.py --project lee-seong-gye-ep03 --channel history-story 'https://www.youtube.com/watch?v=I5hGxPjijgc' 'https://www.youtube.com/watch?v=5Xf9t7pMaQU' 'https://www.youtube.com/watch?v=JpZVMJs488U')",
+      "Bash(python -c \"import shutil; shutil.copytree\\('channels/history-story/projects/lee-seong-gye-ep03', 'channels/cclue-history/projects/lee-seong-gye-ep03'\\)\")"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/block-script-overwrite.py",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   }
 }
