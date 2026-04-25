@@ -8,7 +8,9 @@
     ],
     "thumbnail_texts": [
       "42년의 지옥",
-      "506번의 침략",
+      "여보, 가지 마세요",
+      "불패의 장수",
+      "각궁 한 발",
       "백성의 눈물"
     ],
     "image_concepts": {
@@ -20,30 +22,35 @@
     {
       "id": 1,
       "type": "concept-a-anime",
+      "thumbnail_text_overlay": "42년의 지옥",
       "concept_ko": "컨셉 A. 불타는 고려 마을 앞에서 아이를 안고 도망치는 어머니. 뒤로 왜구의 칼과 횃불 빛이 보인다.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a young Korean mother in worn Goryeo dynasty commoner clothing, clutching a small child to her chest, running desperately toward the viewer. Behind her, a traditional Korean thatched-roof village burns with intense orange flames against a dark smoky sky. Silhouettes of Japanese pirate raiders with raised swords visible in the firelight. The mother's face shows pure terror, tears streaming down her cheeks. Dramatic backlit composition with the fire illuminating her from behind. She occupies the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 2,
       "type": "concept-a-anime-2",
+      "thumbnail_text_overlay": "여보, 가지 마세요",
       "concept_ko": "컨셉 A 변형. 해안 마을에서 남편을 전쟁터로 보내며 소매를 붙잡는 아내.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a Korean woman in Goryeo dynasty commoner clothing, grabbing her husband's sleeve as he turns to leave. The husband wears rough militia armor and carries a spear, looking back at her with conflicted eyes. Behind them, a coastal Korean village with dark Japanese pirate ships approaching on the horizon. Overcast grey sky, muted vivid saturated tones. Both figures positioned in the upper 60% of the frame, emotional close-up showing the wife's desperate grip and the husband's torn expression. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 3,
       "type": "concept-b-anime",
+      "thumbnail_text_overlay": "불패의 장수",
       "concept_ko": "컨셉 B. 황산대첩 직후, 갑옷을 입은 이성계가 말 위에서 정면을 응시한다. 결의에 찬 표정.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a powerful Korean general in his late 30s wearing ornate Goryeo dynasty iron lamellar armor, sitting atop a warhorse on a hilltop. He has a strong jawline, sharp determined eyes, and a short trimmed beard. He gazes directly at the camera with an intense commanding expression. Behind him, the aftermath of a great battle with scattered enemy flags and faint smoke rising from the Hwangsan battlefield below. Warm golden sunset light creates dramatic rim lighting on his armor. He occupies the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 4,
       "type": "concept-b-anime-2",
+      "thumbnail_text_overlay": "각궁 한 발",
       "concept_ko": "컨셉 B 변형. 이성계가 활을 들고 정면을 응시하는 클로즈업.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime-style close-up with bold ink outlines portrait of a Korean general in his late 30s, holding a large traditional Korean composite bow across his chest. He wears battle-worn Goryeo dynasty armor with visible scratches and dust. His face shows fierce determination with sharp intense eyes staring directly at the viewer, strong jawline, short trimmed beard, sweat on his brow. Background is a hazy battlefield with dust and distant smoke, heavily blurred. Dramatic side lighting creates bright highlights on one side of his face. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 5,
       "type": "wildcard",
+      "thumbnail_text_overlay": "백성의 눈물",
       "concept_ko": "와일드카드. 고려 백성들이 승전한 이성계를 환영하며 꽃을 던지는 감동 장면.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a triumphant scene: Korean Goryeo dynasty villagers lining a dirt road, throwing wildflowers and cheering with tearful joy. In the center, a Korean general on horseback rides through the crowd, his armor gleaming in warm golden light. An old grandmother kneels by the road weeping with relief, hands clasped together. Children being lifted up by their parents to see the general. Warm golden hour lighting bathes the scene in hope. The scene fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     }

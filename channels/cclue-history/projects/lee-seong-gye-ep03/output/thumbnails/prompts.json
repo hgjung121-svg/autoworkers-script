@@ -9,7 +9,9 @@
     "thumbnail_texts": [
       "함주의 만남",
       "9년의 유랑",
-      "선죽교의 피"
+      "선죽교의 피",
+      "갈라진 동맹",
+      "경복의 꿈"
     ],
     "image_concepts": {
       "A": "정도전과 이성계의 운명적 만남",
@@ -20,30 +22,35 @@
     {
       "id": 1,
       "type": "concept-a-anime",
+      "thumbnail_text_overlay": "함주의 만남",
       "concept_ko": "컨셉 A. 갑옷 입은 이성계와 초라한 유학자 복장의 정도전이 횃불 아래서 마주 서는 운명적 만남.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a fateful meeting between two Korean men at night under torchlight. On the left, a powerful general (Yi Seong-gye, late 30s) in ornate Goryeo military armor with a commanding presence, strong jawline, and sharp eyes. On the right, a weathered scholar (Jeong Do-jeon, 50s) in worn travel-stained Confucian robes, thin build, intelligent burning eyes despite his ragged appearance, thin beard. They face each other with intense recognition. Behind them, silhouettes of elite cavalry soldiers in a military camp. Warm torchlight illuminates both faces against the dark background. Both figures in the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 2,
       "type": "concept-a-anime-2",
+      "thumbnail_text_overlay": "9년의 유랑",
       "concept_ko": "컨셉 A 변형. 정도전이 이성계의 가별초(정예 사병)를 보며 감탄하는 순간. 정도전 정면 클로즈업.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime-style close-up with bold ink outlines portrait of a Korean scholar-revolutionary (Jeong Do-jeon, 50s) with an expression of awe and revelation on his weathered face. He has thin sharp features, intelligent piercing eyes, thin beard, and wears worn dusty Confucian scholar robes. His eyes are wide with realization as if seeing something that changes everything. Behind him, blurred but visible, rows of elite Korean cavalry soldiers in formation with torches. Dramatic warm side lighting on his face. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 3,
       "type": "concept-b-anime",
+      "thumbnail_text_overlay": "선죽교의 피",
       "concept_ko": "컨셉 B. 선죽교에서 정몽주가 쓰러지는 비극적 장면. 핏빛 돌다리.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a Korean scholar-official (Jeong Mong-ju, 50s) in white Confucian official robes, collapsed on an ancient stone bridge at night. His face shows defiant dignity even in death, eyes still open with conviction. His black official hat has fallen beside him. Dark bloodstains spread across the grey bridge stones. Moonlight casts cold blue light on the scene. In the dark background, well-lit armed figures retreat into the shadows. Tragic and solemn atmosphere with high contrast lighting. The scene fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 4,
       "type": "concept-b-anime-2",
+      "thumbnail_text_overlay": "갈라진 동맹",
       "concept_ko": "컨셉 B 변형. 정도전(좌)과 이방원(우) 대치. 동맹이 균열되는 순간.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of two Korean men in tense confrontation. On the left, a middle-aged scholar-politician (Jeong Do-jeon, 50s) in fine Joseon official robes, holding government documents, with calm calculating eyes and thin sharp features. On the right, a young prince (Yi Bang-won, mid-20s) in nobleman's clothing with one hand on his sword hilt, fierce ambitious eyes, youthful but dangerous face. A visible crack of light splits the space between them. Left side bathed in warm golden torchlight, right side in cold blue moonlight. Both figures in the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     },
     {
       "id": 5,
       "type": "wildcard",
+      "thumbnail_text_overlay": "경복의 꿈",
       "concept_ko": "와일드카드. 경복궁 근정전 앞에 선 정도전. 자신이 설계한 나라를 바라보는 표정.",
       "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a Korean scholar-official (Jeong Do-jeon, 50s) standing before the newly built Gyeongbokgung Palace Geunjeongjeon hall at dawn. He wears fine Joseon dynasty official robes and gazes at the grand wooden palace with an expression of quiet pride and solemn determination. Thin beard, weathered but dignified face, intelligent eyes reflecting the early morning light. The palace architecture is grand and pristine behind him. Warm golden dawn light breaks through clouds, illuminating the palace. He occupies the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
     }
