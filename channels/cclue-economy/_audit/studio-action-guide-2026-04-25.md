@@ -1,8 +1,11 @@
-# YouTube Studio 수동 수정 작업 가이드 (2026-04-25)
+# YouTube Studio 수동 수정 작업 가이드 v2 (2026-04-25)
 
-> **점검 보고서**: [uploaded-policy-audit-2026-04-25.md](uploaded-policy-audit-2026-04-25.md)
-> **작업 대상**: cclue-economy 라이브 29편 (오늘 예약 weekly-0425 제외)
-> **총 예상 시간**: 1시간 (1단계 5분 + 2단계 30분 + 3단계 15분 + 4단계 0분)
+> **v2 갱신**: 5개 Agent cross-check + 외부 6편 실데이터 + 30편 retention 실측 반영. SSOT v2.0(14게이트 + Retention 게이트) 기준.
+> **점검 보고서**: [uploaded-policy-audit-2026-04-25.md](uploaded-policy-audit-2026-04-25.md) · [external-6-policy-audit-2026-04-25.md](external-6-policy-audit-2026-04-25.md) · [retention-analysis-2026-04-25.md](retention-analysis-2026-04-25.md)
+> **마스터 플랜**: [master-policy-plan-2026-04-25.md](master-policy-plan-2026-04-25.md)
+> **작업 대상**: cclue-economy 라이브 29편 + 외부 6편 (오늘 예약 weekly-0425 + 모범 news-0424-evening 제외)
+> **총 예상 시간**: 약 2시간 (1단계 10분 + 2단계 60분 + 3단계 20분 + 4단계 0분)
+> **AI 라벨**: 사용자가 30편 모두 "예" 처리 완료 ✅. Studio 1-C 단계는 skip 가능.
 
 ---
 
