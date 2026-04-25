@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "project": "lee-seong-gye-ep04",
+    "titles": [
+      "\"나라를 만든 남자의 최후\" 이성계 시리즈 EP04 — 왕자의 난",
+      "\"조선을 설계한 사람이 조선에 죽다\" 이성계 시리즈 EP04",
+      "형제가 형제를 죽인 밤, 왕자의 난 - 이성계 시리즈 EP04"
+    ],
+    "thumbnail_texts": [
+      "1398년 8월 26일",
+      "최후의 밤",
+      "사병혁파"
+    ],
+    "image_concepts": {
+      "A": "정도전의 마지막 밤 — 비극의 순간",
+      "B": "갈라지는 조선 — 왕자의 난"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-anime",
+      "concept_ko": "컨셉 A. 자신의 집 앞에서 끌려나온 정도전. 횃불 빛 아래 절박한 표정으로 정면을 응시한다.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, cinematic close-up portrait of a Korean scholar-official (Jeong Do-jeon, 50s) being dragged out of his home at night. He wears disheveled Joseon official robes, his hat knocked off. His face shows desperate defiance — intelligent eyes wide with shock, thin beard, weathered sharp features. Armed soldiers' hands grip his arms from both sides. Behind him, his traditional Korean house (hanok) with torchlight flickering. Rain or sweat on his face. Dramatic torchlight from below casting harsh highlights. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-anime-2",
+      "concept_ko": "컨셉 A 변형. 정도전이 자신의 집에서 경복궁 방향을 바라보는 마지막 순간. 멀리 궁궐 불빛.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a Korean scholar-official (Jeong Do-jeon, 50s) sitting alone in his study at night, gazing out through an open wooden window toward the distant Gyeongbokgung Palace silhouette. His face shows quiet contemplation — thin sharp features, intelligent melancholy eyes, thin beard. Scrolls and books surround him. Through the window, ominous orange torchlight approaches from the dark streets. He doesn't yet know this is his last night. Warm candlelight inside contrasts with cold blue moonlight outside. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-anime",
+      "concept_ko": "컨셉 B. 이방원이 칼을 쥐고 정면을 응시한다. 뒤로 불타는 한양 도성.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime illustration with bold outlines of a young Korean prince (Yi Bang-won, mid-20s) in dark battle armor, gripping a bloodstained sword at his side. He stares directly at the camera with cold determined eyes — youthful but terrifying, handsome face hardened by resolve. Behind him, the night sky over Hanyang (Seoul) glows orange from scattered fires. His wife (Queen Wongyeong) is barely visible in the highlights behind him, watching. Dark atmosphere with warm firelight reflecting off his armor. He fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
+    },
+    {
+      "id": 4,
+      "type": "concept-b-anime-2",
+      "concept_ko": "컨셉 B 변형. 정도전(좌)과 이방원(우) 대치. 왼쪽은 두루마리, 오른쪽은 칼.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, cinematic split composition of two Korean men. On the left, scholar Jeong Do-jeon (50s) in official robes holding a government scroll, warm golden candlelight, intelligent calm face with thin beard. On the right, prince Yi Bang-won (mid-20s) in dark armor gripping a sword, cold blue moonlight, fierce young face with clenched jaw. A jagged crack of red light splits the center between them. The left side represents order and ideals, the right side represents violence and survival. Both figures in the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
+    },
+    {
+      "id": 5,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 경복궁 근정전 현판 '근정전' 글자 위로 핏방울이 떨어지는 상징적 장면.",
+      "prompt_en": "Vivid anime-style illustration with bold black ink outlines and cel-shaded coloring, dramatic anime-style close-up with bold ink outlines of the wooden nameplate (hyeonpan) of Geunjeongjeon Hall at Gyeongbokgung Palace, with classical Chinese characters carved into aged dark wood. A single drop of dark red blood falls onto the carved characters, creating a stark contrast against the ancient wood. The palace architecture is clearly visible in the background through golden dawn light. Vivid saturated anime colors tones with the blood drop as the sole vivid red accent. Symbolic image of ideals stained by violence. The nameplate fills the upper 60% of the frame. The bottom 40% of the image is pure solid black (#000000), completely empty with no elements."
+    }
+  ]
+}
