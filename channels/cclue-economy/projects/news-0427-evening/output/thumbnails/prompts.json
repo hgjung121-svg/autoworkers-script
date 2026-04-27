@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "project": "news-0427-evening",
+    "titles": [
+      "자본시장법 통과 6개월 뒤 — 외국인이 보고 있는 한 줄은 따로 있다 (디스카운트 원인 80% 그대로)",
+      "\"코리아 디스카운트 해소법\" 통과 — 본문 80%가 안 건드린 진짜 이유 (자본시장연구원)",
+      "PBR 1.95로 일본 추월? 두 종목이 코스피 시총의 절반을 끌어올렸다 (AMRO 보고서)"
+    ],
+    "thumbnail_texts": [
+      "본문 80% 그대로 / 6개월 시행 공백",
+      "두 종목이 절반 캐리 / AMRO가 짚었다",
+      "통과는 됐는데 / 시행은 6개월 뒤"
+    ],
+    "image_concepts": {
+      "A": "한국 금융 트레이더 인물 클로즈업 + PBR 한·일 비교 차트 모니터 + 영문 자본시장법 개정안 인쇄물",
+      "B": "PBR 1.95(한국) vs 1.5(일본) 비교 막대 차트, 한국 막대는 두 점만 빛나 시총 50% 캐리 시각화",
+      "C": "와일드카드: 4월 23일 캘린더 + 10월 시행 공백을 시계 모티프로 시각화 (인물·정치인 명시 0건, 도구 거부 회피)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "A안 승리 공식: 한국 금융 트레이더 인물 클로즈업, 어두운 여의도 트레이딩 데스크 배경. 그의 앞 모니터에는 한국 PBR 1.95와 일본 PBR 1.5 비교 차트가 떠 있고, 책상 위에는 영문 'Capital Markets Act Amendment' 인쇄물이 펼쳐져 있음. 표정은 회의감과 깊은 사색. 짧은 텍스트 '본문 80% 그대로' 9자.",
+      "prompt_en": "Photorealistic cinematic close-up of a serious Korean male financial trader in his late 30s wearing a dark navy suit, sitting at a Bloomberg-style trading desk in a Yeouido financial district office. He stares intently at a large monitor displaying a comparison chart with two divergent labels 'KOREA PBR 1.95' and 'JAPAN PBR 1.5'. His left hand rests on a printed English-language document titled 'Capital Markets Act Amendment'. His expression shows skepticism and deep contemplation, slight furrowed brow, lips pressed together. Soft warm lighting from a desk lamp on his right side, contrasting with the cool blue glow of monitors. Background shows a blurred Seoul skyline through floor-to-ceiling windows during late afternoon golden hour. Camera angle slightly elevated, capturing the subject from chest up. Photorealistic, 8K, cinematic depth of field, film grain. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "본문 80% 그대로"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "B안 대조군: 화면 중앙에 거대한 3D 막대 그래프 두 개. 왼쪽 빨간 막대 'KOREA PBR 1.95'는 상단 두 군데만 빛나며(삼성·SK하이닉스 시총 50% 캐리 시각화) 나머지는 어둡고, 오른쪽 파란 막대 'JAPAN PBR 1.5'는 수백 개 작은 점이 균일 분포. 전경에 외국인 기관 투자자(서양 남성) 등을 돌리고 두 막대 응시. 분포 격차의 시각화.",
+      "prompt_en": "Photorealistic dramatic visualization of a giant 3D bar chart in a modern dark exhibition hall, comparing two financial metrics: a tall red bar labeled 'KOREA PBR 1.95' on the left filled with only two glowing concentrated bright spots near the top representing the disproportionate market cap concentration of Samsung Electronics and SK Hynix, versus a slightly shorter blue bar labeled 'JAPAN PBR 1.5' on the right filled with hundreds of evenly distributed small dots representing balanced corporate value across many firms. In the foreground, a Western foreign institutional investor in a charcoal grey suit stands with his back to the camera, hands clasped behind, gazing at the comparison. Cinematic moody lighting, red highlights from the Korea bar, blue cool tones from the Japan bar. Floor reflects the bars subtly. The visualization implies asymmetric concentration vs distributed strength. Photorealistic, 8K, cinematic, dramatic atmosphere. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "두 종목이 절반 캐리"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드: 4월 23일 통과 캘린더 + 10월 시행까지 6개월 공백을 시계 모티프로 시각화. 거대한 책상 위에 '4월 23일' 표시 캘린더와 그 옆에 '10월'까지 6개월 거리를 가리키는 시계. 두 시점 사이 그림자에 영문 'Capital Markets Act' 인쇄물이 묻혀 있음. 인물·정치인 명시 0건 (도구 거부 회피).",
+      "prompt_en": "Stylized cinematic conceptual illustration of a polished mahogany executive desk in a dimly lit law firm office at dusk. On the left side of the desk, a large open paper calendar prominently displays the date 'APRIL 23' with a red circle marking, alongside a small embossed gold seal labeled 'PASSED'. On the right side, a tall vintage brass clock points to '6 MONTHS' with the hour hand stretched toward an October position. Between the calendar and the clock, an open English-language printed document titled 'Capital Markets Act Amendment' lies half-buried in shadow, suggesting the dormant period between passage and enforcement. Warm desk lamp light from the upper right casts long shadows. Deep navy background with subtle bookshelves blurred in the back. Cinematic atmospheric mood, suggesting a six-month enforcement gap. Photorealistic textures with painterly cinematic finish. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "통과는 됐는데 6개월 후"
+    }
+  ]
+}
