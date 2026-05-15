@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "etf-ep06-part2",
+    "titles": [
+      "\"연금저축부터? ISA부터?\" 3단 계좌 순서 하나로 148만 원이 왔다갔다 | 연금저축 IRP ISA 실전 공식 | 깊이 읽는 경제",
+      "연말정산 148만 원 확정 환급 받는 3단 계좌 조립 공식 + 30년 뒤 6.5억 차이 실증 | 깊이 읽는 경제",
+      "\"ISA부터 채우면 망한다\" 연금저축 IRP ISA 순서 공식 + 실전 개설·자동매수·ISA 이전 보너스 | 깊이 읽는 경제"
+    ],
+    "thumbnail_texts": [
+      "연금? IRP? ISA? / 순서 하나로 / 148만원 왔다갔다",
+      "148만원 확정 환급 / 30년 뒤 6.5억 차 / 순서가 핵심",
+      "1층 연금 → 2층 IRP / 3층 ISA / 이 순서가 정답"
+    ],
+    "character_poses": {
+      "1": "INTRO-05 정면 응시 + 손짓 — 3개 계좌를 차례로 가리키며 순서 안내",
+      "2": "REACT-05 설명 중(교수 모드) — Before vs After 30년 자산 6.5억 차이 강의",
+      "3": "REACT-07 마무리 인사 — 1-2-3 황금 계단 위에서 따뜻한 안내 인사"
+    },
+    "design_rule": "상단 47% 이미지 + 하단 53% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 스컹크 벡터 스타일. 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "순서 하나로", "sub": "148만원 왔다갔다", "label_top_right": "3단 공식"},
+      "2": {"main": "30년 뒤 6.5억", "sub": "순서가 핵심", "label_top_left": "Before vs After"},
+      "3": {"main": "1층 연금 → 2층 IRP", "sub": "3층 ISA 정답", "label_top_right": "조립 순서"}
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "skunk-three-account-order-guide",
+      "concept_ko": "컨셉 1 — 스컹크 정면 응시 + 안내 손짓(INTRO-05). 좌측 똑똑이가 정면 보며 따뜻한 미소로 한 손 앞으로 안내. 우측에 황금 빛나는 3개의 통장 카드가 1-2-3 번호와 함께 부채꼴로 펼쳐짐 — '연금저축'(맨 앞·가장 큰 글로우), 'IRP'(중간), 'ISA'(맨 뒤). 각 카드 위에 작은 숫자 1, 2, 3 배지. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes looking directly at the viewer with a warm confident smile, small pink nose. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, full body shot, one paw extended forward in a welcoming presenter gesture inviting the viewer. On the RIGHT side: three glowing golden bankbook cards arranged in a fan layout, each clearly numbered with bold gold badges 1, 2, 3 — the front card brightest and largest representing pension savings, middle card representing IRP, back card representing ISA, all with simple abstract icon symbols. The numbered badges glow with bright gold halos. Background: deep navy blue gradient with golden bokeh sparkles and soft radial glow behind the cards. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with elegant gold and navy aesthetic."
+    },
+    {
+      "id": 2,
+      "type": "skunk-professor-30year-gap",
+      "concept_ko": "컨셉 2 — 스컹크 교수 모드(REACT-05). 중앙 똑똑이가 작은 안경 쓰고 검지 한 손가락 들어 'listen up' 제스처. 좌측에 작은 회색 동전 더미(Before — 일반계좌 30년 후), 우측에 거대한 황금 동전 산(After — 절세계좌 30년 후). 두 더미 사이 황금 화살표가 좌→우, 우측 위에 6.5억 격차 표시 자리. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, calm professional expression wearing small round glasses, one finger raised in a 'listen up' teaching gesture. Clean vector illustration style, thick outlines, soft shading. The skunk stands in the CENTER of the upper frame, half body shot. On the LEFT side: a small modest pile of dull gray coins on a faded platform, representing a regular account after 30 years. On the RIGHT side: a towering majestic mountain of brilliant glowing gold coins radiating warm golden light beams, representing a tax-saving account after 30 years. A bold golden arrow runs from the left pile to the right mountain, indicating dramatic transformation. Above the right mountain, an open empty space for future text overlay showing the gap value. Background: deep navy blue gradient with subtle financial grid pattern and golden sparkle particles around the right mountain. Upper 47% of the frame contains all visual elements with clear empty margin in top-left corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with clear before-after contrast."
+    },
+    {
+      "id": 3,
+      "type": "skunk-three-floor-staircase",
+      "concept_ko": "컨셉 3 — 스컹크 마무리 인사(REACT-07). 똑똑이가 황금빛 3단 계단 꼭대기에 서서 한 손 흔들고 다른 손에 작은 하트, 따뜻한 미소. 각 계단 단에 1-2-3 숫자 배지가 새겨져 있고, 각 단에서 위로 황금 빛 기둥이 솟아오름. 배경은 네이비-골드 향연. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, warm gentle smile. Clean vector illustration style, thick outlines, soft shading. The skunk stands at the top of a three-tier golden staircase in the CENTER of the upper frame, full body shot, one paw waving warmly toward the viewer, the other paw holding a small heart shape. Each of the three staircase steps has a large embossed gold number badge — 1 on the lowest step, 2 on the middle step, 3 on the top step. From each step, a soft vertical gold light beam rises upward. The staircase glows with rich warm golden light, with subtle sparkles drifting upward. Background: deep navy blue gradient sky with golden bokeh particles and soft radial glow behind the staircase. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with elegant gold and navy aesthetic."
+    }
+  ]
+}

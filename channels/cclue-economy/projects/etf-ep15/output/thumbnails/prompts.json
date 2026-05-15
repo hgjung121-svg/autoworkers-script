@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "project": "etf-ep15",
+    "titles": [
+      "\"S&P500만 사면 끝났다고요?\" 30년 묵힌 코리아 디스카운트가 진짜 깨지는 7월 23일",
+      "삼성 16조 소각 + 7월 상법 + 배당 14% — 그래서 네 S&P500은 어떻게 해야 해?",
+      "매달 S&P500만 모으던 너, 30년 만에 깔린 한국 정부의 패 5개 다 모르면 6개월 뒤 후회한다"
+    ],
+    "thumbnail_texts": [
+      "S&P500 끝났다고? / 7월 23일 한국 / 30년 만의 약속",
+      "삼성 16조 소각 / 배당 14% 시작 / 상법이 바뀐다",
+      "S&P500 그대로? / 30년 디스카운트 / 진짜 깨진다"
+    ],
+    "image_concepts": {
+      "A": "이재용 회장 진중한 표정 + 삼성 16조 자사주 소각 사건 컷 (KOSPI 차트·삼성 본관 배경)",
+      "B": "이재명 대통령 정책 발표 표정 + 7월 23일 상법 시행 사건 컷 (한국거래소·코스피 상승 화살표 배경)",
+      "wildcard": "일반 한국 30~50대 ETF 적립 투자자 페르소나 + S&P500과 KOSPI 차트 대비 (와일드카드)"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "이재용 회장(Samsung Electronics chairman)이 카메라를 정면으로 보며 진중한 표정. 배경에 16조원 자사주 소각을 상징하는 빨간 KOSPI 상승 차트와 삼성 본관 실루엣. 한국 자본시장 30년 디스카운트가 깨지는 결정적 사건의 시각화.",
+      "prompt_en": "Cinematic photorealistic close-up portrait of Lee Jae-yong, Samsung Electronics chairman, in the upper portion of the frame, dominating the top zone with an exaggerated serious resolute expression filling the upper section. He wears a dark navy suit. Behind him, a dramatically rising bright red KOSPI stock chart with steep upward arrows and the giant glowing gold number \"16조\" floating prominently. The Samsung headquarters building silhouette is visible in the deep navy blue background with dramatic side lighting and high contrast. Vivid bright tension atmosphere with golden and crimson accent lighting against the deep navy backdrop. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "이재명 대통령(President of South Korea)이 정책 발표 자리에서 단호한 표정. 배경에 한국거래소 빌딩과 코스피 상승 차트, 그리고 7월 23일 상법 시행일을 암시하는 달력 그래픽. 30년 만에 깔린 정부의 자본시장 약속을 시각화.",
+      "prompt_en": "Cinematic photorealistic close-up portrait of Lee Jae-myung, President of South Korea, in the upper portion of the frame, dominating the top zone with an exaggerated determined intense expression filling the upper section. He wears a dark navy suit with a Korean presidential pin. Behind him, the Korea Exchange building (KRX) facade is visible alongside a dramatically rising bright red KOSPI chart with a glowing gold calendar graphic showing \"JULY 23\" prominently. Deep navy and teal blue gradient background with vivid golden and crimson accent lighting, creating a high-tension policy announcement atmosphere with vibrant saturated tones. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "30대 후반 한국 남성 직장인 투자자 페르소나가 두 화면 사이에서 고민하는 표정. 좌측 모니터에는 S&P500 차트, 우측 모니터에는 KOSPI 상승 차트. 일반 적립식 투자자 시점에서 한국 vs 미국 자산배분 갈림길을 시각화.",
+      "prompt_en": "Cinematic photorealistic close-up of an attractive Korean man in his late thirties with a warm likeable face wearing a clean white dress shirt, sitting at a trading desk in the upper portion of the frame. He has an exaggerated worried thoughtful expression filling the top zone, looking between two large bright glowing monitors. The left monitor shows a flat S&P500 chart in white and blue, and the right monitor shows a sharply rising KOSPI chart in glowing bright red and gold with the label \"KOSPI\" clearly visible. Deep navy blue office background with vivid golden rim lighting and high contrast saturated tones creating tension between the two paths. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0414-evening",
+    "titles": [
+      "\"코스피 6000 돌파했다고?\" 트럼프 한마디에 3% 급등한 시장의 숨겨진 진실",
+      "코스피 6000 뚫었는데 왜 불안할까? 호르무즈 봉쇄가 바꿀 네 지갑의 미래",
+      "21시간 협상 결렬 → 역봉쇄 → 그런데 급등? 코스피 6000의 위험한 비밀"
+    ],
+    "thumbnail_texts": [
+      "코스피 6000 + 진짜 회복일까?",
+      "트럼프 한마디 + 3% 급등의 함정",
+      "유가 150달러 + 네 월급이 위험하다"
+    ],
+    "image_concepts": {
+      "A": "코스피 6000 수치가 빛나는 주식 차트 위에 드리워진 거대한 그림자 — 불안정한 상승의 이중성",
+      "B": "호르무즈 해협을 거대한 사슬이 가로막고 있는 장면 — 봉쇄 위기와 에너지 단절의 공포"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 거대한 주식 차트가 6000선을 돌파하며 빛나지만, 그 위로 트럼프의 거대한 실루엣 그림자가 드리워져 불안정함을 암시하는 시네마틱 장면.",
+      "prompt_en": "Photorealistic cinematic scene of a massive glowing stock market chart breaking through the 6000 level with bright golden light and upward arrows, but an enormous dark silhouette shadow of Donald Trump looms over the entire chart from behind, casting dramatic shadows across the scene. Deep navy blue background with gold accent highlights and ominous red undertones where the shadow falls. Dramatic volumetric lighting creates stark contrast between the bright chart and the dark imposing shadow. High saturation cinematic atmosphere conveying both triumph and hidden danger. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 호르무즈 해협을 거대한 금속 사슬이 가로막고 있고, 사슬 너머로 유조선들이 멈춰 서 있는 긴장감 있는 장면. 배경에 유가 숫자($97→$150)가 빨간색으로 표시.",
+      "prompt_en": "Photorealistic cinematic aerial view of the Strait of Hormuz with massive dark iron chains stretched across the narrow waterway, blocking passage. Several oil tankers are stopped before the chains, their lights glowing in the dim atmosphere. In the dark sky above, giant holographic oil price numbers glow in alarming red ($97 transforming into $150 with upward arrows). Deep navy and dark teal ocean waters contrast with fiery orange-red reflections from the chain barriers. Dramatic golden sunset backlighting creates an ominous silhouette effect. Bright vibrant colors with high saturation, creating an atmosphere of crisis and economic tension. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 거대한 도박 룰렛 위에 코스피 차트와 유가 그래프가 올려져 있고, 룰렛을 돌리는 손이 트럼프의 손(금색 커프스 링크)인 장면 — '트럼프의 입에 거는 도박' 비유 시각화.",
+      "prompt_en": "Photorealistic cinematic close-up of an enormous golden roulette wheel with stock market charts and oil price graphs embedded into its spinning surface instead of numbers. A powerful hand wearing a gold cufflink and navy suit sleeve is spinning the wheel with dramatic force. The roulette sections alternate between bright green (gains) and deep red (losses), with golden sparks flying from the spin. Scattered around the wheel are floating holographic elements showing KOSPI 6000, oil barrels, and currency symbols. Deep navy blue background with dramatic spotlight illumination, bright vibrant gold and emerald green accent highlights creating an atmosphere of high-stakes gambling and uncertainty. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

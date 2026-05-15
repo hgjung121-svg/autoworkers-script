@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import os; os.makedirs\\('channels/cclue-economy/projects/news-0422-evening/_script', exist_ok=True\\); os.makedirs\\('channels/cclue-economy/projects/news-0422-evening/output/thumbnails', exist_ok=True\\); print\\('OK'\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.newspim.com)"
+    ]
+  }
+}

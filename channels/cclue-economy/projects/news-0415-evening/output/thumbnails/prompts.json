@@ -1,25 +1,39 @@
 {
+  "meta": {
+    "project": "news-0415-evening",
+    "titles": [
+      "코스피 7% 올랐는데 내일 협상 실패하면 전부 사라진다 | 호르무즈 D-6, 진짜 바닥 3가지 조건",
+      "\"코스피 7% 올랐다고?\" 내일 협상 하나에 전부 사라지는 이유",
+      "호르무즈 D-6, 코스피 7% 랠리의 숨겨진 함정 | 유가 $70→$104의 진실"
+    ],
+    "thumbnail_texts": [
+      "코스피 +7% + 내일 전부 사라진다",
+      "유가 $70→$104 + 6주 만에 50% 폭등",
+      "휴전 만료 D-6 + 협상 결과가 전부 결정한다"
+    ],
+    "image_concepts": {
+      "A": "호르무즈 해협 군함 봉쇄 장면 위로 코스피 +7% 상승 차트가 떠 있는 긴장감 있는 대비 — 랠리의 불안정성",
+      "B": "유가 $70→$104 Before/After 주유소 분할 구도 — 6주 만에 50% 상승의 체감 충격"
+    }
+  },
   "thumbnails": [
     {
       "id": 1,
-      "concept": "호르무즈 해협 전함 봉쇄 vs 코스피 차트 충돌",
-      "text_top": "코스피 +7%",
-      "text_bottom": "내일 협상 실패하면\n전부 사라진다",
-      "prompt": "Photorealistic aerial view of the Strait of Hormuz with US naval warships blockading the narrow strait at golden hour. Dark oil-stained waters, dramatic tension. On the left side, a glowing green upward stock chart (+7%) floats in the air, contrasting with the military scene. The scene is vivid and full-frame with high tension and cinematic lighting. Colors: deep navy blue ocean, gold sunlight, red warning tones on ships. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 호르무즈 해협을 봉쇄하는 군함들 위로 초록색 코스피 +7% 상승 차트가 홀로그램처럼 떠 있는 시네마틱 장면. 군사적 긴장과 시장 낙관의 위험한 공존.",
+      "prompt_en": "Photorealistic cinematic aerial view of the Strait of Hormuz with US naval warships blockading the narrow waterway at golden hour. Above the military scene, a massive glowing green stock market chart showing +7% surge floats holographically in the sky, creating a surreal contrast between military tension and market optimism. Dark navy blue ocean waters with golden sunlight reflections, red warning lights on the warships. Dramatic volumetric lighting creates stark contrast between the bright chart glow and the ominous military scene below. High saturation cinematic atmosphere with deep navy and gold brand colors, conveying both triumph and hidden danger. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
     },
     {
       "id": 2,
-      "concept": "유가 $70 → $104 Before/After 충격 이미지",
-      "text_top": "유가 $70 → $104",
-      "text_bottom": "6주 만에 50% 상승\n당신 지갑은 알고 있다",
-      "prompt": "Photorealistic split composition: left half shows a peaceful gas station with $70 price sign and calm sunny day; right half shows the same gas station with $104 price sign under a dark stormy sky with ominous red-orange lighting and smoke in the distance. A torn dividing line between the two halves suggests a dramatic before-and-after shift. Hyperrealistic detail, cinematic composition, emotional contrast between peace and crisis. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 좌측은 $70 가격표의 평화로운 주유소(맑은 날), 우측은 $104 가격표의 폭풍우 치는 주유소 — 찢어진 경계선으로 Before/After 극적 대비.",
+      "prompt_en": "Photorealistic dramatic split composition of the same gas station in two contrasting states. Left half shows a peaceful sunny day with a bright $70 price sign, clean pumps, and calm blue sky. Right half shows the identical gas station under a dark stormy sky with an alarming red $104 price sign, ominous orange-red lighting, and smoke rising in the distant horizon suggesting conflict. A jagged torn dividing line runs vertically between the two halves, creating dramatic before-and-after tension. Hyperrealistic detail with cinematic lighting, deep navy and gold accent tones. Bright vibrant colors on both sides with extreme contrast between the peaceful left and crisis-mode right. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
     },
     {
       "id": 3,
-      "concept": "협상 테이블 D-6 카운트다운 긴장감",
-      "text_top": "휴전 만료 D-6",
-      "text_bottom": "내일 협상 결과가\n전부 결정한다",
-      "prompt": "Photorealistic image of a high-stakes diplomatic negotiation table seen from above, with two sides: one with the American flag and military insignia, the other with Iranian flag and symbols. A large red digital countdown clock showing '6 DAYS' dominates the center of the table. Intense dramatic lighting, shadows, and tension. The atmosphere is tense and cinematic, like a war room. Rich navy and gold tones with red warning accents. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements."
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 거대한 빨간 디지털 카운트다운 시계(D-6)가 중앙에 놓인 외교 협상 테이블을 위에서 내려다보는 장면. 미국 측과 이란 측이 대치하고, 테이블 위에 원유 배럴과 주식 차트 홀로그램이 떠 있다.",
+      "prompt_en": "Photorealistic cinematic top-down view of a high-stakes diplomatic negotiation table with two opposing sides. American side with US flag and military insignia on the left, Iranian side with Iranian flag and symbols on the right. A massive glowing red digital countdown display showing 'D-6' dominates the center of the dark polished table. Holographic projections of oil barrels and stock market charts float above the table surface. Intense dramatic overhead spotlight creates deep shadows on the negotiators' hands. Rich deep navy background with gold accent lighting on the table edges and alarming red glow from the countdown clock. Cinematic war-room atmosphere with high tension and bright vibrant details against the dark environment. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
     }
   ]
 }

@@ -1,4 +1,12 @@
 {
   "id": "cclue-economy",
-  "name": "깊이 읽는 경제"
+  "name": "깊이 읽는 경제",
+  "shorts": {
+    "enabled": false,
+    "count": 3,
+    "duration_seconds": 60,
+    "char_range": [170, 200],
+    "max_sentence_chars": 15,
+    "types": ["충격 수치형", "반전·진실형", "행동 가이드형"]
+  }
 }

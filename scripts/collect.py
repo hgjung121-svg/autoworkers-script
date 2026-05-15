@@ -169,11 +169,11 @@ def collect(url, ref_dir, ref_id):
     print(f"\n[1/5] 영상 정보 수집 중...")
     info = run_ytdlp(url, output_dir)
     title = info.get("title", "(제목 없음)")
-    print(f"       → {title}")
+    print(f"{title}")
 
     print(f"[2/5] 댓글 수집 중...")
     comments = fetch_comments(url)
-    print(f"       → {len(comments)}개 수집")
+    print(f"{len(comments)}개 수집")
 
     print(f"[3/5] meta.md 생성 중...")
     meta_md = build_meta_md(info, comments)
@@ -189,7 +189,7 @@ def collect(url, ref_dir, ref_id):
     cleanup(output_dir)
 
     rel_path = os.path.relpath(output_dir, ROOT_DIR)
-    print(f"\n✓ 완료! → {rel_path}/")
+    print(f"\n[OK] {rel_path}/")
     for f_name in sorted(os.listdir(output_dir)):
         size = os.path.getsize(os.path.join(output_dir, f_name))
         print(f"  {f_name} ({size:,} bytes)")
@@ -210,7 +210,7 @@ if __name__ == "__main__":
     else:
         urls = []
         while True:
-            url = input("YouTube URL (엔터 → 종료): ").strip()
+            url = input("YouTube URL (Enter to quit): ").strip()
             if not url:
                 break
             urls.append(url)

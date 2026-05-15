@@ -67,6 +67,40 @@ creative-strategy.md Phase 5에서 참조하는 **프롬프트 작성 규칙**.
 | `monotone` | `"desaturated monochrome"`, `"black and white with single accent color"`, `"high contrast grayscale"` + brand.colors에서 포인트 컬러 적용 | |
 | `auto` | 주제에 따라 위 중 가장 적합한 색감을 자체 판단 | |
 
+---
+
+## 색상 심리학 매트릭스 (시니어 시인성 + 클릭 의도별)
+
+영상 콘텐츠가 어떤 클릭 의도를 노리는지에 따라 **4가지 정형 조합** 중 1개를 선택해 prompts.json `meta.color_psychology`에 명시한다. 시니어 50~70대 대상 채널(cclue-economy)은 모바일에서 1초 안에 가독 — **고대비·큰 글씨·HEX 명시** 의무.
+
+| 용도 | 메인 텍스트 | 강조 숫자 | 배경 | 적용 콘텐츠 |
+|---|---|---|---|---|
+| **위기 알림** | `#E63946` (빨강 — 경고·긴급) | `#FFD60A` (노랑 — 주목) | `#1D1D1D` (검정 — 강조) | 속보, 손실·하락·금리 인상·정책 강화 |
+| **기회 포착** | `#FFFFFF` (흰색 — 가독) | `#06A77D` (초록 — 성장) | `#003566` (파랑 — 신뢰) | ETF 추천, 환전 타이밍, 수익 기회 |
+| **행동 가이드** | `#1D1D1D` (검정 — 권위) | `#FFD60A` (노랑 — 행동 유도) | `#FFFFFF` (흰색 — 가독) | "꼭 확인", "체크리스트", "오늘 할 일" |
+| **비교 대비** | `#E63946` (빨강) vs `#06A77D` (초록) | `#1D1D1D` (검정) | `#FFFFFF` 또는 그라데이션 | "준비 vs 무방비", "A vs B" |
+
+### prompts.json 작성 시 의무 사항
+
+1. `meta.color_psychology` 필드에 4가지 중 1개 명시 (`"위기 알림"` / `"기회 포착"` / `"행동 가이드"` / `"비교 대비"`)
+2. 해당 조합의 HEX 코드를 prompt_en에 자연어로 포함:
+   - 예: `"deep red accent (#E63946) on solid black background (#1D1D1D) with bright yellow numerical highlight (#FFD60A)"`
+3. 시니어 시인성 3원칙 명시:
+   - `"high contrast for senior viewer readability on mobile"` (시인성)
+   - `"large oversized expression on face"` (감정 인물)
+   - `"prominent numerical symbol (%, ↑, ↓, ₩) as visual anchor"` (숫자·기호 강조)
+
+### 채널별 적용 가이드
+
+- **cclue-economy** — 4매트릭스 의무 적용 (시니어 대상). 스컹크 캐릭터 PNG는 메모리 [feedback_thumbnail_skunk_formula] 룰에 따라 ETF/교육은 상단 47%, 심층·주간은 사용자 합의 배치.
+- **cclue-history** — `위기 알림` 또는 `행동 가이드`는 부적합. 대신 `dark cinematic` + 단색 포인트로 진중함 우선.
+- **기타 채널** — 채널 `config/thumbnail-strategy.json`의 `color_palette`가 우선. 충돌 시 채널 설정 우선.
+
+### False Positive 회피
+
+- 단순 "정보 전달" 콘텐츠(경제 용어 설명, 역사 인물 소개)는 4매트릭스 의무 아님. `auto` 색감 사용.
+- 위기 알림 색상을 모든 영상에 남발 금지 — 시청자 피로감으로 CTR 하락 가능.
+
 ### 감정톤 (`emotions`)
 
 | 값 | 과장 수준 & 분위기 지시 |
@@ -129,6 +163,13 @@ creative-strategy.md Phase 5에서 참조하는 **프롬프트 작성 규칙**.
     "image_concepts": {
       "A": "{컨셉 A 한줄 설명}",
       "B": "{컨셉 B 한줄 설명}"
+    },
+    "color_psychology": {
+      "intent": "위기 알림",
+      "main_text_hex": "#E63946",
+      "accent_number_hex": "#FFD60A",
+      "background_hex": "#1D1D1D",
+      "rationale": "{왜 이 의도/조합을 선택했는지 1줄}"
     }
   },
   "thumbnails": [
@@ -153,6 +194,7 @@ creative-strategy.md Phase 5에서 참조하는 **프롬프트 작성 규칙**.
 | 필드 | 설명 |
 |------|------|
 | `meta.titles` | 제목 후보 3개 배열. 첫 번째가 추천안 (concept.md "제목 후보" 3개 그대로) |
+| `meta.color_psychology` | 4매트릭스 중 1개 (`위기 알림` / `기회 포착` / `행동 가이드` / `비교 대비`) + 해당 HEX 3종. 시니어 대상 채널 의무. 채널이 `thumbnail-strategy.json`의 `color_palette` 우선 사용 시 생략 가능 |
 | `id` | 1~N 번호 (thumbnail-strategy.json의 count에 따라) |
 | `type` | `concept-{a|b}-{style}` 또는 `wildcard`. 스타일명은 art_styles에서 결정 |
 | `concept_ko` | 한국어로 이 이미지가 무엇을 보여주는지 1~2문장 설명 |

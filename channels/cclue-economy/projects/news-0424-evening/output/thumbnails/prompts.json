@@ -7,14 +7,14 @@
       "1분기 GDP 1.7% 중 반도체 기여 55%, 두 회사 빼면 한국은 0.77% 성장이야"
     ],
     "thumbnail_texts": [
-      "1.7% vs 99.2",
-      "K자의 진실",
-      "두 회사 캐리"
+      "한은의 두 얼굴 / 1.7% vs 99.2",
+      "K자의 진실 / 두 회사 캐리야",
+      "두 톱니의 한국 / 맞물리지 않는다"
     ],
     "image_concepts": {
       "A": "신현송 한국은행 총재 인물 클로즈업 + 한은 발표문 화이트보드 위 정반대 두 숫자 강조",
       "B": "K자 차트 분기점 — 위쪽 SK하이닉스/삼성 로고, 아래쪽 석유화학 NCC 공장",
-      "C": "1988년 vs 2026년 GDI 데자뷰 거울 구도"
+      "C": "두 톱니바퀴 추상 비유 (개정)"
     }
   },
   "thumbnails": [
@@ -35,9 +35,9 @@
     {
       "id": 3,
       "type": "wildcard",
-      "concept_ko": "와일드카드: 1988년 vs 2026년 GDI 데자뷰 거울 구도. 왼쪽은 1988년 서울 명동 구식 증권 객장에서 환호하는 양복 차림 남성들, 흑백+세피아 톤. 오른쪽은 2026년 한국은행 발표 화면을 비추는 모니터들 앞 분석가, 차가운 블루+골드 톤. 두 시대 모두 '8.0%'와 '7.5%' 숫자가 떠오름.",
-      "prompt_en": "Photorealistic cinematic mirror composition split-screen comparing two Korean economic eras separated by 38 years. Left half: 1988 Seoul Myeong-dong stock exchange floor in sepia-tinted vintage tones, a cluster of Korean businessmen in 1980s wide-lapel suits cheering at a paper trading board displaying a glowing '8.0%' GDI number, retro CRT monitors and rotary phones. Right half: 2026 Bank of Korea broadcast room with sleek dark navy interior, a single male Korean financial analyst in his 40s standing in front of LED walls displaying a glowing '7.5%' GDI number with semiconductor wafer imagery, cold blue and gold lighting. A faint vertical mirror seam splits both halves. The composition warns about historical déjà vu of single-commodity price illusion. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
-      "thumbnail_text_overlay": "38년 데자뷰"
+      "concept_ko": "와일드카드 (개정): 두 톱니바퀴 추상 비유. 좌상단 거대한 황금 톱니바퀴는 반도체 칩 패턴이 새겨져 빛나며 매끄럽게 회전. 우하단 거대한 녹슨 톱니바퀴는 산업 파이프 텍스처에 균열이 가 있고 멈춰있음. 두 톱니바퀴가 맞물리지만 서로 돌릴 수 없음 — K자 양극화 구조 비유. 인물·지역·시대 명시 0건 (도구 거부 회피).",
+      "prompt_en": "Stylized cinematic illustration of two giant interlocking gears against a deep navy blue background. The upper-left gear is glowing bright gold with subtle semiconductor chip circuit patterns etched on its surface, spinning smoothly with sparks of golden light radiating outward. The lower-right gear is rusted dark blue-grey, partially broken with visible cracks and stuck still, with abstract industrial pipe and valve textures on its surface, surrounded by faint shadow. The two gears barely touch at the center but cannot turn together, symbolizing structural imbalance between two opposing industrial forces. Dramatic side lighting from the gold gear creates strong contrast and shadow on the rusted gear. Bright vibrant gold versus cold rust palette against deep navy. Cinematic atmospheric mood. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "맞물리지 않는 두 톱니"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "etf-ep07-part2",
+    "titles": [
+      "QQQ vs VOO vs SCHD 10년 총수익 정면 대결 + 상황별 배당 ETF 처방 공식 | 깊이 읽는 경제",
+      "\"버핏은 왜 VOO에 90% 하라고 했나\" 배당 ETF 4개 처방 + ep06 연금계좌 조합 완성 | 깊이 읽는 경제",
+      "배당률은 수익이 아니다 | 10년 총수익 대결 + 버핏의 진짜 조언 + 4가지 상황별 처방 | 깊이 읽는 경제"
+    ],
+    "thumbnail_texts": [
+      "QQQ +420% / VOO +250% / SCHD +220%",
+      "버핏 \"VOO에 90%\" / 배당 ETF 4개 처방 / 오늘 정리",
+      "배당 ≠ 수익 / 총수익이 답이다 / 10년이 증명"
+    ],
+    "character_poses": {
+      "1": "INTRO-07 뉴스읽기 — 분석가 똑똑이가 3종 ETF 10년 수익률 데이터 비교 정독",
+      "2": "REACT-05 설명 중(교수 모드) — '배당률 ≠ 수익률' 핵심 개념 강의",
+      "3": "REACT-03 자신감/결론 — 4가지 상황별 처방 카드 부채꼴, 엄지척"
+    },
+    "design_rule": "상단 47% 이미지 + 하단 53% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 스컹크 벡터 스타일. 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "QQQ +420%", "sub": "VOO +250% / SCHD +220%", "label_top_right": "10년 대결"},
+      "2": {"main": "배당 ≠ 수익", "sub": "총수익이 답이다", "label_top_left": "버핏의 조언"},
+      "3": {"main": "4가지 처방", "sub": "오늘 정리", "label_top_right": "상황별 공식"}
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "skunk-analyst-three-etf-bars",
+      "concept_ko": "컨셉 1 — 스컹크 뉴스읽기 분석가(INTRO-07). 좌측 똑똑이가 안경 쓰고 태블릿을 들고 진지하게 읽는 자세. 우측에 3개의 황금 막대그래프 — 가장 높은 'QQQ' 막대(밝은 골드), 중간 'VOO' 막대(따뜻한 앰버), 약간 짧은 'SCHD' 막대(차분한 골드). 각 막대 위로 빛나는 상승 화살표. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes behind small round glasses, small pink nose, focused curious analyst expression, sitting and reading a tablet showing financial charts. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, half body shot, side angle, holding the tablet with both paws. On the RIGHT side: three luminous bar charts rising side by side at clearly different heights — the leftmost tallest bar in radiant bright gold representing QQQ, the middle medium-height bar in warm amber representing VOO, the rightmost slightly shorter bar in muted gold representing SCHD. Each bar has a small glowing upward arrow icon at its peak, and abstract chart icon labels at the base. Background: deep navy blue gradient with rich golden chart glow and subtle financial grid pattern. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with elegant gold and navy aesthetic."
+    },
+    {
+      "id": 2,
+      "type": "skunk-professor-dividend-vs-total",
+      "concept_ko": "컨셉 2 — 스컹크 교수 모드(REACT-05). 중앙 똑똑이가 안경 쓰고 검지 들어 'listen up' 제스처. 좌측에 작은 빛나는 동전(배당률), 우측에 거대한 황금 동전 산(총수익). 가운데 큰 ≠ (부등호) 황금 기호. 우측 위에 빛나는 황금 별 — '버핏 인증' 배지 자리. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, calm professional expression wearing small round glasses, one finger raised in a 'listen up' teaching gesture. Clean vector illustration style, thick outlines, soft shading. The skunk stands in the CENTER of the upper frame, half body shot. On the LEFT side: a small modest single golden coin glowing softly, representing dividend yield. On the RIGHT side: a towering majestic mountain of brilliant glowing gold coins radiating warm golden light beams, representing total return. Between them, a massive bold golden inequality symbol, hovering prominently. In the upper right area, a glowing golden star badge with sparkle effects, suggesting an authoritative endorsement. Background: deep navy blue gradient with subtle financial grid pattern and golden sparkle particles around the right mountain. Upper 47% of the frame contains all visual elements with clear empty margin in top-left corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with clear contrast emphasis."
+    },
+    {ㅍ
+      "id": 3,
+      "type": "skunk-confident-four-prescriptions",
+      "concept_ko": "컨셉 3 — 스컹크 자신감/결론(REACT-03). 좌측 똑똑이가 정장 차림으로 가슴 펴고 엄지 척, 자신감 있는 미소. 우측에 4장의 황금 처방 카드가 부채꼴로 펼쳐짐 — 각 카드에 1·2·3·4 번호 배지와 작은 아이콘. 카드 뒤로 황금 빛 후광. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with confident sparkle, small pink nose, proud smile, one paw raised with thumb up, standing tall with chest out wearing a small navy business suit. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, full body shot. On the RIGHT side: four glowing golden prescription cards spread in a fan layout like a winning hand, each card clearly numbered with bold gold badges 1, 2, 3, 4 with small distinct abstract icon symbols on each card. The cards emit soft warm golden auras with sparkle particles drifting around them. Background: deep navy blue gradient with golden bokeh sparkles and a soft radial halo glow behind the fan of cards. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with elegant gold and navy aesthetic."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "project": "news-0413-evening",
+    "titles": [
+      "\"오늘 밤 11시 봉쇄 시작\" 미 해군이 이란을 막는 순간, 기름값·증시·환율 전부 바뀐다",
+      "미 해군 호르무즈 전면 봉쇄 — 38년 만에 반복되는 페르시아만의 악몽",
+      "WTI 104달러 돌파, 봉쇄는 시작됐다 — 기름값 3,000원 시대가 온다"
+    ],
+    "thumbnail_texts": [
+      "오늘 밤 11시\n봉쇄 시작",
+      "기름값 3,000원\n시대 온다",
+      "38년 만의\n반복"
+    ],
+    "image_concepts": {
+      "A": "호르무즈 해협을 봉쇄하는 미 해군 항모전단과 불타는 유조선",
+      "B": "주유소 가격판이 치솟는 가운데 충격받은 한국 시민"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 호르무즈 해협의 좁은 수로를 봉쇄하는 미 해군 항공모함과 구축함들, 석양빛에 물든 긴박한 페르시아만 장면.",
+      "prompt_en": "Photorealistic cinematic wide shot of a massive US Navy aircraft carrier and destroyer fleet blocking the narrow Strait of Hormuz at dramatic golden hour. Towering warships cast long shadows across the deep navy-blue Persian Gulf waters. Ominous dark storm clouds gather on the horizon with orange-red sunset breaking through, creating an atmosphere of extreme tension and crisis. Bright vivid colors with high contrast between the warm sunset tones and cold steel-gray warships. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사. 한국 주유소 가격판에 '2,500'이 표시된 가운데, 충격받은 표정의 한국 직장인이 주유구를 잡고 있는 장면.",
+      "prompt_en": "Photorealistic dramatic photograph of a Korean gas station at night with vivid neon-lit price display showing alarming high numbers. An attractive Korean office worker in a suit stands frozen at the fuel pump with an exaggerated shocked expression, hand gripping the nozzle. Deep teal and electric red neon lights illuminate the scene against a dark urban backdrop. Bright vibrant saturated colors with high-key dramatic lighting creating tension and shock. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드. 거대한 유가 차트가 급등하는 배경 앞에 호르무즈 해협의 위성 지도가 빨갛게 빛나는 전략적 구도.",
+      "prompt_en": "Photorealistic dramatic aerial satellite view of the Strait of Hormuz glowing in intense crimson red, overlaid with a massive upward-surging oil price chart in bright electric green against a deep navy-blue background. Military ship silhouettes dot the narrow waterway creating a visual chokepoint. Vivid saturated colors with high contrast between the red danger zone, green price surge, and dark blue ocean. Cinematic dramatic lighting with ominous atmosphere of global crisis. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements"
+    }
+  ]
+}

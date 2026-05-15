@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "project": "news-0428-evening",
+    "titles": [
+      "평균 피해 1억 8천 — 4월 28일 금감원 'AI 24시간 감시' 시작한 핀플루언서 5060 함정 (자가 진단 5문항)",
+      "\"유튜브 그 채널, 너도 한 번은 봤어\" — 4/28 금감원 AI 추적 시작 본문에 묻힌 한 줄과 자가 진단 5문항",
+      "62만 유튜버 3,200억 → 5채널 월 60만 원 → 4/28 AI 추적 — 사기 단속 곡선의 진짜 정점은 어디"
+    ],
+    "thumbnail_texts": [
+      "1억 8천 사라졌다 / 너도 한번 봤어",
+      "AI가 본다 24시간 / 위법·의심·정상",
+      "자가 진단 5개 / 너 통장 살린다"
+    ],
+    "image_concepts": {
+      "A": "50대 한국 남성이 휴대폰 화면을 응시하며 충격받는 표정 + 빨간 경고 등 + AI 추적 그래픽이 화면에서 뻗어나오는 장면",
+      "B": "AI 분류 화면 — 위법(빨강)·의심(노랑)·정상(초록) 3분류 + 한 영상이 위법으로 깜빡거리는 시각화",
+      "C": "와일드카드 — 5문항 자가 진단 체크리스트가 떠 있고 첫 번째 X(원금 보장 약속) + 시청자 손가락"
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "A안 승리 공식 (CTR 우선): 50대 한국 남성이 휴대폰 화면을 응시하며 식은땀 흘리는 표정 클로즈업. 휴대폰 화면에 유튜브 채널 영상 + 빨간 'AI 위법 감지' 경고 등. 배경은 어두운 거실, 부엌 조명. 인물 표정은 충격과 후회. 짧은 텍스트 '1억 8천 사라졌다' 9자.",
+      "prompt_en": "Photorealistic cinematic close-up of a Korean man in his 50s sitting in a dimly lit suburban living room at night, wearing a worn beige cardigan over a collared shirt, staring at his smartphone screen with a stunned, devastated expression — eyes wide, beads of sweat on his forehead, lips slightly parted. The smartphone screen displays a YouTube video player with a glowing red warning overlay 'AI 위법 감지'. Behind him, soft warm kitchen light from a doorway, a half-eaten dinner on the table, a closed laptop, a paper bank statement faintly visible. The atmosphere conveys regret and shock. Camera angle slightly low, capturing the subject from chest up. Cinematic depth of field, dramatic chiaroscuro lighting with red phone glow on his face. Photorealistic, 8K, film grain. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "1억 8천 사라졌다"
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "B안 대조군 (시스템 시각화): 거대한 모니터 화면에 AI가 유튜브 영상들을 분류하는 인터페이스. 위법(빨강) / 의심(노랑) / 정상(초록) 3분류 막대 그래프. 한 영상 썸네일이 빨간 '위법' 칸으로 빨려 들어가며 깜빡임. 전경에 모니터를 응시하는 금감원 분석가의 실루엣. 배경은 24시간 감시실 분위기.",
+      "prompt_en": "Photorealistic dramatic visualization of a large dark monitoring control room with multiple displays. The central giant screen shows an AI classification dashboard with three vertical bars labeled 'WARNING / SUSPICIOUS / NORMAL' in red, yellow, and green respectively. Dozens of small YouTube video thumbnails flow across the screen, with one specific thumbnail being highlighted with a glowing red border and pulsating warning icons as it gets pulled into the WARNING column. In the foreground, the silhouette of a financial regulator analyst in business attire stands with his back to the camera, watching the screen. The room is dimly lit with cool blue ambient lighting and red warning glows from the monitors. Banks of secondary monitors line the walls showing scrolling data. A digital clock on the wall reads '24:00' indicating 24-hour surveillance. Cinematic atmosphere of a national financial monitoring center. Photorealistic, 8K, dramatic moody lighting. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "AI가 본다 24시간"
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 (자가 진단 액션): 빈티지 노란 메모장 위에 손글씨로 적힌 5문항 체크리스트. 첫 번째 항목 '원금 보장 약속'에 빨간 X 표시. 옆에 휴대폰이 놓여 있고 화면에 유튜브 영상이 일시정지된 상태. 따뜻한 책상 등불 아래 시청자가 직접 점검하는 분위기. 인물 클로즈업 없음, 손과 메모만.",
+      "prompt_en": "Photorealistic warm cinematic still life of a wooden study desk under soft amber lamp light at evening. Centered on the desk, a vintage yellow legal notepad with five handwritten Korean checklist items in black ballpoint ink, with a bold red X mark across the first item. Beside the notepad lies a smartphone with a paused YouTube video on screen showing a stock chart still frame. A pair of reading glasses rests on top of an opened newspaper folded to the financial section. A warm cup of tea steams faintly in the upper corner. Behind, a soft-focus bookshelf with financial books visible. The composition feels intimate, contemplative, like a viewer privately auditing what they have watched. Cinematic shallow depth of field, golden hour interior lighting, photorealistic textures. Top-down camera angle slightly tilted. The bottom 40% of the image transitions from the scene into pure solid black (#000000) through a smooth gradient fade. The gradient starts at the 60% line and becomes fully black by the 75% line. The remaining bottom 25% is completely solid black with no elements",
+      "thumbnail_text_overlay": "자가 진단 5개"
+    }
+  ]
+}

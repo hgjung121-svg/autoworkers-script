@@ -10,13 +10,36 @@
 "채널 만들어줘"        → channel-setup 스킬 로드 → 대화형 채널 생성
 ```
 
-### 대본 만들기
+### 대본 만들기 — 2개 스킬 선택
+
+#### `script-pd` — 레퍼런스 영상 기반 대본 (ETF·교육·심층 시리즈)
 대본 제작 관련 요청 시 **반드시 `.claude/skills/script-pd/SKILL.md`를 먼저 읽고** 그대로 따를 것.
 ```
 "대본 만들어줘"        → SKILL.md 로드 → 상태 감지 → 자동 진행
 "이어서 해줘"          → 마지막 상태에서 재개
 "대본 다시 써줘"       → 해당 단계만 재실행
 ```
+
+#### `news-latest-3` — 최신 뉴스 3개 기반 풀패키지 (일일 브리핑·속보)
+최신 뉴스 콘텐츠 요청 시 **반드시 `.claude/skills/news-latest-3/SKILL.md`를 먼저 읽고** 그대로 따를 것.
+```
+"최신뉴스 3"             → SKILL.md 로드 → STEP 1~9 자동 진행
+"오늘 경제 뉴스 대본"    → 표준 모드 (롱폼 10~15분 + 쇼츠 3개)
+"속보 대본 써줘"         → 속보 모드 (15분 트랙 — 5~8분 + 쇼츠 1개)
+"○○ 발표 났는데 대본"   → 속보 모드 자동 진입
+```
+
+두 스킬 비교:
+- `script-pd` — 레퍼런스 영상(yt-dlp) 분석 필수, 상태머신 7단계, 채널별 차별화 강함
+- `news-latest-3` — WebSearch 자료 수집만, 9단계 선형, 쇼츠/속보/색상 매트릭스 자동 적용
+
+**공통 SSOT 공유**:
+- `prompts/youtube-policy-gates.md` — 13게이트 정책 안전
+- `prompts/seo-titles.md` — 제목 A/B/C 패턴
+- `prompts/hook-types.md` — 훅 7유형
+- `prompts/thumbnail-design.md` — 색상 심리학 매트릭스
+- `prompts/pd-templates.md` — 산출물 포맷
+- `prompts/quality-gates.md` — PD 직접 검증
 
 ## 프로젝트 구조
 
@@ -78,6 +101,23 @@ python -c "import shutil; shutil.rmtree('path/to/dir')"
 ```
 
 > **프롬프트/스킬의 셸 명령은 예시일 뿐이다.** 실행 시 반드시 현재 OS에 맞는 명령어를 사용할 것.
+
+## 완료 선언 전 검증 (Quality Gates)
+
+**모든 작업 종료 시 사용자에게 "완료" 보고하기 전에 `prompts/quality-gates.md` SSOT의 5개 게이트를 통과해야 한다.**
+
+### 핵심 룰
+1. **에이전트 자가 보고는 검증의 시작이지 끝이 아니다** — PD가 무조건 Grep으로 직접 재검증
+2. **검색 패턴은 변형 18개 이상** — 좁은 패턴은 누락 보장
+3. **0건 확인 전 "완료" 선언 금지** — 잔존 발견 시 PD 직접 정리 (에이전트 재호출 X)
+4. **같은 누락 2회 이상 = 에이전트 신뢰 정지, PD 직접 마무리**
+
+### 자동화 레이어
+- **PostToolUse Hook**: `.claude/hooks/verify-consistency.py` — 영상 노출 산출물 변경 시 자동 Grep 알림
+- **슬래시 커맨드**: `/verify {프로젝트명}` — 전수 검증 트리거 (`.claude/commands/verify.md`)
+- **메모리 룰**: `feedback_verify_before_complete.md` — PD 자율 검증 강제
+
+근거: 2026-05-10 ep07-part3 톤 전환 작업에서 1차 에이전트 "0건 잔존" 보고 → 실제 17건 잔존, 2차도 4건 잔존. "에이전트는 자기 누락을 모른다" 원칙 시스템화.
 
 ## 산출물
 

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "etf-ep06",
+    "titles": [
+      "\"148만 원 그냥 버리는 중이야\" S&P500 ETF 일반계좌로 사는 직장인이 30년 뒤 울고 있는 이유 | 세금 지옥 해부 | 깊이 읽는 경제",
+      "일반계좌 ETF가 30년 뒤 세금으로만 수억을 증발시키는 3계층 구조 | 연금저축 IRP ISA 왜 필요한가 | 깊이 읽는 경제",
+      "\"ETF 열심히 모으는 당신이 30년 뒤 빈털터리 되는 진짜 이유\" (세금 지옥 해부) | 깊이 읽는 경제"
+    ],
+    "thumbnail_texts": [
+      "148만원 그냥 날린다 / 일반계좌 ETF / 30년 뒤 세금 폭탄",
+      "배당소득세 15.4% / 종합과세 49.5% / 건보료까지",
+      "같은 S&P500인데 / 30년 뒤 2억 차이 / 이유는 계좌"
+    ],
+    "character_poses": {
+      "1": "REACT-02 걱정/경고 — 세금 폭탄 떨어지는 통장 앞에서 식은땀 흘리는 똑똑이",
+      "2": "REACT-04 깜짝 놀람 — 49.5% 종합과세 고지서 충격 리액션",
+      "3": "INTRO-07 메모하며 정리 — 같은 S&P500, 다른 계좌 30년 차이 정리"
+    },
+    "design_rule": "상단 47% 이미지 + 하단 53% 순검정 (미리캔버스 노랑 2줄 텍스트 자리). 스컹크 벡터 스타일. 말풍선 라벨 자리는 이미지 상단 좌우 여백에 확보.",
+    "canvas_overlay_plan": {
+      "1": {"main": "148만원 그냥 날린다", "sub": "30년 뒤 세금 폭탄", "label_top_right": "일반계좌 ETF"},
+      "2": {"main": "종합과세 49.5%", "sub": "건보료까지", "label_top_left": "배당세 15.4%"},
+      "3": {"main": "같은 S&P500", "sub": "30년 뒤 2억 차이", "label_top_right": "이유는 계좌"}
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "skunk-tax-bomb-warning",
+      "concept_ko": "컨셉 1 — 스컹크 걱정/경고(REACT-02). 좌측 똑똑이가 이마에 땀방울, 양손 깍지 끼고 불안한 표정. 우측에 거대한 빨간 세금 폭탄이 직장인 통장 위로 떨어지는 순간, 통장 표지에는 단순한 ETF 카드 아이콘. 빨간 경고 글로우와 작은 불꽃 입자. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes with worried expression, small pink nose, slight frown, a single sweat drop on forehead, both paws clasped together nervously in front of chest. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, upper body shot. On the RIGHT side: a massive glowing red bomb shape with a lit fuse and small fire sparks, falling downward toward a stylized open bankbook below it. The bankbook cover shows a simple abstract ETF card icon glowing softly. Red warning glow particles radiate outward from the bomb, with small ember sparks scattering through the air. Background: deep navy blue gradient with subtle red warning glow and faint financial grid pattern. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with strong red warning atmosphere."
+    },
+    {
+      "id": 2,
+      "type": "skunk-shock-comprehensive-tax",
+      "concept_ko": "컨셉 2 — 스컹크 깜짝 놀람(REACT-04). 좌측 똑똑이가 양 볼 잡고 극도의 충격, 작은 임팩트 라인 사방으로. 우측에 거대한 빨간 도장 찍힌 종합과세 고지서, 그 위에 거대한 49.5% 숫자가 빨간 글로우로 떠 있고, 아래로 배당소득세·건보료 작은 빨간 카드 두 장이 줄줄이 따라붙음. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, huge round eyes popping wide open in extreme shock, small pink nose, jaw dropped in disbelief, both paws pressed against the cheeks, small impact lines radiating outward. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned on the LEFT side of the upper frame, upper body shot. On the RIGHT side: a large official-looking tax notice document stamped with a bold crimson red seal, hovering above it a massive glowing red percentage figure radiating intense crimson warning light. Below the document, two smaller red warning cards trail downward in sequence, each adorned with abstract symbolic icons representing dividend tax and health insurance fee. Floating red warning particles surround the cards. Background: deep navy blue gradient with subtle red warning glow and faint financial grid pattern. Upper 47% of the frame contains all visual elements with clear empty margin in top-left corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with strong red shock atmosphere."
+    },
+    {
+      "id": 3,
+      "type": "skunk-same-etf-different-account",
+      "concept_ko": "컨셉 3 — 스컹크 메모하며 정리(INTRO-07). 중앙 똑똑이가 작은 클립보드에 연필로 메모하며 살짝 고개 기울임. 좌측에 회색 빛나는 '일반계좌 ETF' 카드가 어둡게, 우측에 황금-에메랄드 빛나는 '절세계좌 ETF' 카드가 밝게. 두 카드 사이 황금 화살표가 좌→우 30년의 차이를 표시. 하단 53% 순검정.",
+      "prompt_en": "Cute chibi skunk character with black and white fur, big round shiny eyes, small pink nose, focused studious expression, slight head tilt, holding a small clipboard with one paw and writing notes with a pencil in the other. Clean vector illustration style, thick outlines, soft shading. The skunk is positioned in the CENTER of the upper frame, half body shot. On the LEFT side: a faded gray ETF card glowing dimly with cool desaturated tones, surrounded by faint dust particles. On the RIGHT side: a vibrant golden-emerald ETF card glowing brightly with warm radiant light, surrounded by sparkle particles. Between the two cards, a bold golden arrow points from left to right indicating the 30-year transformation. Background: deep navy blue gradient with subtle financial grid pattern and soft sparkle particles around the right card. Upper 47% of the frame contains all visual elements with clear empty margin in top-right corner for label overlay. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance. Wide 16:9 aspect ratio, YouTube thumbnail composition, high saturation vivid colors with clear before-after contrast."
+    }
+  ]
+}
