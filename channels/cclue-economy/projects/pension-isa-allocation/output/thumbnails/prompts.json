@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "pension-isa-allocation",
+    "titles": [
+      "\"같은 3천만 원, 통만 바꿨는데 누군 환급받고 누군 세금 더 떼인다\" 연금저축·IRP vs ISA, 새 돈은 어디부터 채워야 하나",
+      "연금저축·ISA 둘 다 들었는데 순서 몰라 방치 중이라면, 매달 넣는 돈 어디부터 채워야 세금 덜 떼이나",
+      "\"ISA부터? 연금계좌부터?\" 매달 넣을 새 돈 나눠 담는 순서, 한 가지 조건이면 완전히 뒤집힌다"
+    ],
+    "thumbnail_texts": [
+      "통만 바꿨는데 / 환급 vs 세금",
+      "연금 vs ISA / 어디부터?",
+      "순서 틀리면 / 다 토해낸다"
+    ],
+    "image_concepts": {
+      "A": "워런 버핏 같은 권위 투자자가 좌우로 갈린 두 통(연금=초록 환급, ISA=빨강 세금) 앞에서 고민하는 인물+대비 구도",
+      "B": "존 보글이 거대한 % 기호와 ↑환급·↓세금 교차 화살표 앞에 선 화살표·그래프 구도"
+    },
+    "color_psychology": {
+      "intent": "비교 대비",
+      "main_text_hex": "#E63946",
+      "accent_number_hex": "#1D1D1D",
+      "background_hex": "#FFFFFF",
+      "rationale": "연금계좌(환급=초록) vs ISA(세금=빨강) 두 통의 상반된 결과를 좌우 색 양분으로 즉시 대비시키는 게 손실회피 메인훅의 핵심이라 비교 대비 매트릭스 채택. 단 3장에 위기알림·행동가이드 보조 분배로 변주."
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "[비교 대비] 워런 버핏이 좌우로 갈린 두 계좌 통 사이에서 고민하는 표정. 왼쪽은 초록 환급, 오른쪽은 빨강 세금으로 양분.",
+      "prompt_en": "Photorealistic cinematic thumbnail of Warren Buffett (legendary investor, Berkshire Hathaway chairman), an elderly man in a suit with an exaggerated worried, conflicted expression on his oversized face filling the upper frame, standing between two glowing piggy-bank style account jars. The left jar glows vivid green (#06A77D) with an upward arrow and a Korean won symbol suggesting a tax refund, the right jar glows deep red (#E63946) with a downward arrow suggesting taxes taken away, creating a sharp A-vs-B split-screen contrast. Bright vivid saturated colors with high contrast for senior viewer readability on mobile, gold accent rim light (#FFD60A). A prominent numerical symbol acts as visual anchor on each side. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements - no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "[위기 알림] 존 보글이 거대한 % 기호와 위로 솟는 환급 화살표·아래로 떨어지는 세금 화살표가 교차하는 앞에서 충격받은 표정.",
+      "prompt_en": "Photorealistic dramatic thumbnail of John Bogle (Vanguard founder, index fund pioneer), an elderly man with an exaggerated shocked expression and oversized face dominating the upper frame, standing in front of a giant glowing percent symbol where one bright yellow arrow shoots upward and one arrow plunges downward, crossing each other to visualize refund versus tax. Deep red accent (#E63946) on the falling arrow against a deep navy-blue gradient background, with a bright yellow numerical highlight (#FFD60A) on the percent symbol serving as the visual anchor. Strong white rim lighting separates the figure from the dark background, bright vivid high-contrast tones for senior viewer readability on mobile. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements - no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "[행동 가이드] 워런 버핏이 1번 연금·2번 ISA 두 줄로 쌓인 동전 더미 앞에서 어느 쪽을 먼저 채울지 손가락으로 가리키며 단호한 표정.",
+      "prompt_en": "Photorealistic thumbnail of Warren Buffett (legendary investor, Berkshire Hathaway chairman), an elderly man in a suit with a confident, decisive expression and large face in the upper frame, pointing his finger toward one of two labeled stacks of golden coins arranged left and right like a priority order - one stack taller than the other to suggest which jar to fill first. Authoritative black accent tones (#1D1D1D) with bright yellow action highlights (#FFD60A) on the coin stacks against a clean bright white background (#FFFFFF), high contrast for senior viewer readability on mobile, a prominent numerical order symbol as visual anchor near each stack. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements - no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
