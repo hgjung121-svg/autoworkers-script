@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "project": "etf-pension-usetf",
+    "titles": [
+      "\"예금 3.6%인데 왜 손해라는 거죠?\" 퇴직연금·미국 ETF로 노후 월배당 만드는 법",
+      "60대 이상 꼭 보세요, 예금에 묶인 노후자금이 줄어드는 이유와 미국 ETF 월배당 대안 5가지",
+      "노후 빈곤율 39.7% 1위 한국, 퇴직연금·ISA계좌로 월배당 현금흐름 만드는 법"
+    ],
+    "thumbnail_texts": [
+      "예금의 배신 / 노후 30년",
+      "월배당 함정 / 진짜 현금흐름",
+      "예금 vs 월배당 / 30년 후"
+    ],
+    "image_concepts": {
+      "A": "워런 버핏이 우상향 배당 차트 앞에서 단호하게 경고하는 인물 클로즈업",
+      "B": "예금 잠식 vs 달러 월배당 성장을 좌우로 대비시킨 Before→After 구도"
+    },
+    "color_psychology": {
+      "intent": "위기 알림",
+      "main_text_hex": "#E63946",
+      "accent_number_hex": "#FFD60A",
+      "background_hex": "#1D1D1D",
+      "rationale": "시니어 손실회피 공포 자극이 1순위 — 예금이 안전하다는 착각을 깨는 경고 톤이 클릭 의도를 가장 강하게 자극한다."
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "워런 버핏(Berkshire Hathaway CEO)이 정면을 응시하며 진중하게 경고하는 표정. 뒤로 빨간 하락선과 초록 배당선이 교차하는 차트, 골드 달러 흐름이 흐른다. 위기 알림 색상 조합.",
+      "prompt_en": "Photorealistic cinematic close-up of Warren Buffett (Berkshire Hathaway CEO), an elderly man with glasses and a serious warning expression filling the upper frame, facing the camera directly. Behind him a glowing financial chart shows a sharp red declining line (#E63946) crossing an upward dividend line, with golden dollar bills flowing on a deep navy gradient background (#1D1D1D) and a bright yellow numerical highlight (#FFD60A). High contrast for senior viewer readability on mobile, large oversized expression on his face, prominent percentage symbol as visual anchor, dramatic side lighting with ominous tension atmosphere. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "John Bogle(Vanguard Founder)를 중심에 두고, 좌측은 차갑게 쪼그라드는 한국 예금통장(회색), 우측은 따뜻하게 매달 쌓이는 달러 월배당(골드·초록)을 대비시킨 Before→After 비교 구도.",
+      "prompt_en": "Photorealistic split-composition thumbnail with John Bogle (Vanguard Founder), an elderly distinguished man, positioned center-top with a thoughtful confident expression. On the left side a cold grey shrinking Korean bank passbook with a downward arrow, on the right side warm golden and green stacks of US dollar dividend coins growing upward each month (#06A77D). Deep navy gradient background with gold brand accents, strong visual contrast between the cold left and warm right halves for senior viewer readability on mobile, prominent arrow and dollar symbols as visual anchors. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "와일드카드 — 워런 버핏이 한 손에 작은 예금통장, 다른 손에 매달 떨어지는 달러 배당을 저울처럼 비교하며 시청자에게 무언의 질문을 던지는 시네마틱 장면. 기회 포착 톤.",
+      "prompt_en": "Photorealistic dramatic scene of Warren Buffett (Berkshire Hathaway CEO), an elderly man, holding a small thin Korean bank passbook in one hand and a glowing stream of monthly US dollar dividend payments in the other, as if weighing them like a balance scale, with a knowing expression toward the viewer. Clean professional composition on a deep blue trustworthy background (#003566) with green growth accents (#06A77D) and warm gold highlights, high contrast for senior viewer readability on mobile, prominent currency symbols as visual anchors. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
