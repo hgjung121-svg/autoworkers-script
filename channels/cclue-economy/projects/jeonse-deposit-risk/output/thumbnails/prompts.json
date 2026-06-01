@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "project": "jeonse-deposit-risk",
+    "titles": [
+      "전세 만기인데 집주인이 돈이 없대요, 보증금 떼이기 전 확인할 3가지",
+      "내 전세보증금 돌려받을 수 있을까, 역전세·깡통전세 자가진단법",
+      "깡통전세 시대, 내 보증금이 위험한지 5분 만에 확인하는 법"
+    ],
+    "thumbnail_texts": [
+      "보증금 돌려받기 전 / 확인 3가지",
+      "집주인이 돈이 없대요 / 내 전세는?",
+      "깡통전세 자가진단 / 지금 확인"
+    ],
+    "image_concepts": {
+      "A": "불안한 표정의 일반 세입자가 전세계약서와 집 열쇠를 든 채 붉은 경고 신호를 마주하는 인물 감정 클로즈업",
+      "B": "균열이 번지는 아파트/주택과 등기부등본 서류 위로 측면에서 근심하는 세입자가 보이는 위기 구도"
+    },
+    "color_psychology_note": "썸네일 3종에 4매트릭스 중 3개 분배 — 1번 위기 알림, 2번 비교 대비, 3번 행동 가이드. 각 썸네일 color_psychology 필드 참조.",
+    "human_figure_rule_applied": "정치인·국토부장관 금지. 불안한 표정의 일반 세입자(시청자 대리)를 중심에 두되, 계약서·등기부등본·집 열쇠·균열난 집·경고 아이콘을 강한 보조 오브젝트로 배치해 주제가 한눈에 읽히게 함 (주제 특성상 일반인 단독 중심 허용 예외)."
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "color_psychology": {
+        "intent": "위기 알림",
+        "main_text_hex": "#E63946",
+        "accent_number_hex": "#FFD60A",
+        "background_hex": "#1D1D1D",
+        "rationale": "보증금 손실 위기를 직격하는 손실회피 공포 주제 — 빨강 경고 + 노랑 숫자 강조로 시니어 시인성 확보."
+      },
+      "prompt_en": "Photorealistic cinematic close-up of a worried young Korean tenant (an ordinary person, not a politician, with an attractive likeable anxious face and oversized worried expression) clutching a Korean residential lease contract document and a house key in their hands. Behind and beside them, a glowing deep red warning icon (#E63946) and a faint apartment building silhouette under a deep navy background. A prominent bright yellow warning symbol (#FFD60A) glows near the contract as a visual anchor. Dramatic side lighting and high contrast for senior viewer readability on mobile, tense ominous atmosphere of financial crisis. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "color_psychology": {
+        "intent": "비교 대비",
+        "main_text_hex": "#E63946",
+        "accent_number_hex": "#1D1D1D",
+        "background_hex": "#003566",
+        "rationale": "안전한 계약과 위험한 계약(깡통전세·역전세)의 대비를 시각화 — 빨강 위기 vs 안정 톤 대비로 자가진단 긴장감 강조."
+      },
+      "prompt_en": "Photorealistic dramatic image of a Korean apartment building with deep red cracks (#E63946) fracturing across its facade, set against a dark navy-blue background (#003566). In the foreground a stack of Korean property register documents (deungi-bu-deungbon) and a lease contract are spread out, with a small house key resting on top. On the side, a worried Korean tenant (an ordinary likeable person, not a politician, with a natural anxious expression) looks at the cracking building. High contrast cinematic lighting for senior viewer readability on mobile, tense crisis mood of a collapsing deposit. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "concept-a-realistic-action",
+      "color_psychology": {
+        "intent": "행동 가이드",
+        "main_text_hex": "#1D1D1D",
+        "accent_number_hex": "#FFD60A",
+        "background_hex": "#FFFFFF",
+        "rationale": "'지금 확인할 3가지'라는 체크리스트 행동 유도 주제 — 노랑 행동 강조 + 밝은 배경으로 실행 가능성 톤."
+      },
+      "prompt_en": "Photorealistic image of a determined yet concerned young Korean tenant (an ordinary likeable person, not a politician, with a warm expressive face) holding up a lease contract and pointing at a checklist with three glowing bright yellow checkmarks (#FFD60A) numbered as steps. A house key and a property register document sit on a clean bright desk with a bright background, conveying a sense of taking control. A bold yellow numerical symbol like a large number 3 (#FFD60A) acts as a prominent visual anchor. High contrast and crisp lighting for senior viewer readability on mobile, focused proactive mood of self-diagnosis. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
