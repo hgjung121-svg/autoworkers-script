@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "project": "fx-1500-wallet",
+    "titles": [
+      "달러 1,500원인데 왜 내 돈이 줄어들까, 고환율이 통장을 터는 법",
+      "원달러 1,500원, 당신 통장에서 조용히 빠져나가는 돈",
+      "환율 1,500원 시대, 월급쟁이가 모르고 당하는 5가지"
+    ],
+    "thumbnail_texts": [
+      "통장 터는 / 1,500원",
+      "왜 내 돈이 / 줄어들까",
+      "고환율 시차 / 가을 청구서"
+    ],
+    "image_concepts": {
+      "A": "통화정책 권위자(파월·이창용)의 우려 표정 + 1,500 환율 전광판/상승 화살표",
+      "B": "영수증·지갑 보며 놀란 시청자 대리 일반인 + 뒤쪽 환율 그래프"
+    },
+    "color_psychology": [
+      {
+        "id": 1,
+        "intent": "위기 알림",
+        "main_text_hex": "#E63946",
+        "accent_number_hex": "#FFD60A",
+        "background_hex": "#1D1D1D",
+        "rationale": "환율 1,500원 돌파·통장 손실이 핵심이라 빨강 경고+노랑 숫자 강조로 긴급성 전달"
+      },
+      {
+        "id": 2,
+        "intent": "비교 대비",
+        "main_text_hex": "#E63946",
+        "accent_number_hex": "#1D1D1D",
+        "background_hex": "#003566",
+        "rationale": "나가는 돈(빨강) vs 남는 돈(초록)의 양날 대비를 시각화해 줄어드는 내 돈 직격"
+      },
+      {
+        "id": 3,
+        "intent": "행동 가이드",
+        "main_text_hex": "#1D1D1D",
+        "accent_number_hex": "#FFD60A",
+        "background_hex": "#FFFFFF",
+        "rationale": "가을 청구서 시차 경고를 점검·대비 행동으로 연결, 통제감 클로징과 정합"
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "위기 알림 매트릭스. 제롬 파월(Fed 의장)의 우려 섞인 클로즈업 표정 옆으로, 거대한 1,500 환율 전광판과 치솟는 빨간 상승 화살표가 배경을 채운다.",
+      "prompt_en": "Photorealistic cinematic close-up of Jerome Powell (US Federal Reserve Chair) with a deeply concerned, tense expression, his oversized face filling the upper portion of the frame. Behind him glows a massive currency exchange board displaying '1500' in bright yellow numerals (#FFD60A) and a soaring red upward arrow (#E63946) over a deep navy-to-dark gradient backdrop (#003566 fading to #1D1D1D). Dramatic high-contrast side lighting and a prominent rising arrow symbol create an ominous atmosphere of an escalating currency crisis, optimized for high contrast and senior viewer readability on mobile. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-b-realistic",
+      "concept_ko": "비교 대비 매트릭스. 영수증과 텅 빈 지갑을 들여다보며 충격받은 시청자 대리 중년 남성 클로즈업, 뒤쪽으로 작게 빨강 하락·초록 환차의 환율 그래프가 갈린다.",
+      "prompt_en": "Photorealistic dramatic close-up of an attractive middle-aged Korean man with a warm likeable face showing an exaggerated shocked expression, staring at a long paper receipt and a nearly empty wallet, his oversized face and hands filling the upper frame. Behind him a glowing exchange-rate chart splits into a red plunging line (#E63946) versus a green line (#06A77D), set against a deep navy gradient background (#003566). A prominent won-sign and downward arrow symbol act as a visual anchor. High contrast for senior viewer readability on mobile, vivid saturated tones, intense atmosphere of money quietly draining away. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "wildcard",
+      "concept_ko": "행동 가이드 매트릭스(와일드카드). 이창용 한국은행 총재가 마이크 앞에서 단호하게 발언하는 모습, 옆으로 휘발유 주유기·장바구니·달력(가을) 아이콘이 청구서처럼 배열된 밝은 인포그래픽 톤.",
+      "prompt_en": "Photorealistic editorial portrait of Rhee Chang-yong (Bank of Korea Governor) speaking firmly at a podium microphone with a serious authoritative expression, his face prominent in the upper frame. Beside him, clean infographic-style icons — a fuel pump, a grocery basket, and an autumn calendar page — are arranged like an arriving invoice, against a bright clean high-key background with crisp navy (#003566) and gold (#FFD60A) accent highlights and a large yellow downward arrow as a visual anchor. Bright vivid saturated tones, high contrast for senior viewer readability on mobile, conveying an actionable check-this-before-autumn warning. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
