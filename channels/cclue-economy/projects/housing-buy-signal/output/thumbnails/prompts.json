@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "project": "housing-buy-signal",
+    "titles": [
+      "대출 규제 뒤 집값, 지금 사면 호구일까, 무주택자가 봐야 할 신호 3가지",
+      "집값 오른다 내린다 싸우는 사이, 무주택자가 진짜 봐야 할 3가지",
+      "스트레스 DSR 3단계, 내 대출한도 얼마나 줄었나, 영끌 막차의 진실"
+    ],
+    "thumbnail_texts": [
+      "사면 호구? / 신호 3가지",
+      "지금 집 사? / 말아?",
+      "집값 전망 그만 / 이 3개만 봐"
+    ],
+    "image_concepts": {
+      "A": "두 갈래 길(매수↑/관망↓) 앞에서 멈춰 고민하는 무주택 실수요자 + 아파트 단지 실루엣",
+      "B": "아파트 위에 떠 있는 빨강·노랑·초록 신호등 3등을 올려다보며 계약서를 든 무주택 실수요자"
+    },
+    "color_psychology": {
+      "note": "썸네일 3종에 4매트릭스 중 3개를 분산 적용 — 1번 비교 대비(양방향 딜레마), 2번 위기 알림(대출규제·한도 축소), 3번 행동 가이드(신호 체크리스트). 시니어 시인성 우선.",
+      "thumbnails": {
+        "1": {
+          "intent": "비교 대비",
+          "main_text_hex": "#E63946",
+          "vs_hex": "#06A77D",
+          "accent_hex": "#1D1D1D",
+          "rationale": "사면 호구 vs 영영 못 삼 — 양방향 딜레마를 빨강/초록 대비로"
+        },
+        "2": {
+          "intent": "위기 알림",
+          "main_text_hex": "#E63946",
+          "accent_number_hex": "#FFD60A",
+          "background_hex": "#1D1D1D",
+          "rationale": "대출 규제·한도 14.7% 축소라는 손실·긴급 프레임"
+        },
+        "3": {
+          "intent": "행동 가이드",
+          "main_text_hex": "#1D1D1D",
+          "accent_number_hex": "#FFD60A",
+          "background_hex": "#FFFFFF",
+          "rationale": "전망 그만 보고 이 3개만 체크 — 행동 유도"
+        }
+      }
+    }
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "type": "concept-a-realistic",
+      "concept_ko": "컨셉 A 실사. 두 갈래로 갈라지는 길 앞에서 손으로 턱을 괴고 고민하는 30~40대 무주택 실수요자. 한쪽 길 위로 상승 화살표, 반대쪽엔 하락 화살표, 뒤로 한국형 아파트 단지 실루엣.",
+      "prompt_en": "Photorealistic cinematic photograph of a worried Korean man in his late 30s wearing a casual jacket, standing at a forking road, hand on his chin in deep hesitation, attractive likeable face with an anxious conflicted expression. Above the left path glows a green upward arrow, above the right path a red downward arrow, symbolizing a buy-or-wait dilemma. Behind him stands a silhouette of a dense Korean high-rise apartment complex at dusk. Deep navy-blue background with high contrast; red (#E63946) and green (#06A77D) arrow accents, strong rim lighting on his face for senior viewer readability on mobile. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "type": "concept-a-realistic-crisis",
+      "concept_ko": "컨셉 A 변주(위기 알림). 같은 무주택 실수요자가 큰 빨간 하락 화살표와 DSR 게이지가 줄어드는 패널 앞에서 충격받은 표정. 대출한도 축소 위기감.",
+      "prompt_en": "Photorealistic dramatic photograph of a Korean woman in her early 40s with an exaggerated shocked, distressed expression, attractive warm likeable face, gripping a house contract document. Beside her a glowing financial panel shows a shrinking loan-limit gauge and a large bold red downward arrow with a prominent percentage symbol as a visual anchor, representing tightened mortgage regulation. Solid dark background (#1D1D1D) with deep red accent (#E63946) and a bright yellow numerical highlight (#FFD60A). Extreme high contrast and oversized expression on her face for senior viewer readability on mobile. A faint Korean apartment skyline glows in the upper background. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "type": "concept-b-realistic",
+      "concept_ko": "컨셉 B 실사(행동 가이드). 무주택 실수요자가 계약서를 들고, 아파트 실루엣 위에 떠 있는 빨강·노랑·초록 3색 신호등을 올려다보는 결단의 순간. 신호 3개 = 판단 도구.",
+      "prompt_en": "Photorealistic clean cinematic photograph of a determined Korean man in his 40s, attractive likeable confident face, holding a house contract and looking up at a large floating three-light traffic signal (red, yellow, green) hovering above a Korean apartment complex silhouette. The three signal lights symbolize three decision signals, glowing as bright vivid anchors. Bright high-key composition with a clean light background and deep navy-and-teal gradient on the upper sky; red (#E63946), yellow (#FFD60A) and green (#06A77D) signal lights as high-saturation accents for senior viewer readability on mobile. Organized confident layout. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
