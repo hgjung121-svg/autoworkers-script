@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건",
+    "prompt_en": "Photorealistic portrait of a serious-faced Korean male retail investor in his 30s staring at a massive digital stock board showing KOSPI 8800 in bright green numbers, while behind him a torrent of red 103 trillion won banknotes flies out of the frame. His expression is a mix of determination and anxiety. Dramatic cinematic lighting with dark navy tones and gold accent highlights on the numbers. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "103조 매도",
+    "note": "개인투자자 + KOSPI 8800 전광판 + 빠져나가는 돈 시각화"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트",
+    "prompt_en": "Photorealistic split-screen visualization: left half shows a soaring green KOSPI chart hitting 8800 with golden fireworks, right half shows the Korean won currency symbol crumbling and falling against a blood-red USD backdrop showing 1532. A visible crack runs down the center dividing the two realities. Dark navy background with dramatic tension lighting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "두 개의 거울",
+    "note": "코스피 최고 vs 원화 최약세 대비 시각화"
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물",
+    "prompt_en": "Photorealistic dramatic portrait of Jay Y. Lee (Lee Jae-yong), Samsung Electronics Chairman, and Park Jung-ho (SK Hynix CEO) standing back to back in front of a giant illuminated '48%' holographic number floating between them. Both wearing dark suits, serious expressions. Behind them, a faded crowd of 900 small translucent figures representing other KOSPI stocks, 82% of them visually dimmed and falling. Cinematic dark navy and gold lighting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "두 종목의 착시",
+    "note": "이재용 삼성 회장 + 박정호 SK하이닉스 CEO — 시총 48% 구조"
+  }
+]
