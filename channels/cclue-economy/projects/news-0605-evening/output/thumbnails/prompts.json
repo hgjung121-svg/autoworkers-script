@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic portrait of Shin Hyun-song, Bank of Korea Governor, in a dark navy suit, standing at a podium with intense, determined expression and furrowed brow. Behind him, a giant digital display shows a glowing red upward arrow and the number '3.1%' in bold. The atmosphere is tense, dramatic lighting from above casting sharp shadows. His hand is raised as if making a decisive point. The scene conveys a pivotal monetary policy moment. Bright, vivid colors with deep navy and gold accents. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "금리 인상 시작",
+    "person": "Shin Hyun-song, Bank of Korea Governor"
+  },
+  {
+    "id": 2,
+    "label": "B — 인물 + 차트/데이터 배경",
+    "prompt_en": "Photorealistic scene of Shin Hyun-song, Bank of Korea Governor, sitting at the monetary policy committee table, looking gravely at documents. Behind him, a massive screen displays two crossing lines — a red inflation line shooting upward past 3% and a blue interest rate line hovering flat at 2.5%, about to turn upward. The room is dimly lit with dramatic tension. Multiple committee members visible in soft focus background. Navy and gold color scheme with red warning accents. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "8번 동결의 끝",
+    "person": "Shin Hyun-song, Bank of Korea Governor"
+  },
+  {
+    "id": 3,
+    "label": "C — 와일드카드: 인물 + 추상 위기감",
+    "prompt_en": "Photorealistic dramatic portrait of a middle-aged Korean man in business attire, representing an everyday borrower, looking up in shock at a towering stack of glowing red numbers — '1,993조' — crumbling above him like a collapsing building. Shin Hyun-song, Bank of Korea Governor, visible on a TV screen in the background making an announcement. The scene is lit with harsh red and gold light creating an atmosphere of financial crisis. Dark navy background. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "1,993조의 시한폭탄",
+    "person": "Shin Hyun-song, Bank of Korea Governor (on TV screen) + everyday Korean borrower (main subject)"
+  }
+]
