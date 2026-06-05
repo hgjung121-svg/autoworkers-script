@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 (승리 공식)",
+    "concept": "신현송 한은 총재가 심각한 표정으로 금통위 기자간담회장에서 발언하는 장면. 배경에 코스피 급락 차트(8,801→8,098)가 빨간색으로 표시. 어두운 조명, 긴장감.",
+    "text_overlay": "갈 길이 명확하다",
+    "prompt_en": "Photorealistic portrait of an Asian central bank governor in his 60s, wearing a dark navy suit and tie, stern serious expression, standing at a press conference podium with microphones. Behind him, a large digital screen shows a sharp red downward stock chart line dropping dramatically. Dark moody lighting with red accent lights reflecting tension. The governor's face shows determination mixed with concern. High contrast cinematic lighting from the side. Shot from slightly below eye level for authority. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "concept": "코스피 차트가 사상최고에서 급락하는 모습. 차트 위에 삼성전자·SK하이닉스 로고가 크게, 나머지 종목들은 작고 흐리게. 빨간색과 네이비 대비.",
+    "text_overlay": "82%는 빠졌다",
+    "prompt_en": "Photorealistic dramatic visualization of a stock market chart on a large dark monitor screen. The chart shows a sharp peak followed by a steep red crash line. Two bright glowing corporate building silhouettes dominate the upper portion of the chart, while dozens of smaller dimmed buildings sink below them in shadow. Red and gold color accents against deep navy background. Digital numbers and ticker symbols floating in the air. Dramatic volumetric lighting from the screen casting shadows. The scene conveys market concentration and sudden collapse. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 (파월 + 글로벌 맥락)",
+    "concept": "제롬 파월 연준 의장이 FOMC 기자회견장에서 팔짱을 끼고 고민하는 표정. 배경에 달러 기호와 한국 원화 기호가 저울 위에 놓인 이미지. 어두운 톤.",
+    "text_overlay": "다음 주가 승부처",
+    "prompt_en": "Photorealistic portrait of Jerome Powell, Federal Reserve Chairman, in a dark navy suit, arms crossed, with a contemplative and serious expression. He is standing in front of the FOMC press conference backdrop. Behind him, a subtle holographic display shows currency symbols (dollar and won) on a tilting balance scale, with red warning indicators. Dramatic side lighting in warm gold tones against dark navy background. His expression conveys the weight of a critical monetary policy decision. Cinematic quality, shallow depth of field focusing on his face. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  }
+]
