@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건",
+    "text_overlay": "0.4%의 진실",
+    "prompt_en": "Photorealistic portrait of Bank of Korea Governor Rhee Chang-yong in a dark navy suit, standing in a modern central bank briefing room with a large digital display behind him showing a GDP chart with a dramatic split — one line soaring upward labeled 'Semiconductors' and another flat line near zero. His expression is serious and tense, mouth slightly pressed, looking directly at camera. Dramatic side lighting with warm gold highlights on his face. The briefing room has a muted dark atmosphere with blue-tinted monitors in the background. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 2,
+    "label": "B안 — 인물 + 대비 차트",
+    "text_overlay": "GDP 50년 최고?",
+    "prompt_en": "Photorealistic portrait of South Korean Deputy Prime Minister Goo Yun-cheol in a formal dark suit, standing at a government podium with his hand raised in a cautionary gesture. Behind him, a massive screen shows two contrasting numbers: '1.8%' in bright green on the left and '0.4%' in alarming red on the right, with a semiconductor chip icon between them. His face shows concern mixed with determination, lit by dramatic overhead lighting. Dark moody atmosphere with navy and gold accents. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 인물 + 환율 대비",
+    "text_overlay": "환율의 함정",
+    "prompt_en": "Photorealistic scene of a worried Korean middle-aged office worker in a wrinkled white dress shirt, standing in front of a currency exchange board showing USD/KRW at 1,560. He is holding a smartphone showing stock market charts in red. Behind the exchange board, a faded Korean flag and a ghostly superimposed image of a semiconductor wafer glow faintly. His expression is anxious and exhausted, staring at the board. Dramatic contrast lighting — warm gold on the exchange numbers, cold blue on the man. Dark atmospheric setting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  }
+]
