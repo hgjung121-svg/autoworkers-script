@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건",
+    "prompt_en": "Photorealistic cinematic shot. Mathias Cormann, OECD Secretary-General, standing at a podium with a large digital screen behind him showing '2.6%' in bright green and '1.52%' in deep red, split screen effect. His expression is serious and concerned, hand gesturing toward the red number. Dark navy background with dramatic side lighting creating tension. The mood is ominous despite the green number. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "2.6%의 함정",
+    "style": "photorealistic"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트",
+    "prompt_en": "Photorealistic dramatic visualization. A massive semiconductor chip glowing bright gold, hovering above a crumbling Korean economic landscape — tiny factories, shops, apartment buildings cracking and sinking below. The chip casts a golden spotlight upward while everything beneath it falls into shadow. Split visual: top half gleaming tech prosperity, bottom half economic decay. Dark moody atmosphere with gold and red accent lighting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "반도체 착시",
+    "style": "photorealistic"
+  },
+  {
+    "id": 3,
+    "label": "C안 — 다른 인물",
+    "prompt_en": "Photorealistic cinematic portrait. Rhee Chang-yong, Bank of Korea Governor, in a dark suit, standing in front of the Bank of Korea building at night. His face shows a conflicted, stern expression. Behind him, a massive holographic display shows household debt '1,993조' in glowing red numbers and an upward arrow. The atmosphere is tense with blue-navy tones and red warning accents. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "금리의 딜레마",
+    "style": "photorealistic"
+  }
+]
