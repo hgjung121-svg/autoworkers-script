@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 서킷브레이커 충격",
+    "concept": "한은 신현송 총재 정면 클로즈업, 심각한 표정. 뒤쪽에 코스피 차트 급락 빨간 선, '8%' 숫자 부각. 배경 어두운 네이비, 빨강 포인트.",
+    "text_overlay": "서킷브레이커",
+    "prompt_en": "Photorealistic portrait of an authoritative East Asian central bank governor in dark navy suit, stern concerned expression, looking directly at camera. Behind him a large monitor showing a stock market chart with dramatic red downward crash line. Dark moody lighting with red accent highlights on the chart. Upper 47% filled with rich detailed imagery. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 (OECD 역설)",
+    "concept": "화면 절반에 초록색 상승 화살표(2.6%), 반대편에 빨간색 하락 화살표(1.52%). 중앙에 반도체 칩 하나. OECD 로고 느낌의 파란 배경.",
+    "text_overlay": "2.6% vs 1.52%",
+    "prompt_en": "Photorealistic split-screen concept: left side shows a bright green upward arrow with glowing '2.6%' text, right side shows a red downward arrow with '1.52%' text. In the center, a single semiconductor chip floats between the two arrows, symbolizing the paradox. Background deep navy blue with gold accents. Dramatic lighting creates tension between the two sides. Upper 47% filled with rich detailed imagery. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 3,
+    "label": "C안 — 인물 + 유가 위기",
+    "concept": "Jerome Powell (Fed Chair) 정면, 팔짱 낀 자세, 냉정한 표정. 배경에 유가 차트 $92, 빨간 불꽃 이펙트. 어두운 톤.",
+    "text_overlay": "CPI 4.2%",
+    "prompt_en": "Photorealistic portrait of Jerome Powell, Federal Reserve Chairman, arms crossed, stern and calculating expression, wearing dark suit and blue tie. Behind him a dramatic oil price chart showing upward spike with flame effects and '$92' visible. Dark moody atmosphere with warm orange and red accent lighting reflecting energy crisis tension. Upper 47% filled with rich detailed imagery. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  }
+]
