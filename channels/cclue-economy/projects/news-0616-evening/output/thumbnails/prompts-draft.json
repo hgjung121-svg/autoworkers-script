@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic portrait of Kevin Warsh, new Federal Reserve Chair, in a dark navy suit, standing at the FOMC podium with an intense, conflicted expression. Behind him, a massive red digital display shows '4.2%' glowing ominously. The lighting is dramatic with warm gold highlights on his face contrasting against the dark background. His hands grip the podium edge tightly. The mood is tense and decisive. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "인하 끝났다",
+    "person": "Kevin Warsh, US Federal Reserve Chair"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic close-up of a cracked hourglass on a Federal Reserve conference table, with red sand pouring out rapidly. Behind it, blurred monitors show climbing yield curves and the number '8:4' in bold red. The scene is lit with cold blue institutional lighting mixing with warm amber warning tones. Glass shards reflect fragments of financial charts. The mood is urgent and foreboding. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "8대 4 분열",
+    "person": null
+  },
+  {
+    "id": 3,
+    "label": "C안 — 와일드카드 (다른 인물)",
+    "prompt_en": "Photorealistic portrait of Shin Hyun-song (Korean man in his 60s, wearing glasses, formal dark suit), Governor of the Bank of Korea, speaking firmly at a press podium. His expression is stern and resolute, one hand raised slightly in emphasis. Behind him, a digital board shows the Korean won symbol with a downward red arrow and '1,500' displayed. The lighting is sharp and institutional with a slight golden warmth on his face. The mood is decisive and serious. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "갈 길 명확",
+    "person": "Shin Hyun-song, Bank of Korea Governor"
+  }
+]
