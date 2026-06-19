@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 (승리 공식)",
+    "concept": "워시 연준 의장의 매파적 표정 + 코스피 9000 차트가 갈라지는 배경",
+    "text_overlay": "9000인데\n88% 하락",
+    "prompt_en": "Photorealistic portrait of Kevin Warsh, US Federal Reserve Chair, in a dark navy suit, stern serious expression with furrowed brows, standing in front of a large digital stock market display showing KOSPI 9000 with red downward arrows on most stocks. The background shows a trading floor with monitors displaying red numbers. Dramatic lighting from the screens illuminates his face with tension. Bright vivid colors, high contrast between the subject and the dark background. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "concept": "코스피 차트 9000 고점에서 두 갈래로 갈라지는 시각화 + 반도체칩과 빈 건물",
+    "text_overlay": "반도체 빼면\n4,100",
+    "prompt_en": "Photorealistic dramatic visualization of a tall glass skyscraper building at night, only 2 floors lit with bright golden light near the top while the rest of the 100-floor building is completely dark. A giant illuminated stock chart showing 9000 is projected onto the dark building facade. Semiconductor chips float near the lit floors. The dark sky has red and orange warning colors. Cinematic lighting, tension and shock mood. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 3,
+    "label": "C안 — 와일드카드 (다른 인물)",
+    "concept": "신현송 한은 총재의 결연한 표정 + 가계부채 숫자가 떠오르는 배경",
+    "text_overlay": "금리 올린다",
+    "prompt_en": "Photorealistic portrait of Shin Hyun-song, Bank of Korea Governor, Korean man in his 60s with silver hair and glasses, wearing a dark formal suit, with a determined and grave expression. Behind him, a massive digital display shows the number 1,993 trillion won in bright red LED text, with interest rate charts climbing upward. The Korean central bank building is faintly visible in the dark background. Dramatic side lighting creates strong shadows, conveying tension and gravity of the decision. Bright vivid colors with navy and gold accent tones. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  }
+]
