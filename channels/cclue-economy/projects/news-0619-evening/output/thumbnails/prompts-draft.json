@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_ko": "트럼프와 이란 대통령 페제시키안이 양해각서를 들고 있는 장면. 트럼프는 자신감 넘치는 표정, 페제시키안은 미묘한 미소. 배경에 호르무즈 해협 지도와 '60일' 숫자가 빨간색으로 크게 보임. 어두운 긴장감 있는 조명.",
+    "prompt_en": "Donald Trump, US President, and Masoud Pezeshkian, President of Iran, standing face to face holding a document labeled 'MOU'. Trump has a confident smirk, Pezeshkian has a subtle diplomatic smile. Behind them, a large red glowing '60' number overlaid on a dark map of the Strait of Hormuz. Dramatic cinematic lighting with navy blue and red accents. Photorealistic style. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "60일간만"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_ko": "호르무즈 해협의 위성 사진 위에 대형 톨게이트 바가 내려와 있고, 유조선들이 줄지어 대기 중. 유가 차트가 107에서 75로 급락하는 빨간 화살표. 오른쪽 하단에 '통행료' 글자.",
+    "prompt_en": "Aerial satellite view of the Strait of Hormuz with a massive red and white toll gate barrier lowered across the waterway. Several oil tankers queued in a line waiting to pass. A dramatic red downward arrow showing oil price dropping from 107 to 75 overlaid in the upper right. Dark dramatic atmosphere with orange and red warning tones. Photorealistic style. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "통행료"
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 (트럼프 단독)",
+    "prompt_ko": "트럼프가 양해각서 문서를 들고 서명하려는 순간, 문서 위에 '60 DAYS ONLY'가 빨간 도장처럼 찍혀 있음. 트럼프의 표정은 강한 결의. 어두운 회의실 배경.",
+    "prompt_en": "Donald Trump, US President, sitting at a dark wooden desk about to sign a document. The document has a large red stamp reading '60 DAYS ONLY' prominently visible. Trump has a determined, intense expression with furrowed brows. Dark diplomatic meeting room background with American and Iranian flags barely visible in shadows. Dramatic side lighting creating strong contrast. Photorealistic style. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "합의문 속 세 글자"
+  }
+]
