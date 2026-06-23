@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic dramatic scene: SK Hynix CEO Kwak Noh-Jung in a dark navy suit, standing in front of a massive digital stock exchange display showing KOSPI plunging with bright red numbers. His expression shows shock and tension, mouth slightly open. Behind him, a large red downward arrow and the number '-8%' glowing in neon red. The Samsung Electronics headquarters building is visible in the background shrouded in dark storm clouds. Dramatic cinematic lighting with red and gold accent lights cutting through darkness. High detail, 8K quality. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "시총 1위의 저주",
+    "person": "Kwak Noh-Jung, SK Hynix CEO"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic dramatic financial scene: A giant cracked digital stock chart display showing KOSPI index crashing from 9114 to 8378, with a massive red candlestick dropping sharply. Circuit breaker warning sirens with flashing red and amber lights illuminate the dark trading floor. Multiple screens showing semiconductor company logos (Samsung, SK Hynix) with red percentage drops. Shattered glass effect around the chart breaking point. Dark navy and deep red color palette with golden sparks. Cinematic dramatic lighting. 8K quality. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "서킷브레이커 발동",
+    "person": null
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 (골드만삭스 전략가)",
+    "prompt_en": "Photorealistic dramatic portrait: Timothy Moe, Goldman Sachs Chief Asia-Pacific Equity Strategist, a middle-aged Asian-American man in a premium dark suit, looking directly at camera with an intense analytical expression. He holds a tablet showing a crashing KOSPI chart with red indicators. Behind him, split screen showing Korean stock exchange trading floor in chaos on the left and Wall Street buildings on the right. Dark moody lighting with sharp contrast, red warning light accents. Professional financial atmosphere. 8K cinematic quality. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "조정인가 붕괴인가",
+    "person": "Timothy Moe, Goldman Sachs Chief Asia-Pacific Equity Strategist"
+  }
+]
