@@ -1,0 +1,34 @@
+{
+  "project": "news-0625-evening",
+  "channel": "cclue-economy",
+  "generated_at": "2026-06-25T18:00:00+09:00",
+  "thumbnails": [
+    {
+      "id": 1,
+      "label": "A안 (인물+구체사건+짧은텍스트) — 승리 공식",
+      "text_overlay": {
+        "line1": "10.5%",
+        "line2": "착시?"
+      },
+      "prompt_en": "Photorealistic dramatic portrait of Kim Yong-beom, South Korean Presidential Policy Director, middle-aged Korean male in a dark navy suit, standing at a podium with the Blue House (Cheongwadae) emblem behind him. His expression is confident but with a hint of tension, one hand raised making a point. Behind him, a massive digital screen shows a glowing green GDP chart spiking upward to 10.5%. To the side, slightly blurred, a 'CLOSED' sign hangs on a small Korean shop door, creating dramatic contrast between official optimism and street-level reality. Dramatic warm golden lighting from the podium contrasts with cold blue from the digital screen. Shot from slightly below, authority angle. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 2,
+      "label": "B안 (차트/오브젝트 중심)",
+      "text_overlay": {
+        "line1": "50년 만의",
+        "line2": "역설"
+      },
+      "prompt_en": "Photorealistic dramatic visualization of a K-shaped economic split. The scene is a split-screen Korean cityscape at night. Left half shows a gleaming semiconductor fab facility (Samsung/SK Hynix style), brilliantly lit with blue-white LED lights, robotic arms moving, stock ticker showing green arrows pointing sharply upward. Right half shows a dark, empty Korean shopping street (상가) with 'FOR LEASE' and 'CLOSED' signs in Korean on multiple storefronts, a single dim streetlight, and trash scattered on the ground. A glowing golden line in the center divides the two worlds, forming a K-shape — one branch soaring up, the other plunging down. Cinematic teal-and-orange color grading. Wide establishing shot showing the full contrast. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    },
+    {
+      "id": 3,
+      "label": "와일드카드 (다른 인물)",
+      "text_overlay": {
+        "line1": "일자리가",
+        "line2": "사라졌다"
+      },
+      "prompt_en": "Photorealistic dramatic portrait of Lee Chang-yong, Bank of Korea Governor, middle-aged Korean male wearing glasses and a dark charcoal suit, sitting at the Bank of Korea press conference desk. His expression is grave and contemplative, hands clasped together. Behind him, two large screens show contrasting data: one shows 'GDP 10.5%' in bright green, the other shows 'Employment -40,000' in sharp red. The Bank of Korea logo is visible on the desk nameplate. Dramatic side lighting creates strong shadows on his face, emphasizing the weight of the decision. Cool blue-toned institutional lighting. Shot at eye level, medium close-up framing. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+    }
+  ]
+}
