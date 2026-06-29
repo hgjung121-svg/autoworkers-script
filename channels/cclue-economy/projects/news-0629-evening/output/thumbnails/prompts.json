@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic scene: A middle-aged Korean government official in a dark navy suit standing in front of a massive digital foreign exchange trading screen showing USD/KRW rate of 1555. His expression is tense and determined, one hand gripping a document folder. The trading screen behind him glows with red and green numbers, creating dramatic lighting on his face. The atmosphere is urgent and high-stakes, like a war room. Bright vivid colors with deep contrast. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "97년과 같은 숫자",
+    "subject": "Korean finance official with FX trading screen showing 1555"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic dramatic scene: A giant steel vault door being swung wide open, revealing a turbulent ocean of US dollar bills and Korean won bills crashing through. The vault door has '24H' engraved on it in bold metallic letters. Through the opening, you can see currency waves rushing in both directions — some flooding in, some flooding out. The lighting is dramatic with golden and red tones creating tension. A clock showing all 24 hours is embedded in the vault door frame. Bright vivid colors with high contrast. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "문 열었다",
+    "subject": "Vault door opening with currency waves"
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 (이창용 한은 총재)",
+    "prompt_en": "Photorealistic portrait: Lee Chang-yong, Bank of Korea Governor, a Korean man in his 60s wearing glasses and a dark suit, looking intensely worried with furrowed brows. He stands at a podium with the Bank of Korea emblem behind him. In the background, a blurred split screen shows two contrasting images — on one side a calm blue ocean (stability), on the other a raging red storm (crisis). His hands grip the podium tightly. The lighting creates dramatic shadows on his face, emphasizing the gravity of the moment. Bright vivid colors with deep contrast. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "약인가 독인가",
+    "subject": "Lee Chang-yong, Bank of Korea Governor at podium"
+  }
+]
