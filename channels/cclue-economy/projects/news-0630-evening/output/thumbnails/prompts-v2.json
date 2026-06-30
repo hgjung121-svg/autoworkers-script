@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic dramatic portrait of Kim Joong-soo, CEO of KEPCO (Korean man in his 60s, wearing a dark navy suit and tie), standing in front of a massive wall of stacked Korean Won banknotes reaching to the ceiling. His expression is tense and worried, looking slightly off-camera. Behind him, a giant red LED display shows '206조' (206 trillion). The lighting is dramatic with deep shadows and warm highlights on his face. Bold red accent lighting from the right. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "206조 시한폭탄",
+    "text_position": "bottom-53-black"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic dramatic shot of an electricity meter spinning wildly out of control, sparks flying from it, mounted on a crumbling concrete wall covered in Korean Won banknotes. A giant crack runs through the wall. Behind the meter, a red chart line showing debt climbing steeply from 0 to 206 trillion. Dark moody lighting with red and orange warning tones. An electricity bill paper is burning at the edges in the foreground. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "17분기 동결의 대가",
+    "text_position": "bottom-53-black"
+  },
+  {
+    "id": 3,
+    "label": "C안 — 와일드카드 (다른 인물)",
+    "prompt_en": "Photorealistic dramatic portrait of Choi Sang-mok, Deputy Prime Minister and Minister of Economy and Finance of South Korea (Korean man in his early 60s, wearing glasses, dark suit), standing at a podium with his hand pressing down on a large red button labeled 'FREEZE' in Korean. Behind him, a split-screen effect: left side shows a rising inflation graph glowing red with 3.1% arrow pointing up, right side shows KEPCO headquarters building crumbling. His expression is determined but strained. Dramatic lighting with tension. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "물가 3% vs 한전 206조",
+    "text_position": "bottom-53-black"
+  }
+]
