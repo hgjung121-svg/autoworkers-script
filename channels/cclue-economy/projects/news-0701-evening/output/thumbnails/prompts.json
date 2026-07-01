@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic portrait of South Korean Trade Minister Ahn Duk-geun at a press podium, serious expression with furrowed brows, background showing a massive digital screen displaying '$102.25B EXPORTS' in red with a cracking effect, dramatic studio lighting with navy blue and gold accent tones, hyper-detailed facial features, 8K resolution. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "반도체 빼면 마이너스",
+    "person": "Ahn Duk-geun, South Korean Minister of Trade, Industry and Energy"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic dramatic visualization of a giant bar chart showing South Korea export data, one enormous green bar labeled 'Semiconductors 43.8%' towering over 14 small red declining bars representing other export categories, the green bar is cracking at its base suggesting structural weakness, dark navy background with golden data points floating, cinematic lighting with tension atmosphere, 8K resolution. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "1,000억$ 착시",
+    "person": null
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물",
+    "prompt_en": "Photorealistic portrait of Kim Sung-joo, Chairman of National Pension Service of South Korea, stern expression pointing finger forward as if scolding someone, background showing stock market trading screens with KOSPI index numbers glowing in red and green, dramatic side lighting creating strong shadows, navy blue suit with gold tie pin, intense eye contact with camera, 8K resolution. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "74조 폭탄? 제로",
+    "person": "Kim Sung-joo, Chairman of National Pension Service of South Korea"
+  }
+]
