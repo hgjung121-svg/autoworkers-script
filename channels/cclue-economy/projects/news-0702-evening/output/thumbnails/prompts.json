@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 + 짧은 텍스트 (승리 공식)",
+    "prompt_en": "Photorealistic portrait of Bank of Korea Governor in a dark navy suit, standing in front of a large digital display showing '3.2%' in glowing red numbers. His expression is tense and conflicted, hands clasped tightly. Behind him, a massive chain wrapping around the Bank of Korea building, symbolizing being trapped. Moody, dramatic lighting with deep shadows and red accent highlights. High detail, cinematic composition. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "동결 함정",
+    "text_position": "bottom-53-black"
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "prompt_en": "Photorealistic close-up of a pressure gauge dial about to burst, the needle deep in the red zone showing '3.2'. The gauge is mounted on a dark metallic panel with Korean won symbols (₩) embossed around it. Steam and sparks emanating from cracks around the gauge. Behind it, blurred digital screens showing currency exchange rates and interest rate charts all flashing red. Industrial, tense atmosphere with dramatic orange-red backlighting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "물가 3.2%",
+    "text_position": "bottom-53-black"
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 (이창용 총재 스타일)",
+    "prompt_en": "Photorealistic portrait of Rhee Chang-yong, Bank of Korea Governor, a middle-aged Korean man with glasses in a formal dark suit, sitting at a press conference table. His face shows deep concern and frustration. In front of him, three heavy iron shackles labeled with small tags. The background shows the Bank of Korea emblem slightly out of focus with red warning lights. Dramatic chiaroscuro lighting, photojournalistic style. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance.",
+    "text_overlay": "세 개의 족쇄",
+    "text_position": "bottom-53-black"
+  }
+]
