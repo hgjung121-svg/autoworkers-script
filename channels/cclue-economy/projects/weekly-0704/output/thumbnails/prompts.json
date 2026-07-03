@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "A안 — 인물 + 구체 사건 (승리 공식)",
+    "concept": "이재명 대통령이 수출 1000억불 그래프를 배경으로 걱정스러운 표정을 짓고 있다. 배경에는 반도체 칩 이미지와 급락하는 빨간 차트가 겹쳐 있다.",
+    "text_overlay": "반도체 빼면 마이너스",
+    "prompt_en": "Photorealistic portrait of Lee Jae-myung, President of South Korea, middle-aged Korean man in navy suit, looking deeply concerned with furrowed brows, standing in front of a massive digital display showing a dramatic export chart hitting $100 billion with green upward arrow, but a second overlay chart in red showing declining industrial sectors. Semiconductor chip imagery floating around. Bright dramatic lighting with navy and gold color accents. Tense atmosphere. High detail, cinematic composition. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 2,
+    "label": "B안 — 차트/오브젝트 중심",
+    "concept": "거대한 반도체 칩 하나가 무너지는 15개 산업 기둥들을 혼자서 떠받치고 있는 시각적 구조물. 칩 위에 $1,000억 숫자.",
+    "text_overlay": "기둥 하나가 절반",
+    "prompt_en": "Photorealistic dramatic scene of one enormous glowing semiconductor chip acting as the single remaining pillar supporting a crumbling industrial structure, with 14 other broken and cracking pillars around it representing different export industries. The semiconductor pillar glows bright blue-gold while others are grey and fractured. Large digital display showing '$100B' in bright gold numbers floating above. Lee Chang-yang, Korean Minister of Trade, elderly Korean man in dark suit, stands at the base looking up with shock. Dark moody navy background with red warning lights. Cinematic lighting. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  },
+  {
+    "id": 3,
+    "label": "와일드카드 — 다른 인물 + 추상",
+    "concept": "한국은행 이창용 총재가 '동결' 버튼 위에 손을 올려놓고 고뇌하는 모습. 배경에 3.2% 물가 숫자와 1,555원 환율 숫자가 빨간색으로 빛나고 있다.",
+    "text_overlay": "동결 함정",
+    "prompt_en": "Photorealistic portrait of Rhee Chang-yong, Governor of the Bank of Korea, elderly Korean man with grey hair and glasses wearing a dark suit, standing at a control panel with a large red button labeled 'FREEZE'. His hand hovers over it with an agonized expression. Behind him, two massive digital displays: one showing '3.2%' in alarming red, another showing '1,555 KRW' in orange. The scene is lit with dramatic contrast — cool blue from one side, warm red from the other, creating a visual tension. Navy and gold accents. Cinematic atmosphere of impossible choice. CRITICAL COMPOSITION RULE: The lower half of the frame is reserved for text overlay. The bottom 53% of the image (more than half the total frame height) must be pure solid black (#000000) completely empty flat void. This is larger than a typical half-and-half split. The gradient transition starts at the 45% line (from top) and must be fully solid black by the 60% line. The remaining bottom 40% is 100% pure black with absolutely zero visual elements — no gradient, no texture, no shadows, no details, pure #000000 flat void. Think of it as: TOP ZONE (upper 47% height) contains ALL the imagery and subject, BOTTOM ZONE (lower 53% height) is a dedicated solid black text panel. Prioritize this composition rule above aesthetic balance."
+  }
+]
